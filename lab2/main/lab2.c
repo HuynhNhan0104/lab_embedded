@@ -13,11 +13,15 @@
  * @brief config GPIO of program with io 19 is button, io2 is config led on board
  * 
  */
+int toggle = 1;
 void config_IO(){
-    gpio_set_direction ( GPIO_NUM_19 , GPIO_MODE_INPUT ) ;
-    gpio_set_pull_mode ( 19, GPIO_PULLUP_ONLY);
+    gpio_set_direction ( GPIO_NUM_19 , GPIO_MODE_INPUT );
+    gpio_set_pull_mode ( GPIO_NUM_19, GPIO_PULLUP_ONLY);
+    gpio_set_direction ( GPIO_NUM_2 , GPIO_MODE_OUTPUT );
+    gpio_set_level (GPIO_NUM_2, 0);
 
 }
+
 
 /**
  * @brief print studen identify every 1 second 
@@ -55,6 +59,8 @@ void read_input(){
                 //just process when button is pressed(high to low)
                 if(register_key0 == BUTTON_PRESSED ){ 
                     printf("ESP32 \n");
+                    gpio_set_level(GPIO_NUM_2, toggle);
+                    toggle = 1 - toggle;
                 }
             }
 
