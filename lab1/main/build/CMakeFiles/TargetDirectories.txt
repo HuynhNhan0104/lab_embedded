@@ -1,0 +1,2 @@
+C:/Users/NHAN/OneDrive/Desktop/lab_embedded/lab1/main/build/CMakeFiles/edit_cache.dir
+C:/Users/NHAN/OneDrive/Desktop/lab_embedded/lab1/main/build/CMakeFiles/rebuild_cache.dir
