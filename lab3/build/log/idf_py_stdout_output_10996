@@ -1,0 +1,344 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7080
+load:0x40078000,len:15476
+load:0x40080400,len:4
+load:0x40080404,len:3668
+entry 0x4008061c
+[0;32mI (29) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Nov 13 2023 16:08:33[0m
+[0;33mW (29) boot: Unicore bootloader[0m
+[0;32mI (34) boot: chip revision: v3.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (47) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=089a4h ( 35236) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=000189cc vaddr=3ffb0000 size=01664h (  5732) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001a038 vaddr=40080000 size=05fe0h ( 24544) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13068h ( 77928) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=00033090 vaddr=40085fe0 size=04d34h ( 19764) load[0m
+[0;32mI (174) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (175) boot: Disabling RNG early entropy source...[0m
+[0;32mI (186) cpu_start: Unicore app[0m
+[0;32mI (186) cpu_start: Pro cpu up.[0m
+[0;32mI (186) cpu_start: Single core mode[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m
+[0;32mI (198) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (198) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     lab3[0m
+[0;32mI (208) cpu_start: App version:      1c68d83-dirty[0m
+[0;32mI (213) cpu_start: Compile time:     Nov 13 2023 16:08:03[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  cbbbb657d7086b06...[0m
+[0;32mI (225) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (231) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (235) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (240) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (245) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (252) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (258) heap_init: At 3FFB1DF8 len 0002E208 (184 KiB): DRAM[0m
+[0;32mI (264) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (277) heap_init: At 4008AD14 len 000152EC (84 KiB): IRAM[0m
+[0;32mI (283) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM[0m
+[0;32mI (291) spi_flash: detected chip: generic[0m
+[0;32mI (294) spi_flash: flash io: dio[0m
+[0;33mW (298) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (311) app_start: Starting scheduler on CPU0[0m
+[0;32mI (316) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+time slicing :1
+task 4 is running at: 1, on core 0
+[0;32mI (426) main_task: Returned from app_main()[0m
+task 1 is running at: 12, on core 0
+task 2 is running at: 13, on core 0
+task 1 is running at: 42, on core 0
+task 2 is running at: 43, on core 0
+task 1 is running at: 75, on core 0
+task 2 is running at: 76, on core 0
+task 1 is running at: 105, on core 0
+task 2 is running at: 106, on core 0
+task 1 is running at: 138, on core 0
+task 2 is running at: 139, on core 0
+task 1 is running at: 171, on core 0
+task 2 is running at: 172, on core 0
+task 1 is running at: 201, on core 0
+task 2 is running at: 202, on core 0
+task 4 is running at: 211, on core 0
+task 1 is running at: 244, on core 0
+task 2 is running at: 248, on core 0
+task 1 is running at: 277, on core 0
+task 2 is running at: 278, on core 0
+task 1 is running at: 307, on core 0
+task 2 is running at: 311, on core 0
+task 1 is running at: 340, on core 0
+task 2 is running at: 344, on core 0
+task 1 is running at: 373, on core 0
+task 2 is running at: 374, on core 0
+task 1 is running at: 403, on core 0
+task 2 is running at: 407, on core 0
+task 4 is running at: 421, on core 0
+task 1 is running at: 446, on core 0
+task 2 is running at: 447, on core 0
+task 1 is running at: 479, on core 0
+task 2 is running at: 480, on core 0
+task 1 is running at: 512, on core 0
+task 2 is running at: 513, on core 0
+task 1 is running at: 542, on core 0
+task 2 is running at: 543, on core 0
+task 1 is running at: 575, on core 0
+task 2 is running at: 576, on core 0
+task 1 is running at: 608, on core 0
+task 2 is running at: 609, on core 0
+task 4 is running at: 631, on core 0
+task 1 is running at: 648, on core 0
+task 2 is running at: 649, on core 0
+task 1 is running at: 681, on core 0
+task 2 is running at: 682, on core 0
+task 1 is running at: 714, on core 0
+task 2 is running at: 715, on core 0
+task 1 is running at: 744, on core 0
+task 2 is running at: 745, on core 0
+task 1 is running at: 777, on core 0
+task 2 is running at: 778, on core 0
+task 1 is running at: 810, on core 0
+task 2 is running at: 811, on core 0
+task 1 is running at: 840, on core 0
+task 4 is running at: 841, on core 0
+task 2 is running at: 854, on core 0
+task 1 is running at: 883, on core 0
+task 2 is running at: 884, on core 0
+task 1 is running at: 913, on core 0
+task 2 is running at: 917, on core 0
+task 1 is running at: 946, on core 0
+task 2 is running at: 950, on core 0
+task 1 is running at: 979, on core 0
+task 2 is running at: 980, on core 0
+task 1 is running at: 1009, on core 0
+task 2 is running at: 1013, on core 0
+task 1 is running at: 1042, on core 0
+task 2 is running at: 1046, on core 0
+task 4 is running at: 1051, on core 0
+task 1 is running at: 1085, on core 0
+task 2 is running at: 1086, on core 0
+task 1 is running at: 1118, on core 0
+task 2 is running at: 1119, on core 0
+task 1 is running at: 1151, on core 0
+task 2 is running at: 1152, on core 0
+task 1 is running at: 1181, on core 0
+task 2 is running at: 1182, on core 0
+task 1 is running at: 1214, on core 0
+task 2 is running at: 1215, on core 0
+task 1 is running at: 1247, on core 0
+task 2 is running at: 1248, on core 0
+task 4 is running at: 1261, on core 0
+task 1 is running at: 1287, on core 0
+task 2 is running at: 1288, on core 0
+task 1 is running at: 1320, on core 0
+task 2 is running at: 1321, on core 0
+task 1 is running at: 1350, on core 0
+task 2 is running at: 1351, on core 0
+task 1 is running at: 1383, on core 0
+task 2 is running at: 1384, on core 0
+task 1 is running at: 1416, on core 0
+task 2 is running at: 1417, on core 0
+task 1 is running at: 1446, on core 0
+task 2 is running at: 1447, on core 0
+task 4 is running at: 1471, on core 0
+task 1 is running at: 1489, on core 0
+task 2 is running at: 1493, on core 0
+task 1 is running at: 1522, on core 0
+task 2 is running at: 1523, on core 0
+task 1 is running at: 1552, on core 0
+task 2 is running at: 1556, on core 0
+task 1 is running at: 1585, on core 0
+task 2 is running at: 1589, on core 0
+task 1 is running at: 1618, on core 0
+task 2 is running at: 1619, on core 0
+task 1 is running at: 1648, on core 0
+task 2 is running at: 1652, on core 0
+task 4 is running at: 1681, on core 0
+task 1 is running at: 1694, on core 0
+task 2 is running at: 1695, on core 0
+task 1 is running at: 1724, on core 0
+task 2 is running at: 1725, on core 0
+task 1 is running at: 1757, on core 0
+task 2 is running at: 1758, on core 0
+task 1 is running at: 1787, on core 0
+task 2 is running at: 1788, on core 0
+task 1 is running at: 1820, on core 0
+task 2 is running at: 1821, on core 0
+task 1 is running at: 1853, on core 0
+task 2 is running at: 1854, on core 0
+task 1 is running at: 1883, on core 0
+task 2 is running at: 1884, on core 0
+task 4 is running at: 1891, on core 0
+task 1 is running at: 1926, on core 0
+task 2 is running at: 1927, on core 0
+task 1 is running at: 1959, on core 0
+task 2 is running at: 1960, on core 0
+task 1 is running at: 1989, on core 0
+task 2 is running at: 1990, on core 0
+task 1 is running at: 2022, on core 0
+task 2 is running at: 2023, on core 0
+task 1 is running at: 2055, on core 0
+task 2 is running at: 2056, on core 0
+task 1 is running at: 2085, on core 0
+task 2 is running at: 2086, on core 0
+task 4 is running at: 2101, on core 0
+task 1 is running at: 2128, on core 0
+task 2 is running at: 2129, on core 0
+task 1 is running at: 2161, on core 0
+task 2 is running at: 2162, on core 0
+task 1 is running at: 2191, on core 0
+task 2 is running at: 2195, on core 0
+task 1 is running at: 2224, on core 0
+task 2 is running at: 2225, on core 0
+task 1 is running at: 2254, on core 0
+task 2 is running at: 2258, on core 0
+task 1 is running at: 2287, on core 0
+task 2 is running at: 2291, on core 0
+task 4 is running at: 2311, on core 0
+task 1 is running at: 2330, on core 0
+task 2 is running at: 2331, on core 0
+task 1 is running at: 2363, on core 0
+task 2 is running at: 2364, on core 0
+task 1 is running at: 2396, on core 0
+task 2 is running at: 2397, on core 0
+task 1 is running at: 2426, on core 0
+task 2 is running at: 2427, on core 0
+task 1 is running at: 2459, on core 0
+task 2 is running at: 2460, on core 0
+task 1 is running at: 2492, on core 0
+task 2 is running at: 2493, on core 0
+task 4 is running at: 2521, on core 0
+task 1 is running at: 2532, on core 0
+task 2 is running at: 2533, on core 0
+task 1 is running at: 2565, on core 0
+task 2 is running at: 2566, on core 0
+task 2 is running at: 2596, on core 0
+task 1 is running at: 2598, on core 0
+task 1 is running at: 2628, on core 0
+task 2 is running at: 2629, on core 0
+task 1 is running at: 2661, on core 0
+task 2 is running at: 2662, on core 0
+task 1 is running at: 2691, on core 0
+task 2 is running at: 2692, on core 0
+task 1 is running at: 2724, on core 0
+task 2 is running at: 2725, on core 0
+task 4 is running at: 2731, on core 0
+task 1 is running at: 2767, on core 0
+task 2 is running at: 2768, on core 0
+task 1 is running at: 2797, on core 0
+task 2 is running at: 2801, on core 0
+task 1 is running at: 2830, on core 0
+task 2 is running at: 2834, on core 0
+task 1 is running at: 2863, on core 0
+task 2 is running at: 2864, on core 0
+task 1 is running at: 2893, on core 0
+task 2 is running at: 2897, on core 0
+task 1 is running at: 2926, on core 0
+task 2 is running at: 2930, on core 0
+task 4 is running at: 2941, on core 0
+task 1 is running at: 2969, on core 0
+task 2 is running at: 2970, on core 0
+task 1 is running at: 3002, on core 0
+task 2 is running at: 3003, on core 0
+task 2 is running at: 3033, on core 0
+task 1 is running at: 3035, on core 0
+task 1 is running at: 3065, on core 0
+task 2 is running at: 3066, on core 0
+task 1 is running at: 3098, on core 0
+task 2 is running at: 3099, on core 0
+task 1 is running at: 3128, on core 0
+task 2 is running at: 3129, on core 0
+task 4 is running at: 3151, on core 0
+task 1 is running at: 3171, on core 0
+task 2 is running at: 3172, on core 0
+task 1 is running at: 3204, on core 0
+task 2 is running at: 3205, on core 0
+task 1 is running at: 3234, on core 0
+task 2 is running at: 3235, on core 0
+task 1 is running at: 3267, on core 0
+task 2 is running at: 3268, on core 0
+task 1 is running at: 3300, on core 0
+task 2 is running at: 3301, on core 0
+task 1 is running at: 3330, on core 0
+task 2 is running at: 3331, on core 0
+task 4 is running at: 3361, on core 0
+task 1 is running at: 3373, on core 0
+task 2 is running at: 3377, on core 0
+task 1 is running at: 3406, on core 0
+task 2 is running at: 3407, on core 0
+task 1 is running at: 3436, on core 0
+task 2 is running at: 3440, on core 0
+task 1 is running at: 3469, on core 0
+task 2 is running at: 3470, on core 0
+task 1 is running at: 3499, on core 0
+task 2 is running at: 3503, on core 0
+task 1 is running at: 3532, on core 0
+task 2 is running at: 3536, on core 0
+task 1 is running at: 3565, on core 0
+task 2 is running at: 3566, on core 0
+task 4 is running at: 3571, on core 0
+task 1 is running at: 3608, on core 0
+task 2 is running at: 3609, on core 0
+task 1 is running at: 3641, on core 0
+task 2 is running at: 3642, on core 0
+task 1 is running at: 3671, on core 0
+task 2 is running at: 3672, on core 0
+task 1 is running at: 3704, on core 0
+task 2 is running at: 3705, on core 0
+task 1 is running at: 3737, on core 0
+task 2 is running at: 3738, on core 0
+task 1 is running at: 3767, on core 0
+task 2 is running at: 3768, on core 0
+task 4 is running at: 3781, on core 0
+task 1 is running at: 3810, on core 0
+task 2 is running at: 3811, on core 0
+task 1 is running at: 3843, on core 0
+task 2 is running at: 3844, on core 0
+task 1 is running at: 3873, on core 0
+task 2 is running at: 3874, on core 0
+task 1 is running at: 3906, on core 0
+task 2 is running at: 3907, on core 0
+task 1 is running at: 3936, on core 0
+task 2 is running at: 3937, on core 0
+task 1 is running at: 3969, on core 0
+task 2 is running at: 3970, on core 0
+task 4 is running at: 3991, on core 0
+task 1 is running at: 4012, on core 0
+task 2 is running at: 4013, on core 0
+task 1 is running at: 4042, on core 0
+task 2 is running at: 4046, on core 0
+task 1 is running at: 4075, on core 0
+task 2 is running at: 4079, on core 0
+task 1 is running at: 4108, on core 0
+task 2 is running at: 4109, on core 0
+task 1 is running at: 4138, on core 0
+task 2 is running at: 4142, on core 0
+task 1 is running at: 4171, on core 0
+task 2 is running at: 4175, on core 0
+task 4 is running at: 4201, on core 0
+task 1 is running at: 4214, on core 0
+task 2 is running at: 4215, on core 0
+task 1 is running at: 4247, on core 0
+task 2 is running at: 4248, on core 0
+task 1 is running at: 4280, on core 0
+task 2 is running at: 4281, on core 0
+task 1 is running at: 4310, on core 0
+task 2 is running at: 4311, on core 0
+task 1 is running at: 4343, on core 0
+task 2 is running at: 4344, on core 0
+task 1 is running at: 4373, on core 0
+task 2 is running at: 4374, on core 0

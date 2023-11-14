@@ -1,0 +1,520 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7080
+load:0x40078000,len:15476
+load:0x40080400,len:4
+load:0x40080404,len:3668
+entry 0x4008061c
+[0;32mI (29) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Nov 13 2023 16:08:33[0m
+[0;33mW (29) boot: Unicore bootloader[0m
+[0;32mI (34) boot: chip revision: v3.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (47) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=089d4h ( 35284) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=000189fc vaddr=3ffb0000 size=01664h (  5732) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001a068 vaddr=40080000 size=05fb0h ( 24496) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=130c0h ( 78016) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=000330e8 vaddr=40085fb0 size=04d44h ( 19780) load[0m
+[0;32mI (174) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (175) boot: Disabling RNG early entropy source...[0m
+[0;32mI (186) cpu_start: Unicore app[0m
+[0;32mI (186) cpu_start: Pro cpu up.[0m
+[0;32mI (186) cpu_start: Single core mode[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m
+[0;32mI (198) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (198) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     lab3[0m
+[0;32mI (208) cpu_start: App version:      1c68d83-dirty[0m
+[0;32mI (213) cpu_start: Compile time:     Nov 13 2023 16:08:03[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  59fe4235702dc6e4...[0m
+[0;32mI (225) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (231) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (235) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (240) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (245) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (252) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (258) heap_init: At 3FFB1DF8 len 0002E208 (184 KiB): DRAM[0m
+[0;32mI (264) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (277) heap_init: At 4008ACF4 len 0001530C (84 KiB): IRAM[0m
+[0;32mI (283) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM[0m
+[0;32mI (291) spi_flash: detected chip: generic[0m
+[0;32mI (294) spi_flash: flash io: dio[0m
+[0;33mW (298) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (311) app_start: Starting scheduler on CPU0[0m
+[0;32mI (316) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+time slicing :0
+task 4 is running at: 1, on core 0
+[0;32mI (426) main_task: Returned from app_main()[0m
+task 4 is running at: 211, on core 0
+task 1 is running at: 221, on core 0
+task 1 is running at: 232, on core 0
+task 1 is running at: 242, on core 0
+task 1 is running at: 253, on core 0
+task 1 is running at: 264, on core 0
+task 1 is running at: 274, on core 0
+task 1 is running at: 285, on core 0
+task 1 is running at: 296, on core 0
+task 1 is running at: 306, on core 0
+task 1 is running at: 317, on core 0
+task 1 is running at: 328, on core 0
+task 1 is running at: 338, on core 0
+task 1 is running at: 349, on core 0
+task 1 is running at: 359, on core 0
+task 1 is running at: 370, on core 0
+task 1 is running at: 381, on core 0
+task 1 is running at: 391, on core 0
+task 1 is running at: 402, on core 0
+task 1 is running at: 413, on core 0
+task 4 is running at: 421, on core 0
+task 2 is running at: 431, on core 0
+task 2 is running at: 442, on core 0
+task 2 is running at: 452, on core 0
+task 2 is running at: 463, on core 0
+task 2 is running at: 474, on core 0
+task 2 is running at: 484, on core 0
+task 2 is running at: 495, on core 0
+task 2 is running at: 506, on core 0
+task 2 is running at: 516, on core 0
+task 2 is running at: 527, on core 0
+task 2 is running at: 538, on core 0
+task 2 is running at: 548, on core 0
+task 2 is running at: 559, on core 0
+task 2 is running at: 569, on core 0
+task 2 is running at: 580, on core 0
+task 2 is running at: 591, on core 0
+task 2 is running at: 601, on core 0
+task 2 is running at: 612, on core 0
+task 2 is running at: 623, on core 0
+task 4 is running at: 631, on core 0
+task 3 is running at: 641, on core 0
+task 3 is running at: 652, on core 0
+task 3 is running at: 662, on core 0
+task 3 is running at: 673, on core 0
+task 3 is running at: 684, on core 0
+task 3 is running at: 694, on core 0
+task 3 is running at: 705, on core 0
+[0;31mE (7406) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (7406) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (7406) task_wdt: Tasks currently running:[0m
+[0;31mE (7406) task_wdt: CPU 0: Task3[0m
+[0;31mE (7406) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67FF:0x3FFB0AB0 0x400D6956:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E46:0x3FFB5620 0x40086BD5:0x3FFB5640
+
+task 3 is running at: 719, on core 0
+task 3 is running at: 729, on core 0
+task 3 is running at: 740, on core 0
+task 3 is running at: 750, on core 0
+task 3 is running at: 761, on core 0
+task 3 is running at: 772, on core 0
+task 3 is running at: 782, on core 0
+task 3 is running at: 793, on core 0
+task 3 is running at: 804, on core 0
+task 3 is running at: 814, on core 0
+task 3 is running at: 825, on core 0
+task 3 is running at: 836, on core 0
+task 4 is running at: 841, on core 0
+task 4 is running at: 1051, on core 0
+task 1 is running at: 1064, on core 0
+task 1 is running at: 1075, on core 0
+task 1 is running at: 1085, on core 0
+task 1 is running at: 1096, on core 0
+task 1 is running at: 1106, on core 0
+task 1 is running at: 1117, on core 0
+task 1 is running at: 1128, on core 0
+task 1 is running at: 1138, on core 0
+task 1 is running at: 1149, on core 0
+task 1 is running at: 1160, on core 0
+task 1 is running at: 1170, on core 0
+task 1 is running at: 1181, on core 0
+task 1 is running at: 1192, on core 0
+task 1 is running at: 1202, on core 0
+task 1 is running at: 1213, on core 0
+task 1 is running at: 1224, on core 0
+task 1 is running at: 1234, on core 0
+task 1 is running at: 1245, on core 0
+task 1 is running at: 1255, on core 0
+task 4 is running at: 1261, on core 0
+task 2 is running at: 1274, on core 0
+task 2 is running at: 1285, on core 0
+task 2 is running at: 1295, on core 0
+task 2 is running at: 1306, on core 0
+task 2 is running at: 1316, on core 0
+task 2 is running at: 1327, on core 0
+task 2 is running at: 1338, on core 0
+task 2 is running at: 1348, on core 0
+task 2 is running at: 1359, on core 0
+task 2 is running at: 1370, on core 0
+task 2 is running at: 1380, on core 0
+task 2 is running at: 1391, on core 0
+task 2 is running at: 1402, on core 0
+task 2 is running at: 1412, on core 0
+task 2 is running at: 1423, on core 0
+task 2 is running at: 1434, on core 0
+task 2 is running at: 1444, on core 0
+task 2 is running at: 1455, on core 0
+task 2 is running at: 1465, on core 0
+task 4 is running at: 1471, on core 0
+task 3 is running at: 1487, on core 0
+task 3 is running at: 1497, on core 0
+task 3 is running at: 1508, on core 0
+task 3 is running at: 1519, on core 0
+task 3 is running at: 1529, on core 0
+task 3 is running at: 1540, on core 0
+[0;31mE (15806) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (15806) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (15806) task_wdt: Tasks currently running:[0m
+[0;31mE (15806) task_wdt: CPU 0: Task3[0m
+[0;31mE (15806) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67FF:0x3FFB0AB0 0x400D6956:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E4B:0x3FFB5620 0x40086BD5:0x3FFB5640
+
+task 3 is running at: 1554, on core 0
+task 3 is running at: 1564, on core 0
+task 3 is running at: 1575, on core 0
+task 3 is running at: 1586, on core 0
+task 3 is running at: 1596, on core 0
+task 3 is running at: 1607, on core 0
+task 3 is running at: 1617, on core 0
+task 3 is running at: 1628, on core 0
+task 3 is running at: 1639, on core 0
+task 3 is running at: 1649, on core 0
+task 3 is running at: 1660, on core 0
+task 3 is running at: 1671, on core 0
+task 4 is running at: 1681, on core 0
+task 4 is running at: 1891, on core 0
+task 1 is running at: 1907, on core 0
+task 1 is running at: 1917, on core 0
+task 1 is running at: 1928, on core 0
+task 1 is running at: 1939, on core 0
+task 1 is running at: 1949, on core 0
+task 1 is running at: 1960, on core 0
+task 1 is running at: 1971, on core 0
+task 1 is running at: 1981, on core 0
+task 1 is running at: 1992, on core 0
+task 1 is running at: 2002, on core 0
+task 1 is running at: 2013, on core 0
+task 1 is running at: 2024, on core 0
+task 1 is running at: 2034, on core 0
+task 1 is running at: 2045, on core 0
+task 1 is running at: 2056, on core 0
+task 1 is running at: 2066, on core 0
+task 1 is running at: 2077, on core 0
+task 1 is running at: 2088, on core 0
+task 1 is running at: 2098, on core 0
+task 4 is running at: 2101, on core 0
+task 2 is running at: 2117, on core 0
+task 2 is running at: 2127, on core 0
+task 2 is running at: 2138, on core 0
+task 2 is running at: 2149, on core 0
+task 2 is running at: 2159, on core 0
+task 2 is running at: 2170, on core 0
+task 2 is running at: 2181, on core 0
+task 2 is running at: 2191, on core 0
+task 2 is running at: 2202, on core 0
+task 2 is running at: 2212, on core 0
+task 2 is running at: 2223, on core 0
+task 2 is running at: 2234, on core 0
+task 2 is running at: 2244, on core 0
+task 2 is running at: 2255, on core 0
+task 2 is running at: 2266, on core 0
+task 2 is running at: 2276, on core 0
+task 2 is running at: 2287, on core 0
+task 2 is running at: 2298, on core 0
+task 2 is running at: 2308, on core 0
+task 4 is running at: 2311, on core 0
+task 3 is running at: 2322, on core 0
+task 3 is running at: 2333, on core 0
+task 3 is running at: 2343, on core 0
+task 3 is running at: 2354, on core 0
+task 3 is running at: 2364, on core 0
+task 3 is running at: 2375, on core 0
+task 3 is running at: 2386, on core 0
+[0;31mE (24206) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (24206) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (24206) task_wdt: Tasks currently running:[0m
+[0;31mE (24206) task_wdt: CPU 0: Task3[0m
+[0;31mE (24206) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67FF:0x3FFB0AB0 0x400D6956:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E42:0x3FFB5620 0x40086BD5:0x3FFB5640
+
+task 3 is running at: 2399, on core 0
+task 3 is running at: 2410, on core 0
+task 3 is running at: 2421, on core 0
+task 3 is running at: 2431, on core 0
+task 3 is running at: 2442, on core 0
+task 3 is running at: 2453, on core 0
+task 3 is running at: 2463, on core 0
+task 3 is running at: 2474, on core 0
+task 3 is running at: 2484, on core 0
+task 3 is running at: 2495, on core 0
+task 3 is running at: 2506, on core 0
+task 3 is running at: 2516, on core 0
+task 4 is running at: 2521, on core 0
+task 4 is running at: 2731, on core 0
+task 1 is running at: 2749, on core 0
+task 1 is running at: 2760, on core 0
+task 1 is running at: 2771, on core 0
+task 1 is running at: 2781, on core 0
+task 1 is running at: 2792, on core 0
+task 1 is running at: 2803, on core 0
+task 1 is running at: 2813, on core 0
+task 1 is running at: 2824, on core 0
+task 1 is running at: 2835, on core 0
+task 1 is running at: 2845, on core 0
+task 1 is running at: 2856, on core 0
+task 1 is running at: 2867, on core 0
+task 1 is running at: 2877, on core 0
+task 1 is running at: 2888, on core 0
+task 1 is running at: 2898, on core 0
+task 1 is running at: 2909, on core 0
+task 1 is running at: 2920, on core 0
+task 1 is running at: 2930, on core 0
+task 4 is running at: 2941, on core 0
+task 2 is running at: 2959, on core 0
+task 2 is running at: 2970, on core 0
+task 2 is running at: 2981, on core 0
+task 2 is running at: 2991, on core 0
+task 2 is running at: 3002, on core 0
+task 2 is running at: 3013, on core 0
+task 2 is running at: 3023, on core 0
+task 2 is running at: 3034, on core 0
+task 2 is running at: 3045, on core 0
+task 2 is running at: 3055, on core 0
+task 2 is running at: 3066, on core 0
+task 2 is running at: 3077, on core 0
+task 2 is running at: 3087, on core 0
+task 2 is running at: 3098, on core 0
+task 2 is running at: 3108, on core 0
+task 2 is running at: 3119, on core 0
+task 2 is running at: 3130, on core 0
+task 2 is running at: 3140, on core 0
+task 4 is running at: 3151, on core 0
+task 3 is running at: 3168, on core 0
+task 3 is running at: 3178, on core 0
+task 3 is running at: 3189, on core 0
+task 3 is running at: 3200, on core 0
+task 3 is running at: 3210, on core 0
+task 3 is running at: 3221, on core 0
+[0;31mE (32606) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (32606) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (32606) task_wdt: Tasks currently running:[0m
+[0;31mE (32606) task_wdt: CPU 0: Task3[0m
+[0;31mE (32606) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67FF:0x3FFB0AB0 0x400D6956:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E40:0x3FFB5620 0x40086BD5:0x3FFB5640
+
+task 3 is running at: 3234, on core 0
+task 3 is running at: 3245, on core 0
+task 3 is running at: 3256, on core 0
+task 3 is running at: 3266, on core 0
+task 3 is running at: 3277, on core 0
+task 3 is running at: 3288, on core 0
+task 3 is running at: 3298, on core 0
+task 3 is running at: 3309, on core 0
+task 3 is running at: 3320, on core 0
+task 3 is running at: 3330, on core 0
+task 3 is running at: 3341, on core 0
+task 3 is running at: 3351, on core 0
+task 4 is running at: 3361, on core 0
+task 4 is running at: 3571, on core 0
+task 1 is running at: 3582, on core 0
+task 1 is running at: 3592, on core 0
+task 1 is running at: 3603, on core 0
+task 1 is running at: 3614, on core 0
+task 1 is running at: 3624, on core 0
+task 1 is running at: 3635, on core 0
+task 1 is running at: 3645, on core 0
+task 1 is running at: 3656, on core 0
+task 1 is running at: 3667, on core 0
+task 1 is running at: 3677, on core 0
+task 1 is running at: 3688, on core 0
+task 1 is running at: 3699, on core 0
+task 1 is running at: 3709, on core 0
+task 1 is running at: 3720, on core 0
+task 1 is running at: 3731, on core 0
+task 1 is running at: 3741, on core 0
+task 1 is running at: 3752, on core 0
+task 1 is running at: 3762, on core 0
+task 1 is running at: 3773, on core 0
+task 4 is running at: 3781, on core 0
+task 2 is running at: 3792, on core 0
+task 2 is running at: 3802, on core 0
+task 2 is running at: 3813, on core 0
+task 2 is running at: 3824, on core 0
+task 2 is running at: 3834, on core 0
+task 2 is running at: 3845, on core 0
+task 2 is running at: 3855, on core 0
+task 2 is running at: 3866, on core 0
+task 2 is running at: 3877, on core 0
+task 2 is running at: 3887, on core 0
+task 2 is running at: 3898, on core 0
+task 2 is running at: 3909, on core 0
+task 2 is running at: 3919, on core 0
+task 2 is running at: 3930, on core 0
+task 2 is running at: 3941, on core 0
+task 2 is running at: 3951, on core 0
+task 2 is running at: 3962, on core 0
+task 2 is running at: 3972, on core 0
+task 2 is running at: 3983, on core 0
+task 4 is running at: 3991, on core 0
+task 3 is running at: 4003, on core 0
+task 3 is running at: 4013, on core 0
+task 3 is running at: 4024, on core 0
+task 3 is running at: 4035, on core 0
+task 3 is running at: 4045, on core 0
+task 3 is running at: 4056, on core 0
+task 3 is running at: 4067, on core 0
+[0;31mE (41006) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (41006) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (41006) task_wdt: Tasks currently running:[0m
+[0;31mE (41006) task_wdt: CPU 0: Task3[0m
+[0;31mE (41006) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67FF:0x3FFB0AB0 0x400D6956:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E46:0x3FFB5620 0x40086BD5:0x3FFB5640
+
+task 3 is running at: 4080, on core 0
+task 3 is running at: 4091, on core 0
+task 3 is running at: 4101, on core 0
+task 3 is running at: 4112, on core 0
+task 3 is running at: 4123, on core 0
+task 3 is running at: 4133, on core 0
+task 3 is running at: 4144, on core 0
+task 3 is running at: 4155, on core 0
+task 3 is running at: 4165, on core 0
+task 3 is running at: 4176, on core 0
+task 3 is running at: 4187, on core 0
+task 3 is running at: 4197, on core 0
+task 4 is running at: 4201, on core 0
+task 4 is running at: 4411, on core 0
+task 1 is running at: 4424, on core 0
+task 1 is running at: 4435, on core 0
+task 1 is running at: 4446, on core 0
+task 1 is running at: 4456, on core 0
+task 1 is running at: 4467, on core 0
+task 1 is running at: 4478, on core 0
+task 1 is running at: 4488, on core 0
+task 1 is running at: 4499, on core 0
+task 1 is running at: 4510, on core 0
+task 1 is running at: 4520, on core 0
+task 1 is running at: 4531, on core 0
+task 1 is running at: 4541, on core 0
+task 1 is running at: 4552, on core 0
+task 1 is running at: 4563, on core 0
+task 1 is running at: 4573, on core 0
+task 1 is running at: 4584, on core 0
+task 1 is running at: 4595, on core 0
+task 1 is running at: 4605, on core 0
+task 1 is running at: 4616, on core 0
+task 4 is running at: 4621, on core 0
+task 2 is running at: 4634, on core 0
+task 2 is running at: 4645, on core 0
+task 2 is running at: 4656, on core 0
+task 2 is running at: 4666, on core 0
+task 2 is running at: 4677, on core 0
+task 2 is running at: 4688, on core 0
+task 2 is running at: 4698, on core 0
+task 2 is running at: 4709, on core 0
+task 2 is running at: 4720, on core 0
+task 2 is running at: 4730, on core 0
+task 2 is running at: 4741, on core 0
+task 2 is running at: 4751, on core 0
+task 2 is running at: 4762, on core 0
+task 2 is running at: 4773, on core 0
+task 2 is running at: 4783, on core 0
+task 2 is running at: 4794, on core 0
+task 2 is running at: 4805, on core 0
+task 2 is running at: 4815, on core 0
+task 2 is running at: 4826, on core 0
+task 4 is running at: 4831, on core 0
+task 3 is running at: 4849, on core 0
+task 3 is running at: 4859, on core 0
+task 3 is running at: 4870, on core 0
+task 3 is running at: 4880, on core 0
+task 3 is running at: 4891, on core 0
+task 3 is running at: 4902, on core 0
+[0;31mE (49406) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (49406) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (49406) task_wdt: Tasks currently running:[0m
+[0;31mE (49406) task_wdt: CPU 0: Task3[0m
+[0;31mE (49406) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67FF:0x3FFB0AB0 0x400D6956:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E46:0x3FFB5620 0x40086BD5:0x3FFB5640
+
+task 3 is running at: 4915, on core 0
+task 3 is running at: 4926, on core 0
+task 3 is running at: 4937, on core 0
+task 3 is running at: 4947, on core 0
+task 3 is running at: 4958, on core 0
+task 3 is running at: 4968, on core 0
+task 3 is running at: 4979, on core 0
+task 3 is running at: 4990, on core 0
+task 3 is running at: 5000, on core 0
+task 3 is running at: 5011, on core 0
+task 3 is running at: 5022, on core 0
+task 3 is running at: 5032, on core 0
+task 4 is running at: 5041, on core 0
+task 4 is running at: 5251, on core 0
+task 1 is running at: 5267, on core 0
+task 1 is running at: 5278, on core 0
+task 1 is running at: 5288, on core 0
+task 1 is running at: 5299, on core 0
+task 1 is running at: 5310, on core 0
+task 1 is running at: 5320, on core 0
+task 1 is running at: 5331, on core 0
+task 1 is running at: 5342, on core 0
+task 1 is running at: 5352, on core 0
+task 1 is running at: 5363, on core 0
+task 1 is running at: 5374, on core 0
+task 1 is running at: 5384, on core 0
+task 1 is running at: 5395, on core 0
+task 1 is running at: 5405, on core 0
+task 1 is running at: 5416, on core 0
+task 1 is running at: 5427, on core 0
+task 1 is running at: 5437, on core 0
+task 1 is running at: 5448, on core 0
+task 1 is running at: 5459, on core 0
+task 4 is running at: 5461, on core 0
+task 2 is running at: 5477, on core 0
+task 2 is running at: 5488, on core 0
+task 2 is running at: 5498, on core 0
+task 2 is running at: 5509, on core 0
+task 2 is running at: 5520, on core 0
+task 2 is running at: 5530, on core 0
+task 2 is running at: 5541, on core 0
+task 2 is running at: 5552, on core 0
+task 2 is running at: 5562, on core 0
+task 2 is running at: 5573, on core 0
+task 2 is running at: 5584, on core 0
+task 2 is running at: 5594, on core 0
+task 2 is running at: 5605, on core 0
+task 2 is running at: 5615, on core 0
+task 2 is running at: 5626, on core 0
+task 2 is running at: 5637, on core 0
+task 2 is running at: 5647, on core 0
+task 2 is running at: 5658, on core 0
+task 2 is running at: 5669, on core 0
+task 4 is running at: 5671, on core 0
+task 3 is running at: 5684, on core 0
+task 3 is running at: 5694, on core 0

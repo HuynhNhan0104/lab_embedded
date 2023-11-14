@@ -1,0 +1,255 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 13 2023 13:28:54[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=091e8h ( 37352) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019210 vaddr=3ffb0000 size=020f0h (  8432) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001b308 vaddr=40080000 size=04d10h ( 19728) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=137c4h ( 79812) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=000337ec vaddr=40084d10 size=07298h ( 29336) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (192) cpu_start: Pro cpu up.[0m
+[0;32mI (192) cpu_start: Starting app cpu, entry point is 0x400810e8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) cpu_start: Application information:[0m
+[0;32mI (215) cpu_start: Project name:     lab3[0m
+[0;32mI (219) cpu_start: App version:      1c68d83-dirty[0m
+[0;32mI (225) cpu_start: Compile time:     Nov 13 2023 13:27:48[0m
+[0;32mI (231) cpu_start: ELF file SHA256:  87fea8c2454d9f1c...[0m
+[0;32mI (237) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (242) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (247) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (252) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (257) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (264) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (270) heap_init: At 3FFB2958 len 0002D6A8 (181 KiB): DRAM[0m
+[0;32mI (276) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (282) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (289) heap_init: At 4008BFA8 len 00014058 (80 KiB): IRAM[0m
+[0;32mI (296) spi_flash: detected chip: generic[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (304) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) app_start: Starting scheduler on CPU0[0m
+[0;32mI (322) app_start: Starting scheduler on CPU1[0m
+[0;32mI (322) main_task: Started on CPU0[0m
+[0;32mI (332) main_task: Calling app_main()[0m
+time slicing :0
+task 1 is running at: 1
+task 2 is running at: 201
+task 3 is running at: 301
+[0;32mI (3332) main_task: Returned from app_main()[0m
+task 1 is running at: 301
+task 2 is running at: 501
+task 1 is running at: 701
+task 2 is running at: 901
+task 1 is running at: 1101
+task 3 is running at: 1301
+task 2 is running at: 1301
+task 1 is running at: 1501
+task 2 is running at: 1701
+task 1 is running at: 1901
+task 2 is running at: 2101
+task 3 is running at: 2301
+task 1 is running at: 2301
+task 2 is running at: 2501
+task 1 is running at: 2701
+task 2 is running at: 2901
+task 1 is running at: 3101
+task 3 is running at: 3301
+task 2 is running at: 3301
+task 1 is running at: 3501
+task 2 is running at: 3701
+task 1 is running at: 3901
+task 2 is running at: 4101
+task 3 is running at: 4301
+task 1 is running at: 4301
+task 2 is running at: 4501
+task 1 is running at: 4701
+task 2 is running at: 4901
+task 1 is running at: 5101
+task 3 is running at: 5301
+task 2 is running at: 5301
+task 1 is running at: 5501
+task 2 is running at: 5701
+task 1 is running at: 5901
+task 2 is running at: 6101
+task 3 is running at: 6301
+task 1 is running at: 6301
+task 2 is running at: 6501
+task 1 is running at: 6701
+task 2 is running at: 6901
+task 1 is running at: 7101
+task 3 is running at: 7301
+task 2 is running at: 7301
+task 1 is running at: 7501
+task 2 is running at: 7701
+task 1 is running at: 7901
+task 2 is running at: 8101
+task 3 is running at: 8301
+task 1 is running at: 8301
+task 2 is running at: 8501
+task 1 is running at: 8701
+task 2 is running at: 8901
+task 1 is running at: 9101
+task 3 is running at: 9301
+task 2 is running at: 9301
+task 1 is running at: 9501
+task 2 is running at: 9701
+task 1 is running at: 9901
+task 2 is running at: 10101
+task 3 is running at: 10301
+task 1 is running at: 10301
+task 2 is running at: 10501
+task 1 is running at: 10701
+task 2 is running at: 10901
+task 1 is running at: 11101
+task 3 is running at: 11301
+task 2 is running at: 11301
+task 1 is running at: 11501
+task 2 is running at: 11701
+task 1 is running at: 11901
+task 2 is running at: 12101
+task 3 is running at: 12301
+task 1 is running at: 12301
+task 2 is running at: 12501
+task 1 is running at: 12701
+task 2 is running at: 12901
+task 1 is running at: 13101
+task 3 is running at: 13301
+task 2 is running at: 13301
+task 1 is running at: 13501
+task 2 is running at: 13701
+task 1 is running at: 13901
+task 2 is running at: 14101
+task 3 is running at: 14301
+task 1 is running at: 14301
+task 2 is running at: 14501
+task 1 is running at: 14701
+task 2 is running at: 14901
+task 1 is running at: 15101
+task 3 is running at: 15301
+task 2 is running at: 15301
+task 1 is running at: 15501
+task 2 is running at: 15701
+task 1 is running at: 15901
+task 2 is running at: 16101
+task 3 is running at: 16301
+task 1 is running at: 16301
+task 2 is running at: 16501
+task 1 is running at: 16701
+task 2 is running at: 16901
+task 1 is running at: 17101
+task 3 is running at: 17301
+task 2 is running at: 17301
+task 1 is running at: 17501
+task 2 is running at: 17701
+task 1 is running at: 17901
+task 2 is running at: 18101
+task 3 is running at: 18301
+task 1 is running at: 18301
+task 2 is running at: 18501
+task 1 is running at: 18701
+task 2 is running at: 18901
+task 1 is running at: 19101
+task 3 is running at: 19301
+task 2 is running at: 19301
+task 1 is running at: 19501
+task 2 is running at: 19701
+task 1 is running at: 19901
+task 2 is running at: 20101
+task 3 is running at: 20301
+task 1 is running at: 20301
+task 2 is running at: 20501
+task 1 is running at: 20701
+task 2 is running at: 20901
+task 1 is running at: 21101
+task 3 is running at: 21301
+task 2 is running at: 21301
+task 1 is running at: 21501
+task 2 is running at: 21701
+task 1 is running at: 21901
+task 2 is running at: 22101
+task 3 is running at: 22301
+task 1 is running at: 22301
+task 2 is running at: 22501
+task 1 is running at: 22701
+task 2 is running at: 22901
+task 1 is running at: 23101
+task 3 is running at: 23301
+task 2 is running at: 23301
+task 1 is running at: 23501
+task 2 is running at: 23701
+task 1 is running at: 23901
+task 2 is running at: 24101
+task 3 is running at: 24301
+task 1 is running at: 24301
+task 2 is running at: 24501
+task 1 is running at: 24701
+task 2 is running at: 24901
+task 1 is running at: 25101
+task 3 is running at: 25301
+task 2 is running at: 25301
+task 1 is running at: 25501
+task 2 is running at: 25701
+task 1 is running at: 25901
+task 2 is running at: 26101
+task 3 is running at: 26301
+task 1 is running at: 26301
+task 2 is running at: 26501
+task 1 is running at: 26701
+task 2 is running at: 26901
+task 1 is running at: 27101
+task 3 is running at: 27301
+task 2 is running at: 27301
+task 1 is running at: 27501
+task 2 is running at: 27701
+task 1 is running at: 27901
+task 2 is running at: 28101
+task 3 is running at: 28301
+task 1 is running at: 28301
+task 2 is running at: 28501
+task 1 is running at: 28701
+task 2 is running at: 28901
+task 1 is running at: 29101
+task 3 is running at: 29301
+task 2 is running at: 29301
+task 1 is running at: 29501
+task 2 is running at: 29701
+task 1 is running at: 29901
+task 2 is running at: 30101
+task 3 is running at: 30301
+task 1 is running at: 30301
+task 2 is running at: 30501
+task 1 is running at: 30701
+task 2 is running at: 30901
+task 1 is running at: 31101
+task 3 is running at: 31301
+task 2 is running at: 31301
+task 1 is running at: 31501
+task 2 is running at: 31701

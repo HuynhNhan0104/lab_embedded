@@ -1,0 +1,3493 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7080
+load:0x40078000,len:15476
+load:0x40080400,len:4
+load:0x40080404,len:3668
+entry 0x4008061c
+[0;32mI (29) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Nov 13 2023 16:08:33[0m
+[0;33mW (29) boot: Unicore bootloader[0m
+[0;32mI (34) boot: chip revision: v3.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (47) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=089a4h ( 35236) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=000189cc vaddr=3ffb0000 size=01664h (  5732) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001a038 vaddr=40080000 size=05fe0h ( 24544) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13070h ( 77936) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=00033098 vaddr=40085fe0 size=04d14h ( 19732) load[0m
+[0;32mI (174) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (174) boot: Disabling RNG early entropy source...[0m
+[0;32mI (186) cpu_start: Unicore app[0m
+[0;32mI (186) cpu_start: Pro cpu up.[0m
+[0;32mI (186) cpu_start: Single core mode[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m
+[0;32mI (198) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (198) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     lab3[0m
+[0;32mI (208) cpu_start: App version:      1c68d83-dirty[0m
+[0;32mI (213) cpu_start: Compile time:     Nov 13 2023 16:08:03[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  5bca643492c86168...[0m
+[0;32mI (225) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (231) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (235) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (240) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (245) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (252) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (258) heap_init: At 3FFB1DF8 len 0002E208 (184 KiB): DRAM[0m
+[0;32mI (264) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (277) heap_init: At 4008ACF4 len 0001530C (84 KiB): IRAM[0m
+[0;32mI (283) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM[0m
+[0;32mI (291) spi_flash: detected chip: generic[0m
+[0;32mI (294) spi_flash: flash io: dio[0m
+[0;33mW (298) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (311) app_start: Starting scheduler on CPU0[0m
+[0;32mI (316) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+time slicing: 0
+task 3 is running at: 301, on core 0
+[0;32mI (3426) main_task: Returned from app_main()[0m
+task 1 is running at: 311, on core 0
+task 1 is running at: 322, on core 0
+task 1 is running at: 332, on core 0
+task 1 is running at: 343, on core 0
+task 1 is running at: 354, on core 0
+task 1 is running at: 364, on core 0
+task 1 is running at: 375, on core 0
+task 1 is running at: 386, on core 0
+task 1 is running at: 396, on core 0
+task 1 is running at: 407, on core 0
+task 1 is running at: 418, on core 0
+task 1 is running at: 428, on core 0
+task 1 is running at: 439, on core 0
+task 1 is running at: 449, on core 0
+task 1 is running at: 460, on core 0
+task 1 is running at: 471, on core 0
+task 1 is running at: 481, on core 0
+task 1 is running at: 492, on core 0
+task 1 is running at: 503, on core 0
+task 1 is running at: 513, on core 0
+task 1 is running at: 524, on core 0
+task 1 is running at: 535, on core 0
+task 1 is running at: 545, on core 0
+task 1 is running at: 556, on core 0
+task 1 is running at: 566, on core 0
+task 1 is running at: 577, on core 0
+task 1 is running at: 588, on core 0
+task 1 is running at: 598, on core 0
+task 1 is running at: 609, on core 0
+task 1 is running at: 620, on core 0
+task 1 is running at: 630, on core 0
+task 1 is running at: 641, on core 0
+task 1 is running at: 652, on core 0
+task 1 is running at: 662, on core 0
+task 1 is running at: 673, on core 0
+task 1 is running at: 683, on core 0
+task 1 is running at: 694, on core 0
+task 1 is running at: 705, on core 0
+task 1 is running at: 715, on core 0
+task 1 is running at: 726, on core 0
+task 1 is running at: 737, on core 0
+task 1 is running at: 747, on core 0
+task 1 is running at: 758, on core 0
+task 1 is running at: 769, on core 0
+task 1 is running at: 779, on core 0
+task 1 is running at: 790, on core 0
+[0;31mE (8306) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (8306) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (8306) task_wdt: Tasks currently running:[0m
+[0;31mE (8306) task_wdt: CPU 0: Task1[0m
+[0;31mE (8306) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD0:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 803, on core 0
+task 3 is running at: 811, on core 0
+task 2 is running at: 821, on core 0
+task 2 is running at: 832, on core 0
+task 2 is running at: 842, on core 0
+task 2 is running at: 853, on core 0
+task 2 is running at: 864, on core 0
+task 2 is running at: 874, on core 0
+task 2 is running at: 885, on core 0
+task 2 is running at: 896, on core 0
+task 2 is running at: 906, on core 0
+task 2 is running at: 917, on core 0
+task 2 is running at: 928, on core 0
+task 2 is running at: 938, on core 0
+task 2 is running at: 949, on core 0
+task 2 is running at: 959, on core 0
+task 2 is running at: 970, on core 0
+task 2 is running at: 981, on core 0
+task 2 is running at: 991, on core 0
+task 2 is running at: 1002, on core 0
+task 2 is running at: 1013, on core 0
+task 2 is running at: 1023, on core 0
+task 2 is running at: 1034, on core 0
+task 2 is running at: 1045, on core 0
+task 2 is running at: 1055, on core 0
+task 2 is running at: 1066, on core 0
+task 2 is running at: 1076, on core 0
+task 2 is running at: 1087, on core 0
+task 2 is running at: 1098, on core 0
+task 2 is running at: 1108, on core 0
+task 2 is running at: 1119, on core 0
+task 2 is running at: 1130, on core 0
+task 2 is running at: 1140, on core 0
+task 2 is running at: 1151, on core 0
+task 2 is running at: 1162, on core 0
+task 2 is running at: 1172, on core 0
+task 2 is running at: 1183, on core 0
+task 2 is running at: 1193, on core 0
+task 2 is running at: 1204, on core 0
+task 2 is running at: 1215, on core 0
+task 2 is running at: 1225, on core 0
+task 2 is running at: 1236, on core 0
+task 2 is running at: 1247, on core 0
+task 2 is running at: 1257, on core 0
+task 2 is running at: 1268, on core 0
+task 2 is running at: 1279, on core 0
+task 2 is running at: 1289, on core 0
+[0;31mE (13306) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (13306) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (13306) task_wdt: Tasks currently running:[0m
+[0;31mE (13306) task_wdt: CPU 0: Task2[0m
+[0;31mE (13306) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E0B:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 1303, on core 0
+task 2 is running at: 1313, on core 0
+task 3 is running at: 1321, on core 0
+task 3 is running at: 1831, on core 0
+task 1 is running at: 1845, on core 0
+task 1 is running at: 1855, on core 0
+task 1 is running at: 1866, on core 0
+task 1 is running at: 1877, on core 0
+task 1 is running at: 1887, on core 0
+task 1 is running at: 1898, on core 0
+task 1 is running at: 1909, on core 0
+task 1 is running at: 1919, on core 0
+task 1 is running at: 1930, on core 0
+task 1 is running at: 1940, on core 0
+task 1 is running at: 1951, on core 0
+task 1 is running at: 1962, on core 0
+task 1 is running at: 1972, on core 0
+task 1 is running at: 1983, on core 0
+task 1 is running at: 1994, on core 0
+task 1 is running at: 2004, on core 0
+task 1 is running at: 2015, on core 0
+task 1 is running at: 2026, on core 0
+task 1 is running at: 2036, on core 0
+task 1 is running at: 2047, on core 0
+task 1 is running at: 2057, on core 0
+task 1 is running at: 2068, on core 0
+task 1 is running at: 2079, on core 0
+task 1 is running at: 2089, on core 0
+task 1 is running at: 2100, on core 0
+task 1 is running at: 2111, on core 0
+task 1 is running at: 2121, on core 0
+task 1 is running at: 2132, on core 0
+task 1 is running at: 2143, on core 0
+task 1 is running at: 2153, on core 0
+task 1 is running at: 2164, on core 0
+task 1 is running at: 2174, on core 0
+task 1 is running at: 2185, on core 0
+task 1 is running at: 2196, on core 0
+task 1 is running at: 2206, on core 0
+task 1 is running at: 2217, on core 0
+task 1 is running at: 2228, on core 0
+task 1 is running at: 2238, on core 0
+task 1 is running at: 2249, on core 0
+task 1 is running at: 2260, on core 0
+task 1 is running at: 2270, on core 0
+task 1 is running at: 2281, on core 0
+task 1 is running at: 2291, on core 0
+task 1 is running at: 2302, on core 0
+task 1 is running at: 2313, on core 0
+task 1 is running at: 2323, on core 0
+[0;31mE (23606) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (23606) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (23606) task_wdt: Tasks currently running:[0m
+[0;31mE (23606) task_wdt: CPU 0: Task1[0m
+[0;31mE (23606) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 2337, on core 0
+task 3 is running at: 2341, on core 0
+task 2 is running at: 2355, on core 0
+task 2 is running at: 2365, on core 0
+task 2 is running at: 2376, on core 0
+task 2 is running at: 2387, on core 0
+task 2 is running at: 2397, on core 0
+task 2 is running at: 2408, on core 0
+task 2 is running at: 2419, on core 0
+task 2 is running at: 2429, on core 0
+task 2 is running at: 2440, on core 0
+task 2 is running at: 2450, on core 0
+task 2 is running at: 2461, on core 0
+task 2 is running at: 2472, on core 0
+task 2 is running at: 2482, on core 0
+task 2 is running at: 2493, on core 0
+task 2 is running at: 2504, on core 0
+task 2 is running at: 2514, on core 0
+task 2 is running at: 2525, on core 0
+task 2 is running at: 2536, on core 0
+task 2 is running at: 2546, on core 0
+task 2 is running at: 2557, on core 0
+task 2 is running at: 2567, on core 0
+task 2 is running at: 2578, on core 0
+task 2 is running at: 2589, on core 0
+task 2 is running at: 2599, on core 0
+task 2 is running at: 2610, on core 0
+task 2 is running at: 2621, on core 0
+task 2 is running at: 2631, on core 0
+task 2 is running at: 2642, on core 0
+task 2 is running at: 2653, on core 0
+task 2 is running at: 2663, on core 0
+task 2 is running at: 2674, on core 0
+task 2 is running at: 2684, on core 0
+task 2 is running at: 2695, on core 0
+task 2 is running at: 2706, on core 0
+task 2 is running at: 2716, on core 0
+task 2 is running at: 2727, on core 0
+task 2 is running at: 2738, on core 0
+task 2 is running at: 2748, on core 0
+task 2 is running at: 2759, on core 0
+task 2 is running at: 2770, on core 0
+task 2 is running at: 2780, on core 0
+task 2 is running at: 2791, on core 0
+task 2 is running at: 2801, on core 0
+task 2 is running at: 2812, on core 0
+task 2 is running at: 2823, on core 0
+[0;31mE (28606) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (28606) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (28606) task_wdt: Tasks currently running:[0m
+[0;31mE (28606) task_wdt: CPU 0: Task2[0m
+[0;31mE (28606) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DFD:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 2836, on core 0
+task 2 is running at: 2847, on core 0
+task 3 is running at: 2851, on core 0
+task 3 is running at: 3361, on core 0
+task 1 is running at: 3378, on core 0
+task 1 is running at: 3389, on core 0
+task 1 is running at: 3400, on core 0
+task 1 is running at: 3410, on core 0
+task 1 is running at: 3421, on core 0
+task 1 is running at: 3431, on core 0
+task 1 is running at: 3442, on core 0
+task 1 is running at: 3453, on core 0
+task 1 is running at: 3463, on core 0
+task 1 is running at: 3474, on core 0
+task 1 is running at: 3485, on core 0
+task 1 is running at: 3495, on core 0
+task 1 is running at: 3506, on core 0
+task 1 is running at: 3517, on core 0
+task 1 is running at: 3527, on core 0
+task 1 is running at: 3538, on core 0
+task 1 is running at: 3548, on core 0
+task 1 is running at: 3559, on core 0
+task 1 is running at: 3570, on core 0
+task 1 is running at: 3580, on core 0
+task 1 is running at: 3591, on core 0
+task 1 is running at: 3602, on core 0
+task 1 is running at: 3612, on core 0
+task 1 is running at: 3623, on core 0
+task 1 is running at: 3634, on core 0
+task 1 is running at: 3644, on core 0
+task 1 is running at: 3655, on core 0
+task 1 is running at: 3665, on core 0
+task 1 is running at: 3676, on core 0
+task 1 is running at: 3687, on core 0
+task 1 is running at: 3697, on core 0
+task 1 is running at: 3708, on core 0
+task 1 is running at: 3719, on core 0
+task 1 is running at: 3729, on core 0
+task 1 is running at: 3740, on core 0
+task 1 is running at: 3751, on core 0
+task 1 is running at: 3761, on core 0
+task 1 is running at: 3772, on core 0
+task 1 is running at: 3782, on core 0
+task 1 is running at: 3793, on core 0
+task 1 is running at: 3804, on core 0
+task 1 is running at: 3814, on core 0
+task 1 is running at: 3825, on core 0
+task 1 is running at: 3836, on core 0
+task 1 is running at: 3846, on core 0
+task 1 is running at: 3857, on core 0
+[0;31mE (38906) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (38906) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (38906) task_wdt: Tasks currently running:[0m
+[0;31mE (38906) task_wdt: CPU 0: Task1[0m
+[0;31mE (38906) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DCD:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 3 is running at: 3871, on core 0
+task 2 is running at: 3888, on core 0
+task 2 is running at: 3899, on core 0
+task 2 is running at: 3910, on core 0
+task 2 is running at: 3920, on core 0
+task 2 is running at: 3931, on core 0
+task 2 is running at: 3941, on core 0
+task 2 is running at: 3952, on core 0
+task 2 is running at: 3963, on core 0
+task 2 is running at: 3973, on core 0
+task 2 is running at: 3984, on core 0
+task 2 is running at: 3995, on core 0
+task 2 is running at: 4005, on core 0
+task 2 is running at: 4016, on core 0
+task 2 is running at: 4027, on core 0
+task 2 is running at: 4037, on core 0
+task 2 is running at: 4048, on core 0
+task 2 is running at: 4058, on core 0
+task 2 is running at: 4069, on core 0
+task 2 is running at: 4080, on core 0
+task 2 is running at: 4090, on core 0
+task 2 is running at: 4101, on core 0
+task 2 is running at: 4112, on core 0
+task 2 is running at: 4122, on core 0
+task 2 is running at: 4133, on core 0
+task 2 is running at: 4144, on core 0
+task 2 is running at: 4154, on core 0
+task 2 is running at: 4165, on core 0
+task 2 is running at: 4176, on core 0
+task 2 is running at: 4186, on core 0
+task 2 is running at: 4197, on core 0
+task 2 is running at: 4207, on core 0
+task 2 is running at: 4218, on core 0
+task 2 is running at: 4229, on core 0
+task 2 is running at: 4239, on core 0
+task 2 is running at: 4250, on core 0
+task 2 is running at: 4261, on core 0
+task 2 is running at: 4271, on core 0
+task 2 is running at: 4282, on core 0
+task 2 is running at: 4293, on core 0
+task 2 is running at: 4303, on core 0
+task 2 is running at: 4314, on core 0
+task 2 is running at: 4324, on core 0
+task 2 is running at: 4335, on core 0
+task 2 is running at: 4346, on core 0
+task 2 is running at: 4356, on core 0
+[0;31mE (43906) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (43906) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (43906) task_wdt: Tasks currently running:[0m
+[0;31mE (43906) task_wdt: CPU 0: Task2[0m
+[0;31mE (43906) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E0B:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 4370, on core 0
+task 3 is running at: 4381, on core 0
+task 3 is running at: 4891, on core 0
+task 1 is running at: 4901, on core 0
+task 1 is running at: 4912, on core 0
+task 1 is running at: 4922, on core 0
+task 1 is running at: 4933, on core 0
+task 1 is running at: 4944, on core 0
+task 1 is running at: 4954, on core 0
+task 1 is running at: 4965, on core 0
+task 1 is running at: 4976, on core 0
+task 1 is running at: 4986, on core 0
+task 1 is running at: 4997, on core 0
+task 1 is running at: 5008, on core 0
+task 1 is running at: 5018, on core 0
+task 1 is running at: 5029, on core 0
+task 1 is running at: 5039, on core 0
+task 1 is running at: 5050, on core 0
+task 1 is running at: 5061, on core 0
+task 1 is running at: 5071, on core 0
+task 1 is running at: 5082, on core 0
+task 1 is running at: 5093, on core 0
+task 1 is running at: 5103, on core 0
+task 1 is running at: 5114, on core 0
+task 1 is running at: 5125, on core 0
+task 1 is running at: 5135, on core 0
+task 1 is running at: 5146, on core 0
+task 1 is running at: 5156, on core 0
+task 1 is running at: 5167, on core 0
+task 1 is running at: 5178, on core 0
+task 1 is running at: 5188, on core 0
+task 1 is running at: 5199, on core 0
+task 1 is running at: 5210, on core 0
+task 1 is running at: 5220, on core 0
+task 1 is running at: 5231, on core 0
+task 1 is running at: 5242, on core 0
+task 1 is running at: 5252, on core 0
+task 1 is running at: 5263, on core 0
+task 1 is running at: 5274, on core 0
+task 1 is running at: 5284, on core 0
+task 1 is running at: 5295, on core 0
+task 1 is running at: 5305, on core 0
+task 1 is running at: 5316, on core 0
+task 1 is running at: 5327, on core 0
+task 1 is running at: 5337, on core 0
+task 1 is running at: 5348, on core 0
+task 1 is running at: 5359, on core 0
+task 1 is running at: 5369, on core 0
+task 1 is running at: 5380, on core 0
+[0;31mE (54206) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (54206) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (54206) task_wdt: Tasks currently running:[0m
+[0;31mE (54206) task_wdt: CPU 0: Task1[0m
+[0;31mE (54206) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD0:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 5393, on core 0
+task 3 is running at: 5401, on core 0
+task 2 is running at: 5411, on core 0
+task 2 is running at: 5422, on core 0
+task 2 is running at: 5432, on core 0
+task 2 is running at: 5443, on core 0
+task 2 is running at: 5454, on core 0
+task 2 is running at: 5464, on core 0
+task 2 is running at: 5475, on core 0
+task 2 is running at: 5486, on core 0
+task 2 is running at: 5496, on core 0
+task 2 is running at: 5507, on core 0
+task 2 is running at: 5518, on core 0
+task 2 is running at: 5528, on core 0
+task 2 is running at: 5539, on core 0
+task 2 is running at: 5550, on core 0
+task 2 is running at: 5560, on core 0
+task 2 is running at: 5571, on core 0
+task 2 is running at: 5581, on core 0
+task 2 is running at: 5592, on core 0
+task 2 is running at: 5603, on core 0
+task 2 is running at: 5613, on core 0
+task 2 is running at: 5624, on core 0
+task 2 is running at: 5635, on core 0
+task 2 is running at: 5645, on core 0
+task 2 is running at: 5656, on core 0
+task 2 is running at: 5667, on core 0
+task 2 is running at: 5677, on core 0
+task 2 is running at: 5688, on core 0
+task 2 is running at: 5698, on core 0
+task 2 is running at: 5709, on core 0
+task 2 is running at: 5720, on core 0
+task 2 is running at: 5730, on core 0
+task 2 is running at: 5741, on core 0
+task 2 is running at: 5752, on core 0
+task 2 is running at: 5762, on core 0
+task 2 is running at: 5773, on core 0
+task 2 is running at: 5784, on core 0
+task 2 is running at: 5794, on core 0
+task 2 is running at: 5805, on core 0
+task 2 is running at: 5815, on core 0
+task 2 is running at: 5826, on core 0
+task 2 is running at: 5837, on core 0
+task 2 is running at: 5847, on core 0
+task 2 is running at: 5858, on core 0
+task 2 is running at: 5869, on core 0
+task 2 is running at: 5879, on core 0
+[0;31mE (59206) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (59206) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (59206) task_wdt: Tasks currently running:[0m
+[0;31mE (59206) task_wdt: CPU 0: Task2[0m
+[0;31mE (59206) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DFD:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 5893, on core 0
+task 2 is running at: 5904, on core 0
+task 3 is running at: 5911, on core 0
+task 3 is running at: 6421, on core 0
+task 1 is running at: 6435, on core 0
+task 1 is running at: 6445, on core 0
+task 1 is running at: 6456, on core 0
+task 1 is running at: 6467, on core 0
+task 1 is running at: 6477, on core 0
+task 1 is running at: 6488, on core 0
+task 1 is running at: 6499, on core 0
+task 1 is running at: 6509, on core 0
+task 1 is running at: 6520, on core 0
+task 1 is running at: 6531, on core 0
+task 1 is running at: 6541, on core 0
+task 1 is running at: 6552, on core 0
+task 1 is running at: 6562, on core 0
+task 1 is running at: 6573, on core 0
+task 1 is running at: 6584, on core 0
+task 1 is running at: 6594, on core 0
+task 1 is running at: 6605, on core 0
+task 1 is running at: 6616, on core 0
+task 1 is running at: 6626, on core 0
+task 1 is running at: 6637, on core 0
+task 1 is running at: 6648, on core 0
+task 1 is running at: 6658, on core 0
+task 1 is running at: 6669, on core 0
+task 1 is running at: 6679, on core 0
+task 1 is running at: 6690, on core 0
+task 1 is running at: 6701, on core 0
+task 1 is running at: 6711, on core 0
+task 1 is running at: 6722, on core 0
+task 1 is running at: 6733, on core 0
+task 1 is running at: 6743, on core 0
+task 1 is running at: 6754, on core 0
+task 1 is running at: 6765, on core 0
+task 1 is running at: 6775, on core 0
+task 1 is running at: 6786, on core 0
+task 1 is running at: 6796, on core 0
+task 1 is running at: 6807, on core 0
+task 1 is running at: 6818, on core 0
+task 1 is running at: 6828, on core 0
+task 1 is running at: 6839, on core 0
+task 1 is running at: 6850, on core 0
+task 1 is running at: 6860, on core 0
+task 1 is running at: 6871, on core 0
+task 1 is running at: 6882, on core 0
+task 1 is running at: 6892, on core 0
+task 1 is running at: 6903, on core 0
+task 1 is running at: 6913, on core 0
+[0;31mE (69506) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (69506) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (69506) task_wdt: Tasks currently running:[0m
+[0;31mE (69506) task_wdt: CPU 0: Task1[0m
+[0;31mE (69506) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 6927, on core 0
+task 3 is running at: 6931, on core 0
+task 2 is running at: 6945, on core 0
+task 2 is running at: 6955, on core 0
+task 2 is running at: 6966, on core 0
+task 2 is running at: 6977, on core 0
+task 2 is running at: 6987, on core 0
+task 2 is running at: 6998, on core 0
+task 2 is running at: 7009, on core 0
+task 2 is running at: 7019, on core 0
+task 2 is running at: 7030, on core 0
+task 2 is running at: 7041, on core 0
+task 2 is running at: 7051, on core 0
+task 2 is running at: 7062, on core 0
+task 2 is running at: 7072, on core 0
+task 2 is running at: 7083, on core 0
+task 2 is running at: 7094, on core 0
+task 2 is running at: 7104, on core 0
+task 2 is running at: 7115, on core 0
+task 2 is running at: 7126, on core 0
+task 2 is running at: 7136, on core 0
+task 2 is running at: 7147, on core 0
+task 2 is running at: 7158, on core 0
+task 2 is running at: 7168, on core 0
+task 2 is running at: 7179, on core 0
+task 2 is running at: 7189, on core 0
+task 2 is running at: 7200, on core 0
+task 2 is running at: 7211, on core 0
+task 2 is running at: 7221, on core 0
+task 2 is running at: 7232, on core 0
+task 2 is running at: 7243, on core 0
+task 2 is running at: 7253, on core 0
+task 2 is running at: 7264, on core 0
+task 2 is running at: 7275, on core 0
+task 2 is running at: 7285, on core 0
+task 2 is running at: 7296, on core 0
+task 2 is running at: 7306, on core 0
+task 2 is running at: 7317, on core 0
+task 2 is running at: 7328, on core 0
+task 2 is running at: 7338, on core 0
+task 2 is running at: 7349, on core 0
+task 2 is running at: 7360, on core 0
+task 2 is running at: 7370, on core 0
+task 2 is running at: 7381, on core 0
+task 2 is running at: 7392, on core 0
+task 2 is running at: 7402, on core 0
+task 2 is running at: 7413, on core 0
+[0;31mE (74506) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (74506) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (74506) task_wdt: Tasks currently running:[0m
+[0;31mE (74506) task_wdt: CPU 0: Task2[0m
+[0;31mE (74506) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E0B:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 7426, on core 0
+task 2 is running at: 7437, on core 0
+task 3 is running at: 7441, on core 0
+task 3 is running at: 7951, on core 0
+task 1 is running at: 7968, on core 0
+task 1 is running at: 7979, on core 0
+task 1 is running at: 7990, on core 0
+task 1 is running at: 8000, on core 0
+task 1 is running at: 8011, on core 0
+task 1 is running at: 8022, on core 0
+task 1 is running at: 8032, on core 0
+task 1 is running at: 8043, on core 0
+task 1 is running at: 8053, on core 0
+task 1 is running at: 8064, on core 0
+task 1 is running at: 8075, on core 0
+task 1 is running at: 8085, on core 0
+task 1 is running at: 8096, on core 0
+task 1 is running at: 8107, on core 0
+task 1 is running at: 8117, on core 0
+task 1 is running at: 8128, on core 0
+task 1 is running at: 8139, on core 0
+task 1 is running at: 8149, on core 0
+task 1 is running at: 8160, on core 0
+task 1 is running at: 8170, on core 0
+task 1 is running at: 8181, on core 0
+task 1 is running at: 8192, on core 0
+task 1 is running at: 8202, on core 0
+task 1 is running at: 8213, on core 0
+task 1 is running at: 8224, on core 0
+task 1 is running at: 8234, on core 0
+task 1 is running at: 8245, on core 0
+task 1 is running at: 8256, on core 0
+task 1 is running at: 8266, on core 0
+task 1 is running at: 8277, on core 0
+task 1 is running at: 8287, on core 0
+task 1 is running at: 8298, on core 0
+task 1 is running at: 8309, on core 0
+task 1 is running at: 8319, on core 0
+task 1 is running at: 8330, on core 0
+task 1 is running at: 8341, on core 0
+task 1 is running at: 8351, on core 0
+task 1 is running at: 8362, on core 0
+task 1 is running at: 8373, on core 0
+task 1 is running at: 8383, on core 0
+task 1 is running at: 8394, on core 0
+task 1 is running at: 8404, on core 0
+task 1 is running at: 8415, on core 0
+task 1 is running at: 8426, on core 0
+task 1 is running at: 8436, on core 0
+task 1 is running at: 8447, on core 0
+[0;31mE (84806) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (84806) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (84806) task_wdt: Tasks currently running:[0m
+[0;31mE (84806) task_wdt: CPU 0: Task1[0m
+[0;31mE (84806) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 3 is running at: 8461, on core 0
+task 2 is running at: 8478, on core 0
+task 2 is running at: 8489, on core 0
+task 2 is running at: 8500, on core 0
+task 2 is running at: 8510, on core 0
+task 2 is running at: 8521, on core 0
+task 2 is running at: 8532, on core 0
+task 2 is running at: 8542, on core 0
+task 2 is running at: 8553, on core 0
+task 2 is running at: 8563, on core 0
+task 2 is running at: 8574, on core 0
+task 2 is running at: 8585, on core 0
+task 2 is running at: 8595, on core 0
+task 2 is running at: 8606, on core 0
+task 2 is running at: 8617, on core 0
+task 2 is running at: 8627, on core 0
+task 2 is running at: 8638, on core 0
+task 2 is running at: 8649, on core 0
+task 2 is running at: 8659, on core 0
+task 2 is running at: 8670, on core 0
+task 2 is running at: 8680, on core 0
+task 2 is running at: 8691, on core 0
+task 2 is running at: 8702, on core 0
+task 2 is running at: 8712, on core 0
+task 2 is running at: 8723, on core 0
+task 2 is running at: 8734, on core 0
+task 2 is running at: 8744, on core 0
+task 2 is running at: 8755, on core 0
+task 2 is running at: 8766, on core 0
+task 2 is running at: 8776, on core 0
+task 2 is running at: 8787, on core 0
+task 2 is running at: 8798, on core 0
+task 2 is running at: 8808, on core 0
+task 2 is running at: 8819, on core 0
+task 2 is running at: 8829, on core 0
+task 2 is running at: 8840, on core 0
+task 2 is running at: 8851, on core 0
+task 2 is running at: 8861, on core 0
+task 2 is running at: 8872, on core 0
+task 2 is running at: 8883, on core 0
+task 2 is running at: 8893, on core 0
+task 2 is running at: 8904, on core 0
+task 2 is running at: 8915, on core 0
+task 2 is running at: 8925, on core 0
+task 2 is running at: 8936, on core 0
+task 2 is running at: 8946, on core 0
+[0;31mE (89806) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (89806) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (89806) task_wdt: Tasks currently running:[0m
+[0;31mE (89806) task_wdt: CPU 0: Task2[0m
+[0;31mE (89806) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E00:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 8960, on core 0
+task 3 is running at: 8971, on core 0
+task 3 is running at: 9481, on core 0
+task 1 is running at: 9491, on core 0
+task 1 is running at: 9502, on core 0
+task 1 is running at: 9513, on core 0
+task 1 is running at: 9523, on core 0
+task 1 is running at: 9534, on core 0
+task 1 is running at: 9544, on core 0
+task 1 is running at: 9555, on core 0
+task 1 is running at: 9566, on core 0
+task 1 is running at: 9576, on core 0
+task 1 is running at: 9587, on core 0
+task 1 is running at: 9598, on core 0
+task 1 is running at: 9608, on core 0
+task 1 is running at: 9619, on core 0
+task 1 is running at: 9630, on core 0
+task 1 is running at: 9640, on core 0
+task 1 is running at: 9651, on core 0
+task 1 is running at: 9661, on core 0
+task 1 is running at: 9672, on core 0
+task 1 is running at: 9683, on core 0
+task 1 is running at: 9693, on core 0
+task 1 is running at: 9704, on core 0
+task 1 is running at: 9715, on core 0
+task 1 is running at: 9725, on core 0
+task 1 is running at: 9736, on core 0
+task 1 is running at: 9747, on core 0
+task 1 is running at: 9757, on core 0
+task 1 is running at: 9768, on core 0
+task 1 is running at: 9778, on core 0
+task 1 is running at: 9789, on core 0
+task 1 is running at: 9800, on core 0
+task 1 is running at: 9810, on core 0
+task 1 is running at: 9821, on core 0
+task 1 is running at: 9832, on core 0
+task 1 is running at: 9842, on core 0
+task 1 is running at: 9853, on core 0
+task 1 is running at: 9864, on core 0
+task 1 is running at: 9874, on core 0
+task 1 is running at: 9885, on core 0
+task 1 is running at: 9896, on core 0
+task 1 is running at: 9906, on core 0
+task 1 is running at: 9917, on core 0
+task 1 is running at: 9927, on core 0
+task 1 is running at: 9938, on core 0
+task 1 is running at: 9949, on core 0
+task 1 is running at: 9959, on core 0
+task 1 is running at: 9970, on core 0
+[0;31mE (100106) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (100106) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (100106) task_wdt: Tasks currently running:[0m
+[0;31mE (100106) task_wdt: CPU 0: Task1[0m
+[0;31mE (100106) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD0:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 9984, on core 0
+task 3 is running at: 9991, on core 0
+task 2 is running at: 10001, on core 0
+task 2 is running at: 10012, on core 0
+task 2 is running at: 10023, on core 0
+task 2 is running at: 10033, on core 0
+task 2 is running at: 10044, on core 0
+task 2 is running at: 10054, on core 0
+task 2 is running at: 10065, on core 0
+task 2 is running at: 10076, on core 0
+task 2 is running at: 10086, on core 0
+task 2 is running at: 10097, on core 0
+task 2 is running at: 10108, on core 0
+task 2 is running at: 10118, on core 0
+task 2 is running at: 10129, on core 0
+task 2 is running at: 10140, on core 0
+task 2 is running at: 10150, on core 0
+task 2 is running at: 10161, on core 0
+task 2 is running at: 10172, on core 0
+task 2 is running at: 10182, on core 0
+task 2 is running at: 10193, on core 0
+task 2 is running at: 10203, on core 0
+task 2 is running at: 10214, on core 0
+task 2 is running at: 10225, on core 0
+task 2 is running at: 10235, on core 0
+task 2 is running at: 10246, on core 0
+task 2 is running at: 10257, on core 0
+task 2 is running at: 10267, on core 0
+task 2 is running at: 10278, on core 0
+task 2 is running at: 10289, on core 0
+task 2 is running at: 10299, on core 0
+task 2 is running at: 10310, on core 0
+task 2 is running at: 10320, on core 0
+task 2 is running at: 10331, on core 0
+task 2 is running at: 10342, on core 0
+task 2 is running at: 10352, on core 0
+task 2 is running at: 10363, on core 0
+task 2 is running at: 10374, on core 0
+task 2 is running at: 10384, on core 0
+task 2 is running at: 10395, on core 0
+task 2 is running at: 10406, on core 0
+task 2 is running at: 10416, on core 0
+task 2 is running at: 10427, on core 0
+task 2 is running at: 10437, on core 0
+task 2 is running at: 10448, on core 0
+task 2 is running at: 10459, on core 0
+task 2 is running at: 10469, on core 0
+[0;31mE (105106) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (105106) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (105106) task_wdt: Tasks currently running:[0m
+[0;31mE (105106) task_wdt: CPU 0: Task2[0m
+[0;31mE (105106) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E06:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 10483, on core 0
+task 2 is running at: 10494, on core 0
+task 3 is running at: 10501, on core 0
+task 3 is running at: 11011, on core 0
+task 1 is running at: 11025, on core 0
+task 1 is running at: 11036, on core 0
+task 1 is running at: 11046, on core 0
+task 1 is running at: 11057, on core 0
+task 1 is running at: 11067, on core 0
+task 1 is running at: 11078, on core 0
+task 1 is running at: 11089, on core 0
+task 1 is running at: 11099, on core 0
+task 1 is running at: 11110, on core 0
+task 1 is running at: 11121, on core 0
+task 1 is running at: 11131, on core 0
+task 1 is running at: 11142, on core 0
+task 1 is running at: 11153, on core 0
+task 1 is running at: 11163, on core 0
+task 1 is running at: 11174, on core 0
+task 1 is running at: 11184, on core 0
+task 1 is running at: 11195, on core 0
+task 1 is running at: 11206, on core 0
+task 1 is running at: 11216, on core 0
+task 1 is running at: 11227, on core 0
+task 1 is running at: 11238, on core 0
+task 1 is running at: 11248, on core 0
+task 1 is running at: 11259, on core 0
+task 1 is running at: 11270, on core 0
+task 1 is running at: 11280, on core 0
+task 1 is running at: 11291, on core 0
+task 1 is running at: 11301, on core 0
+task 1 is running at: 11312, on core 0
+task 1 is running at: 11323, on core 0
+task 1 is running at: 11333, on core 0
+task 1 is running at: 11344, on core 0
+task 1 is running at: 11355, on core 0
+task 1 is running at: 11365, on core 0
+task 1 is running at: 11376, on core 0
+task 1 is running at: 11387, on core 0
+task 1 is running at: 11397, on core 0
+task 1 is running at: 11408, on core 0
+task 1 is running at: 11418, on core 0
+task 1 is running at: 11429, on core 0
+task 1 is running at: 11440, on core 0
+task 1 is running at: 11450, on core 0
+task 1 is running at: 11461, on core 0
+task 1 is running at: 11472, on core 0
+task 1 is running at: 11482, on core 0
+task 1 is running at: 11493, on core 0
+task 1 is running at: 11504, on core 0
+[0;31mE (115406) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (115406) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (115406) task_wdt: Tasks currently running:[0m
+[0;31mE (115406) task_wdt: CPU 0: Task1[0m
+[0;31mE (115406) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 11517, on core 0
+task 3 is running at: 11521, on core 0
+task 2 is running at: 11535, on core 0
+task 2 is running at: 11546, on core 0
+task 2 is running at: 11556, on core 0
+task 2 is running at: 11567, on core 0
+task 2 is running at: 11577, on core 0
+task 2 is running at: 11588, on core 0
+task 2 is running at: 11599, on core 0
+task 2 is running at: 11609, on core 0
+task 2 is running at: 11620, on core 0
+task 2 is running at: 11631, on core 0
+task 2 is running at: 11641, on core 0
+task 2 is running at: 11652, on core 0
+task 2 is running at: 11663, on core 0
+task 2 is running at: 11673, on core 0
+task 2 is running at: 11684, on core 0
+task 2 is running at: 11694, on core 0
+task 2 is running at: 11705, on core 0
+task 2 is running at: 11716, on core 0
+task 2 is running at: 11726, on core 0
+task 2 is running at: 11737, on core 0
+task 2 is running at: 11748, on core 0
+task 2 is running at: 11758, on core 0
+task 2 is running at: 11769, on core 0
+task 2 is running at: 11780, on core 0
+task 2 is running at: 11790, on core 0
+task 2 is running at: 11801, on core 0
+task 2 is running at: 11812, on core 0
+task 2 is running at: 11822, on core 0
+task 2 is running at: 11833, on core 0
+task 2 is running at: 11843, on core 0
+task 2 is running at: 11854, on core 0
+task 2 is running at: 11865, on core 0
+task 2 is running at: 11875, on core 0
+task 2 is running at: 11886, on core 0
+task 2 is running at: 11897, on core 0
+task 2 is running at: 11907, on core 0
+task 2 is running at: 11918, on core 0
+task 2 is running at: 11929, on core 0
+task 2 is running at: 11939, on core 0
+task 2 is running at: 11950, on core 0
+task 2 is running at: 11960, on core 0
+task 2 is running at: 11971, on core 0
+task 2 is running at: 11982, on core 0
+task 2 is running at: 11992, on core 0
+task 2 is running at: 12003, on core 0
+[0;31mE (120406) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (120406) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (120406) task_wdt: Tasks currently running:[0m
+[0;31mE (120406) task_wdt: CPU 0: Task2[0m
+[0;31mE (120406) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E06:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 12017, on core 0
+task 2 is running at: 12027, on core 0
+task 3 is running at: 12031, on core 0
+task 3 is running at: 12541, on core 0
+task 1 is running at: 12559, on core 0
+task 1 is running at: 12569, on core 0
+task 1 is running at: 12580, on core 0
+task 1 is running at: 12590, on core 0
+task 1 is running at: 12601, on core 0
+task 1 is running at: 12612, on core 0
+task 1 is running at: 12622, on core 0
+task 1 is running at: 12633, on core 0
+task 1 is running at: 12644, on core 0
+task 1 is running at: 12654, on core 0
+task 1 is running at: 12665, on core 0
+task 1 is running at: 12676, on core 0
+task 1 is running at: 12686, on core 0
+task 1 is running at: 12697, on core 0
+task 1 is running at: 12707, on core 0
+task 1 is running at: 12718, on core 0
+task 1 is running at: 12729, on core 0
+task 1 is running at: 12739, on core 0
+task 1 is running at: 12750, on core 0
+task 1 is running at: 12761, on core 0
+task 1 is running at: 12771, on core 0
+task 1 is running at: 12782, on core 0
+task 1 is running at: 12793, on core 0
+task 1 is running at: 12803, on core 0
+task 1 is running at: 12814, on core 0
+task 1 is running at: 12824, on core 0
+task 1 is running at: 12835, on core 0
+task 1 is running at: 12846, on core 0
+task 1 is running at: 12856, on core 0
+task 1 is running at: 12867, on core 0
+task 1 is running at: 12878, on core 0
+task 1 is running at: 12888, on core 0
+task 1 is running at: 12899, on core 0
+task 1 is running at: 12910, on core 0
+task 1 is running at: 12920, on core 0
+task 1 is running at: 12931, on core 0
+task 1 is running at: 12941, on core 0
+task 1 is running at: 12952, on core 0
+task 1 is running at: 12963, on core 0
+task 1 is running at: 12973, on core 0
+task 1 is running at: 12984, on core 0
+task 1 is running at: 12995, on core 0
+task 1 is running at: 13005, on core 0
+task 1 is running at: 13016, on core 0
+task 1 is running at: 13027, on core 0
+task 1 is running at: 13037, on core 0
+[0;31mE (130706) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (130706) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (130706) task_wdt: Tasks currently running:[0m
+[0;31mE (130706) task_wdt: CPU 0: Task1[0m
+[0;31mE (130706) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 3 is running at: 13051, on core 0
+task 2 is running at: 13069, on core 0
+task 2 is running at: 13079, on core 0
+task 2 is running at: 13090, on core 0
+task 2 is running at: 13100, on core 0
+task 2 is running at: 13111, on core 0
+task 2 is running at: 13122, on core 0
+task 2 is running at: 13132, on core 0
+task 2 is running at: 13143, on core 0
+task 2 is running at: 13154, on core 0
+task 2 is running at: 13164, on core 0
+task 2 is running at: 13175, on core 0
+task 2 is running at: 13186, on core 0
+task 2 is running at: 13196, on core 0
+task 2 is running at: 13207, on core 0
+task 2 is running at: 13217, on core 0
+task 2 is running at: 13228, on core 0
+task 2 is running at: 13239, on core 0
+task 2 is running at: 13249, on core 0
+task 2 is running at: 13260, on core 0
+task 2 is running at: 13271, on core 0
+task 2 is running at: 13281, on core 0
+task 2 is running at: 13292, on core 0
+task 2 is running at: 13303, on core 0
+task 2 is running at: 13313, on core 0
+task 2 is running at: 13324, on core 0
+task 2 is running at: 13335, on core 0
+task 2 is running at: 13345, on core 0
+task 2 is running at: 13356, on core 0
+task 2 is running at: 13366, on core 0
+task 2 is running at: 13377, on core 0
+task 2 is running at: 13388, on core 0
+task 2 is running at: 13398, on core 0
+task 2 is running at: 13409, on core 0
+task 2 is running at: 13420, on core 0
+task 2 is running at: 13430, on core 0
+task 2 is running at: 13441, on core 0
+task 2 is running at: 13452, on core 0
+task 2 is running at: 13462, on core 0
+task 2 is running at: 13473, on core 0
+task 2 is running at: 13483, on core 0
+task 2 is running at: 13494, on core 0
+task 2 is running at: 13505, on core 0
+task 2 is running at: 13515, on core 0
+task 2 is running at: 13526, on core 0
+task 2 is running at: 13537, on core 0
+[0;31mE (135706) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (135706) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (135706) task_wdt: Tasks currently running:[0m
+[0;31mE (135706) task_wdt: CPU 0: Task2[0m
+[0;31mE (135706) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E06:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 13550, on core 0
+task 3 is running at: 13561, on core 0
+task 3 is running at: 14071, on core 0
+task 1 is running at: 14082, on core 0
+task 1 is running at: 14092, on core 0
+task 1 is running at: 14103, on core 0
+task 1 is running at: 14113, on core 0
+task 1 is running at: 14124, on core 0
+task 1 is running at: 14135, on core 0
+task 1 is running at: 14145, on core 0
+task 1 is running at: 14156, on core 0
+task 1 is running at: 14167, on core 0
+task 1 is running at: 14177, on core 0
+task 1 is running at: 14188, on core 0
+task 1 is running at: 14199, on core 0
+task 1 is running at: 14209, on core 0
+task 1 is running at: 14220, on core 0
+task 1 is running at: 14230, on core 0
+task 1 is running at: 14241, on core 0
+task 1 is running at: 14252, on core 0
+task 1 is running at: 14262, on core 0
+task 1 is running at: 14273, on core 0
+task 1 is running at: 14284, on core 0
+task 1 is running at: 14294, on core 0
+task 1 is running at: 14305, on core 0
+task 1 is running at: 14316, on core 0
+task 1 is running at: 14326, on core 0
+task 1 is running at: 14337, on core 0
+task 1 is running at: 14347, on core 0
+task 1 is running at: 14358, on core 0
+task 1 is running at: 14369, on core 0
+task 1 is running at: 14379, on core 0
+task 1 is running at: 14390, on core 0
+task 1 is running at: 14401, on core 0
+task 1 is running at: 14411, on core 0
+task 1 is running at: 14422, on core 0
+task 1 is running at: 14433, on core 0
+task 1 is running at: 14443, on core 0
+task 1 is running at: 14454, on core 0
+task 1 is running at: 14464, on core 0
+task 1 is running at: 14475, on core 0
+task 1 is running at: 14486, on core 0
+task 1 is running at: 14496, on core 0
+task 1 is running at: 14507, on core 0
+task 1 is running at: 14518, on core 0
+task 1 is running at: 14528, on core 0
+task 1 is running at: 14539, on core 0
+task 1 is running at: 14550, on core 0
+task 1 is running at: 14560, on core 0
+[0;31mE (146006) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (146006) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (146006) task_wdt: Tasks currently running:[0m
+[0;31mE (146006) task_wdt: CPU 0: Task1[0m
+[0;31mE (146006) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DDB:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 14574, on core 0
+task 3 is running at: 14581, on core 0
+task 2 is running at: 14592, on core 0
+task 2 is running at: 14602, on core 0
+task 2 is running at: 14613, on core 0
+task 2 is running at: 14623, on core 0
+task 2 is running at: 14634, on core 0
+task 2 is running at: 14645, on core 0
+task 2 is running at: 14655, on core 0
+task 2 is running at: 14666, on core 0
+task 2 is running at: 14677, on core 0
+task 2 is running at: 14687, on core 0
+task 2 is running at: 14698, on core 0
+task 2 is running at: 14709, on core 0
+task 2 is running at: 14719, on core 0
+task 2 is running at: 14730, on core 0
+task 2 is running at: 14740, on core 0
+task 2 is running at: 14751, on core 0
+task 2 is running at: 14762, on core 0
+task 2 is running at: 14772, on core 0
+task 2 is running at: 14783, on core 0
+task 2 is running at: 14794, on core 0
+task 2 is running at: 14804, on core 0
+task 2 is running at: 14815, on core 0
+task 2 is running at: 14826, on core 0
+task 2 is running at: 14836, on core 0
+task 2 is running at: 14847, on core 0
+task 2 is running at: 14857, on core 0
+task 2 is running at: 14868, on core 0
+task 2 is running at: 14879, on core 0
+task 2 is running at: 14889, on core 0
+task 2 is running at: 14900, on core 0
+task 2 is running at: 14911, on core 0
+task 2 is running at: 14921, on core 0
+task 2 is running at: 14932, on core 0
+task 2 is running at: 14943, on core 0
+task 2 is running at: 14953, on core 0
+task 2 is running at: 14964, on core 0
+task 2 is running at: 14975, on core 0
+task 2 is running at: 14985, on core 0
+task 2 is running at: 14996, on core 0
+task 2 is running at: 15006, on core 0
+task 2 is running at: 15017, on core 0
+task 2 is running at: 15028, on core 0
+task 2 is running at: 15038, on core 0
+task 2 is running at: 15049, on core 0
+task 2 is running at: 15060, on core 0
+[0;31mE (151006) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (151006) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (151006) task_wdt: Tasks currently running:[0m
+[0;31mE (151006) task_wdt: CPU 0: Task2[0m
+[0;31mE (151006) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E06:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 15073, on core 0
+task 2 is running at: 15084, on core 0
+task 3 is running at: 15091, on core 0
+task 3 is running at: 15601, on core 0
+task 1 is running at: 15615, on core 0
+task 1 is running at: 15626, on core 0
+task 1 is running at: 15636, on core 0
+task 1 is running at: 15647, on core 0
+task 1 is running at: 15658, on core 0
+task 1 is running at: 15668, on core 0
+task 1 is running at: 15679, on core 0
+task 1 is running at: 15690, on core 0
+task 1 is running at: 15700, on core 0
+task 1 is running at: 15711, on core 0
+task 1 is running at: 15722, on core 0
+task 1 is running at: 15732, on core 0
+task 1 is running at: 15743, on core 0
+task 1 is running at: 15753, on core 0
+task 1 is running at: 15764, on core 0
+task 1 is running at: 15775, on core 0
+task 1 is running at: 15785, on core 0
+task 1 is running at: 15796, on core 0
+task 1 is running at: 15807, on core 0
+task 1 is running at: 15817, on core 0
+task 1 is running at: 15828, on core 0
+task 1 is running at: 15839, on core 0
+task 1 is running at: 15849, on core 0
+task 1 is running at: 15860, on core 0
+task 1 is running at: 15870, on core 0
+task 1 is running at: 15881, on core 0
+task 1 is running at: 15892, on core 0
+task 1 is running at: 15902, on core 0
+task 1 is running at: 15913, on core 0
+task 1 is running at: 15924, on core 0
+task 1 is running at: 15934, on core 0
+task 1 is running at: 15945, on core 0
+task 1 is running at: 15956, on core 0
+task 1 is running at: 15966, on core 0
+task 1 is running at: 15977, on core 0
+task 1 is running at: 15987, on core 0
+task 1 is running at: 15998, on core 0
+task 1 is running at: 16009, on core 0
+task 1 is running at: 16019, on core 0
+task 1 is running at: 16030, on core 0
+task 1 is running at: 16041, on core 0
+task 1 is running at: 16051, on core 0
+task 1 is running at: 16062, on core 0
+task 1 is running at: 16073, on core 0
+task 1 is running at: 16083, on core 0
+task 1 is running at: 16094, on core 0
+[0;31mE (161306) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (161306) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (161306) task_wdt: Tasks currently running:[0m
+[0;31mE (161306) task_wdt: CPU 0: Task1[0m
+[0;31mE (161306) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DDB:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 16107, on core 0
+task 3 is running at: 16111, on core 0
+task 2 is running at: 16125, on core 0
+task 2 is running at: 16136, on core 0
+task 2 is running at: 16146, on core 0
+task 2 is running at: 16157, on core 0
+task 2 is running at: 16168, on core 0
+task 2 is running at: 16178, on core 0
+task 2 is running at: 16189, on core 0
+task 2 is running at: 16200, on core 0
+task 2 is running at: 16210, on core 0
+task 2 is running at: 16221, on core 0
+task 2 is running at: 16232, on core 0
+task 2 is running at: 16242, on core 0
+task 2 is running at: 16253, on core 0
+task 2 is running at: 16263, on core 0
+task 2 is running at: 16274, on core 0
+task 2 is running at: 16285, on core 0
+task 2 is running at: 16295, on core 0
+task 2 is running at: 16306, on core 0
+task 2 is running at: 16317, on core 0
+task 2 is running at: 16327, on core 0
+task 2 is running at: 16338, on core 0
+task 2 is running at: 16349, on core 0
+task 2 is running at: 16359, on core 0
+task 2 is running at: 16370, on core 0
+task 2 is running at: 16380, on core 0
+task 2 is running at: 16391, on core 0
+task 2 is running at: 16402, on core 0
+task 2 is running at: 16412, on core 0
+task 2 is running at: 16423, on core 0
+task 2 is running at: 16434, on core 0
+task 2 is running at: 16444, on core 0
+task 2 is running at: 16455, on core 0
+task 2 is running at: 16466, on core 0
+task 2 is running at: 16476, on core 0
+task 2 is running at: 16487, on core 0
+task 2 is running at: 16497, on core 0
+task 2 is running at: 16508, on core 0
+task 2 is running at: 16519, on core 0
+task 2 is running at: 16529, on core 0
+task 2 is running at: 16540, on core 0
+task 2 is running at: 16551, on core 0
+task 2 is running at: 16561, on core 0
+task 2 is running at: 16572, on core 0
+task 2 is running at: 16583, on core 0
+task 2 is running at: 16593, on core 0
+[0;31mE (166306) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (166306) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (166306) task_wdt: Tasks currently running:[0m
+[0;31mE (166306) task_wdt: CPU 0: Task2[0m
+[0;31mE (166306) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DFD:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 16607, on core 0
+task 2 is running at: 16618, on core 0
+task 3 is running at: 16621, on core 0
+task 3 is running at: 17131, on core 0
+task 1 is running at: 17149, on core 0
+task 1 is running at: 17159, on core 0
+task 1 is running at: 17170, on core 0
+task 1 is running at: 17181, on core 0
+task 1 is running at: 17191, on core 0
+task 1 is running at: 17202, on core 0
+task 1 is running at: 17213, on core 0
+task 1 is running at: 17223, on core 0
+task 1 is running at: 17234, on core 0
+task 1 is running at: 17244, on core 0
+task 1 is running at: 17255, on core 0
+task 1 is running at: 17266, on core 0
+task 1 is running at: 17276, on core 0
+task 1 is running at: 17287, on core 0
+task 1 is running at: 17298, on core 0
+task 1 is running at: 17308, on core 0
+task 1 is running at: 17319, on core 0
+task 1 is running at: 17330, on core 0
+task 1 is running at: 17340, on core 0
+task 1 is running at: 17351, on core 0
+task 1 is running at: 17362, on core 0
+task 1 is running at: 17372, on core 0
+task 1 is running at: 17383, on core 0
+task 1 is running at: 17393, on core 0
+task 1 is running at: 17404, on core 0
+task 1 is running at: 17415, on core 0
+task 1 is running at: 17425, on core 0
+task 1 is running at: 17436, on core 0
+task 1 is running at: 17447, on core 0
+task 1 is running at: 17457, on core 0
+task 1 is running at: 17468, on core 0
+task 1 is running at: 17479, on core 0
+task 1 is running at: 17489, on core 0
+task 1 is running at: 17500, on core 0
+task 1 is running at: 17510, on core 0
+task 1 is running at: 17521, on core 0
+task 1 is running at: 17532, on core 0
+task 1 is running at: 17542, on core 0
+task 1 is running at: 17553, on core 0
+task 1 is running at: 17564, on core 0
+task 1 is running at: 17574, on core 0
+task 1 is running at: 17585, on core 0
+task 1 is running at: 17596, on core 0
+task 1 is running at: 17606, on core 0
+task 1 is running at: 17617, on core 0
+task 1 is running at: 17627, on core 0
+[0;31mE (176606) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (176606) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (176606) task_wdt: Tasks currently running:[0m
+[0;31mE (176606) task_wdt: CPU 0: Task1[0m
+[0;31mE (176606) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DCD:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 3 is running at: 17641, on core 0
+task 2 is running at: 17659, on core 0
+task 2 is running at: 17669, on core 0
+task 2 is running at: 17680, on core 0
+task 2 is running at: 17691, on core 0
+task 2 is running at: 17701, on core 0
+task 2 is running at: 17712, on core 0
+task 2 is running at: 17723, on core 0
+task 2 is running at: 17733, on core 0
+task 2 is running at: 17744, on core 0
+task 2 is running at: 17755, on core 0
+task 2 is running at: 17765, on core 0
+task 2 is running at: 17776, on core 0
+task 2 is running at: 17786, on core 0
+task 2 is running at: 17797, on core 0
+task 2 is running at: 17808, on core 0
+task 2 is running at: 17818, on core 0
+task 2 is running at: 17829, on core 0
+task 2 is running at: 17840, on core 0
+task 2 is running at: 17850, on core 0
+task 2 is running at: 17861, on core 0
+task 2 is running at: 17872, on core 0
+task 2 is running at: 17882, on core 0
+task 2 is running at: 17893, on core 0
+task 2 is running at: 17903, on core 0
+task 2 is running at: 17914, on core 0
+task 2 is running at: 17925, on core 0
+task 2 is running at: 17935, on core 0
+task 2 is running at: 17946, on core 0
+task 2 is running at: 17957, on core 0
+task 2 is running at: 17967, on core 0
+task 2 is running at: 17978, on core 0
+task 2 is running at: 17989, on core 0
+task 2 is running at: 17999, on core 0
+task 2 is running at: 18010, on core 0
+task 2 is running at: 18020, on core 0
+task 2 is running at: 18031, on core 0
+task 2 is running at: 18042, on core 0
+task 2 is running at: 18052, on core 0
+task 2 is running at: 18063, on core 0
+task 2 is running at: 18074, on core 0
+task 2 is running at: 18084, on core 0
+task 2 is running at: 18095, on core 0
+task 2 is running at: 18106, on core 0
+task 2 is running at: 18116, on core 0
+task 2 is running at: 18127, on core 0
+[0;31mE (181606) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (181606) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (181606) task_wdt: Tasks currently running:[0m
+[0;31mE (181606) task_wdt: CPU 0: Task2[0m
+[0;31mE (181606) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E06:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 18141, on core 0
+task 3 is running at: 18151, on core 0
+task 3 is running at: 18661, on core 0
+task 1 is running at: 18672, on core 0
+task 1 is running at: 18682, on core 0
+task 1 is running at: 18693, on core 0
+task 1 is running at: 18704, on core 0
+task 1 is running at: 18714, on core 0
+task 1 is running at: 18725, on core 0
+task 1 is running at: 18736, on core 0
+task 1 is running at: 18746, on core 0
+task 1 is running at: 18757, on core 0
+task 1 is running at: 18767, on core 0
+task 1 is running at: 18778, on core 0
+task 1 is running at: 18789, on core 0
+task 1 is running at: 18799, on core 0
+task 1 is running at: 18810, on core 0
+task 1 is running at: 18821, on core 0
+task 1 is running at: 18831, on core 0
+task 1 is running at: 18842, on core 0
+task 1 is running at: 18853, on core 0
+task 1 is running at: 18863, on core 0
+task 1 is running at: 18874, on core 0
+task 1 is running at: 18884, on core 0
+task 1 is running at: 18895, on core 0
+task 1 is running at: 18906, on core 0
+task 1 is running at: 18916, on core 0
+task 1 is running at: 18927, on core 0
+task 1 is running at: 18938, on core 0
+task 1 is running at: 18948, on core 0
+task 1 is running at: 18959, on core 0
+task 1 is running at: 18970, on core 0
+task 1 is running at: 18980, on core 0
+task 1 is running at: 18991, on core 0
+task 1 is running at: 19002, on core 0
+task 1 is running at: 19012, on core 0
+task 1 is running at: 19023, on core 0
+task 1 is running at: 19033, on core 0
+task 1 is running at: 19044, on core 0
+task 1 is running at: 19055, on core 0
+task 1 is running at: 19065, on core 0
+task 1 is running at: 19076, on core 0
+task 1 is running at: 19087, on core 0
+task 1 is running at: 19097, on core 0
+task 1 is running at: 19108, on core 0
+task 1 is running at: 19119, on core 0
+task 1 is running at: 19129, on core 0
+task 1 is running at: 19140, on core 0
+task 1 is running at: 19150, on core 0
+[0;31mE (191906) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (191906) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (191906) task_wdt: Tasks currently running:[0m
+[0;31mE (191906) task_wdt: CPU 0: Task1[0m
+[0;31mE (191906) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD0:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 19164, on core 0
+task 3 is running at: 19171, on core 0
+task 2 is running at: 19182, on core 0
+task 2 is running at: 19192, on core 0
+task 2 is running at: 19203, on core 0
+task 2 is running at: 19214, on core 0
+task 2 is running at: 19224, on core 0
+task 2 is running at: 19235, on core 0
+task 2 is running at: 19246, on core 0
+task 2 is running at: 19256, on core 0
+task 2 is running at: 19267, on core 0
+task 2 is running at: 19278, on core 0
+task 2 is running at: 19288, on core 0
+task 2 is running at: 19299, on core 0
+task 2 is running at: 19309, on core 0
+task 2 is running at: 19320, on core 0
+task 2 is running at: 19331, on core 0
+task 2 is running at: 19341, on core 0
+task 2 is running at: 19352, on core 0
+task 2 is running at: 19363, on core 0
+task 2 is running at: 19373, on core 0
+task 2 is running at: 19384, on core 0
+task 2 is running at: 19395, on core 0
+task 2 is running at: 19405, on core 0
+task 2 is running at: 19416, on core 0
+task 2 is running at: 19426, on core 0
+task 2 is running at: 19437, on core 0
+task 2 is running at: 19448, on core 0
+task 2 is running at: 19458, on core 0
+task 2 is running at: 19469, on core 0
+task 2 is running at: 19480, on core 0
+task 2 is running at: 19490, on core 0
+task 2 is running at: 19501, on core 0
+task 2 is running at: 19512, on core 0
+task 2 is running at: 19522, on core 0
+task 2 is running at: 19533, on core 0
+task 2 is running at: 19543, on core 0
+task 2 is running at: 19554, on core 0
+task 2 is running at: 19565, on core 0
+task 2 is running at: 19575, on core 0
+task 2 is running at: 19586, on core 0
+task 2 is running at: 19597, on core 0
+task 2 is running at: 19607, on core 0
+task 2 is running at: 19618, on core 0
+task 2 is running at: 19629, on core 0
+task 2 is running at: 19639, on core 0
+task 2 is running at: 19650, on core 0
+[0;31mE (196906) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (196906) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (196906) task_wdt: Tasks currently running:[0m
+[0;31mE (196906) task_wdt: CPU 0: Task2[0m
+[0;31mE (196906) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E0B:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 19663, on core 0
+task 2 is running at: 19674, on core 0
+task 3 is running at: 19681, on core 0
+task 3 is running at: 20191, on core 0
+task 1 is running at: 20205, on core 0
+task 1 is running at: 20216, on core 0
+task 1 is running at: 20227, on core 0
+task 1 is running at: 20237, on core 0
+task 1 is running at: 20248, on core 0
+task 1 is running at: 20259, on core 0
+task 1 is running at: 20269, on core 0
+task 1 is running at: 20280, on core 0
+task 1 is running at: 20290, on core 0
+task 1 is running at: 20301, on core 0
+task 1 is running at: 20312, on core 0
+task 1 is running at: 20322, on core 0
+task 1 is running at: 20333, on core 0
+task 1 is running at: 20344, on core 0
+task 1 is running at: 20354, on core 0
+task 1 is running at: 20365, on core 0
+task 1 is running at: 20376, on core 0
+task 1 is running at: 20386, on core 0
+task 1 is running at: 20397, on core 0
+task 1 is running at: 20407, on core 0
+task 1 is running at: 20418, on core 0
+task 1 is running at: 20429, on core 0
+task 1 is running at: 20439, on core 0
+task 1 is running at: 20450, on core 0
+task 1 is running at: 20461, on core 0
+task 1 is running at: 20471, on core 0
+task 1 is running at: 20482, on core 0
+task 1 is running at: 20493, on core 0
+task 1 is running at: 20503, on core 0
+task 1 is running at: 20514, on core 0
+task 1 is running at: 20525, on core 0
+task 1 is running at: 20535, on core 0
+task 1 is running at: 20546, on core 0
+task 1 is running at: 20556, on core 0
+task 1 is running at: 20567, on core 0
+task 1 is running at: 20578, on core 0
+task 1 is running at: 20588, on core 0
+task 1 is running at: 20599, on core 0
+task 1 is running at: 20610, on core 0
+task 1 is running at: 20620, on core 0
+task 1 is running at: 20631, on core 0
+task 1 is running at: 20642, on core 0
+task 1 is running at: 20652, on core 0
+task 1 is running at: 20663, on core 0
+task 1 is running at: 20673, on core 0
+task 1 is running at: 20684, on core 0
+[0;31mE (207206) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (207206) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (207206) task_wdt: Tasks currently running:[0m
+[0;31mE (207206) task_wdt: CPU 0: Task1[0m
+[0;31mE (207206) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 20698, on core 0
+task 3 is running at: 20701, on core 0
+task 2 is running at: 20715, on core 0
+task 2 is running at: 20726, on core 0
+task 2 is running at: 20737, on core 0
+task 2 is running at: 20747, on core 0
+task 2 is running at: 20758, on core 0
+task 2 is running at: 20769, on core 0
+task 2 is running at: 20779, on core 0
+task 2 is running at: 20790, on core 0
+task 2 is running at: 20801, on core 0
+task 2 is running at: 20811, on core 0
+task 2 is running at: 20822, on core 0
+task 2 is running at: 20832, on core 0
+task 2 is running at: 20843, on core 0
+task 2 is running at: 20854, on core 0
+task 2 is running at: 20864, on core 0
+task 2 is running at: 20875, on core 0
+task 2 is running at: 20886, on core 0
+task 2 is running at: 20896, on core 0
+task 2 is running at: 20907, on core 0
+task 2 is running at: 20918, on core 0
+task 2 is running at: 20928, on core 0
+task 2 is running at: 20939, on core 0
+task 2 is running at: 20949, on core 0
+task 2 is running at: 20960, on core 0
+task 2 is running at: 20971, on core 0
+task 2 is running at: 20981, on core 0
+task 2 is running at: 20992, on core 0
+task 2 is running at: 21003, on core 0
+task 2 is running at: 21013, on core 0
+task 2 is running at: 21024, on core 0
+task 2 is running at: 21035, on core 0
+task 2 is running at: 21045, on core 0
+task 2 is running at: 21056, on core 0
+task 2 is running at: 21066, on core 0
+task 2 is running at: 21077, on core 0
+task 2 is running at: 21088, on core 0
+task 2 is running at: 21098, on core 0
+task 2 is running at: 21109, on core 0
+task 2 is running at: 21120, on core 0
+task 2 is running at: 21130, on core 0
+task 2 is running at: 21141, on core 0
+task 2 is running at: 21152, on core 0
+task 2 is running at: 21162, on core 0
+task 2 is running at: 21173, on core 0
+task 2 is running at: 21183, on core 0
+[0;31mE (212206) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (212206) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (212206) task_wdt: Tasks currently running:[0m
+[0;31mE (212206) task_wdt: CPU 0: Task2[0m
+[0;31mE (212206) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DFD:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 21197, on core 0
+task 2 is running at: 21208, on core 0
+task 3 is running at: 21211, on core 0
+task 3 is running at: 21721, on core 0
+task 1 is running at: 21739, on core 0
+task 1 is running at: 21750, on core 0
+task 1 is running at: 21760, on core 0
+task 1 is running at: 21771, on core 0
+task 1 is running at: 21782, on core 0
+task 1 is running at: 21792, on core 0
+task 1 is running at: 21803, on core 0
+task 1 is running at: 21813, on core 0
+task 1 is running at: 21824, on core 0
+task 1 is running at: 21835, on core 0
+task 1 is running at: 21845, on core 0
+task 1 is running at: 21856, on core 0
+task 1 is running at: 21867, on core 0
+task 1 is running at: 21877, on core 0
+task 1 is running at: 21888, on core 0
+task 1 is running at: 21899, on core 0
+task 1 is running at: 21909, on core 0
+task 1 is running at: 21920, on core 0
+task 1 is running at: 21930, on core 0
+task 1 is running at: 21941, on core 0
+task 1 is running at: 21952, on core 0
+task 1 is running at: 21962, on core 0
+task 1 is running at: 21973, on core 0
+task 1 is running at: 21984, on core 0
+task 1 is running at: 21994, on core 0
+task 1 is running at: 22005, on core 0
+task 1 is running at: 22016, on core 0
+task 1 is running at: 22026, on core 0
+task 1 is running at: 22037, on core 0
+task 1 is running at: 22047, on core 0
+task 1 is running at: 22058, on core 0
+task 1 is running at: 22069, on core 0
+task 1 is running at: 22079, on core 0
+task 1 is running at: 22090, on core 0
+task 1 is running at: 22101, on core 0
+task 1 is running at: 22111, on core 0
+task 1 is running at: 22122, on core 0
+task 1 is running at: 22133, on core 0
+task 1 is running at: 22143, on core 0
+task 1 is running at: 22154, on core 0
+task 1 is running at: 22165, on core 0
+task 1 is running at: 22175, on core 0
+task 1 is running at: 22186, on core 0
+task 1 is running at: 22196, on core 0
+task 1 is running at: 22207, on core 0
+task 1 is running at: 22218, on core 0
+[0;31mE (222506) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (222506) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (222506) task_wdt: Tasks currently running:[0m
+[0;31mE (222506) task_wdt: CPU 0: Task1[0m
+[0;31mE (222506) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 3 is running at: 22231, on core 0
+task 2 is running at: 22249, on core 0
+task 2 is running at: 22260, on core 0
+task 2 is running at: 22270, on core 0
+task 2 is running at: 22281, on core 0
+task 2 is running at: 22292, on core 0
+task 2 is running at: 22302, on core 0
+task 2 is running at: 22313, on core 0
+task 2 is running at: 22324, on core 0
+task 2 is running at: 22334, on core 0
+task 2 is running at: 22345, on core 0
+task 2 is running at: 22355, on core 0
+task 2 is running at: 22366, on core 0
+task 2 is running at: 22377, on core 0
+task 2 is running at: 22387, on core 0
+task 2 is running at: 22398, on core 0
+task 2 is running at: 22409, on core 0
+task 2 is running at: 22419, on core 0
+task 2 is running at: 22430, on core 0
+task 2 is running at: 22441, on core 0
+task 2 is running at: 22451, on core 0
+task 2 is running at: 22462, on core 0
+task 2 is running at: 22472, on core 0
+task 2 is running at: 22483, on core 0
+task 2 is running at: 22494, on core 0
+task 2 is running at: 22504, on core 0
+task 2 is running at: 22515, on core 0
+task 2 is running at: 22526, on core 0
+task 2 is running at: 22536, on core 0
+task 2 is running at: 22547, on core 0
+task 2 is running at: 22558, on core 0
+task 2 is running at: 22568, on core 0
+task 2 is running at: 22579, on core 0
+task 2 is running at: 22589, on core 0
+task 2 is running at: 22600, on core 0
+task 2 is running at: 22611, on core 0
+task 2 is running at: 22621, on core 0
+task 2 is running at: 22632, on core 0
+task 2 is running at: 22643, on core 0
+task 2 is running at: 22653, on core 0
+task 2 is running at: 22664, on core 0
+task 2 is running at: 22675, on core 0
+task 2 is running at: 22685, on core 0
+task 2 is running at: 22696, on core 0
+task 2 is running at: 22706, on core 0
+task 2 is running at: 22717, on core 0
+[0;31mE (227506) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (227506) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (227506) task_wdt: Tasks currently running:[0m
+[0;31mE (227506) task_wdt: CPU 0: Task2[0m
+[0;31mE (227506) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DFD:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 22731, on core 0
+task 3 is running at: 22741, on core 0
+task 3 is running at: 23251, on core 0
+task 1 is running at: 23262, on core 0
+task 1 is running at: 23273, on core 0
+task 1 is running at: 23283, on core 0
+task 1 is running at: 23294, on core 0
+task 1 is running at: 23305, on core 0
+task 1 is running at: 23315, on core 0
+task 1 is running at: 23326, on core 0
+task 1 is running at: 23336, on core 0
+task 1 is running at: 23347, on core 0
+task 1 is running at: 23358, on core 0
+task 1 is running at: 23368, on core 0
+task 1 is running at: 23379, on core 0
+task 1 is running at: 23390, on core 0
+task 1 is running at: 23400, on core 0
+task 1 is running at: 23411, on core 0
+task 1 is running at: 23422, on core 0
+task 1 is running at: 23432, on core 0
+task 1 is running at: 23443, on core 0
+task 1 is running at: 23453, on core 0
+task 1 is running at: 23464, on core 0
+task 1 is running at: 23475, on core 0
+task 1 is running at: 23485, on core 0
+task 1 is running at: 23496, on core 0
+task 1 is running at: 23507, on core 0
+task 1 is running at: 23517, on core 0
+task 1 is running at: 23528, on core 0
+task 1 is running at: 23539, on core 0
+task 1 is running at: 23549, on core 0
+task 1 is running at: 23560, on core 0
+task 1 is running at: 23570, on core 0
+task 1 is running at: 23581, on core 0
+task 1 is running at: 23592, on core 0
+task 1 is running at: 23602, on core 0
+task 1 is running at: 23613, on core 0
+task 1 is running at: 23624, on core 0
+task 1 is running at: 23634, on core 0
+task 1 is running at: 23645, on core 0
+task 1 is running at: 23656, on core 0
+task 1 is running at: 23666, on core 0
+task 1 is running at: 23677, on core 0
+task 1 is running at: 23687, on core 0
+task 1 is running at: 23698, on core 0
+task 1 is running at: 23709, on core 0
+task 1 is running at: 23719, on core 0
+task 1 is running at: 23730, on core 0
+task 1 is running at: 23741, on core 0
+[0;31mE (237806) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (237806) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (237806) task_wdt: Tasks currently running:[0m
+[0;31mE (237806) task_wdt: CPU 0: Task1[0m
+[0;31mE (237806) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DCD:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 23754, on core 0
+task 3 is running at: 23761, on core 0
+task 2 is running at: 23772, on core 0
+task 2 is running at: 23783, on core 0
+task 2 is running at: 23793, on core 0
+task 2 is running at: 23804, on core 0
+task 2 is running at: 23815, on core 0
+task 2 is running at: 23825, on core 0
+task 2 is running at: 23836, on core 0
+task 2 is running at: 23846, on core 0
+task 2 is running at: 23857, on core 0
+task 2 is running at: 23868, on core 0
+task 2 is running at: 23878, on core 0
+task 2 is running at: 23889, on core 0
+task 2 is running at: 23900, on core 0
+task 2 is running at: 23910, on core 0
+task 2 is running at: 23921, on core 0
+task 2 is running at: 23932, on core 0
+task 2 is running at: 23942, on core 0
+task 2 is running at: 23953, on core 0
+task 2 is running at: 23964, on core 0
+task 2 is running at: 23974, on core 0
+task 2 is running at: 23985, on core 0
+task 2 is running at: 23995, on core 0
+task 2 is running at: 24006, on core 0
+task 2 is running at: 24017, on core 0
+task 2 is running at: 24027, on core 0
+task 2 is running at: 24038, on core 0
+task 2 is running at: 24049, on core 0
+task 2 is running at: 24059, on core 0
+task 2 is running at: 24070, on core 0
+task 2 is running at: 24081, on core 0
+task 2 is running at: 24091, on core 0
+task 2 is running at: 24102, on core 0
+task 2 is running at: 24112, on core 0
+task 2 is running at: 24123, on core 0
+task 2 is running at: 24134, on core 0
+task 2 is running at: 24144, on core 0
+task 2 is running at: 24155, on core 0
+task 2 is running at: 24166, on core 0
+task 2 is running at: 24176, on core 0
+task 2 is running at: 24187, on core 0
+task 2 is running at: 24198, on core 0
+task 2 is running at: 24208, on core 0
+task 2 is running at: 24219, on core 0
+task 2 is running at: 24229, on core 0
+task 2 is running at: 24240, on core 0
+[0;31mE (242806) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (242806) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (242806) task_wdt: Tasks currently running:[0m
+[0;31mE (242806) task_wdt: CPU 0: Task2[0m
+[0;31mE (242806) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E00:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 24254, on core 0
+task 2 is running at: 24264, on core 0
+task 3 is running at: 24271, on core 0
+task 3 is running at: 24781, on core 0
+task 1 is running at: 24796, on core 0
+task 1 is running at: 24806, on core 0
+task 1 is running at: 24817, on core 0
+task 1 is running at: 24828, on core 0
+task 1 is running at: 24838, on core 0
+task 1 is running at: 24849, on core 0
+task 1 is running at: 24859, on core 0
+task 1 is running at: 24870, on core 0
+task 1 is running at: 24881, on core 0
+task 1 is running at: 24891, on core 0
+task 1 is running at: 24902, on core 0
+task 1 is running at: 24913, on core 0
+task 1 is running at: 24923, on core 0
+task 1 is running at: 24934, on core 0
+task 1 is running at: 24945, on core 0
+task 1 is running at: 24955, on core 0
+task 1 is running at: 24966, on core 0
+task 1 is running at: 24976, on core 0
+task 1 is running at: 24987, on core 0
+task 1 is running at: 24998, on core 0
+task 1 is running at: 25008, on core 0
+task 1 is running at: 25019, on core 0
+task 1 is running at: 25030, on core 0
+task 1 is running at: 25040, on core 0
+task 1 is running at: 25051, on core 0
+task 1 is running at: 25062, on core 0
+task 1 is running at: 25072, on core 0
+task 1 is running at: 25083, on core 0
+task 1 is running at: 25093, on core 0
+task 1 is running at: 25104, on core 0
+task 1 is running at: 25115, on core 0
+task 1 is running at: 25125, on core 0
+task 1 is running at: 25136, on core 0
+task 1 is running at: 25147, on core 0
+task 1 is running at: 25157, on core 0
+task 1 is running at: 25168, on core 0
+task 1 is running at: 25179, on core 0
+task 1 is running at: 25189, on core 0
+task 1 is running at: 25200, on core 0
+task 1 is running at: 25210, on core 0
+task 1 is running at: 25221, on core 0
+task 1 is running at: 25232, on core 0
+task 1 is running at: 25242, on core 0
+task 1 is running at: 25253, on core 0
+task 1 is running at: 25264, on core 0
+task 1 is running at: 25274, on core 0
+[0;31mE (253106) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (253106) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (253106) task_wdt: Tasks currently running:[0m
+[0;31mE (253106) task_wdt: CPU 0: Task1[0m
+[0;31mE (253106) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD0:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 25288, on core 0
+task 3 is running at: 25291, on core 0
+task 2 is running at: 25306, on core 0
+task 2 is running at: 25316, on core 0
+task 2 is running at: 25327, on core 0
+task 2 is running at: 25338, on core 0
+task 2 is running at: 25348, on core 0
+task 2 is running at: 25359, on core 0
+task 2 is running at: 25369, on core 0
+task 2 is running at: 25380, on core 0
+task 2 is running at: 25391, on core 0
+task 2 is running at: 25401, on core 0
+task 2 is running at: 25412, on core 0
+task 2 is running at: 25423, on core 0
+task 2 is running at: 25433, on core 0
+task 2 is running at: 25444, on core 0
+task 2 is running at: 25455, on core 0
+task 2 is running at: 25465, on core 0
+task 2 is running at: 25476, on core 0
+task 2 is running at: 25486, on core 0
+task 2 is running at: 25497, on core 0
+task 2 is running at: 25508, on core 0
+task 2 is running at: 25518, on core 0
+task 2 is running at: 25529, on core 0
+task 2 is running at: 25540, on core 0
+task 2 is running at: 25550, on core 0
+task 2 is running at: 25561, on core 0
+task 2 is running at: 25572, on core 0
+task 2 is running at: 25582, on core 0
+task 2 is running at: 25593, on core 0
+task 2 is running at: 25604, on core 0
+task 2 is running at: 25614, on core 0
+task 2 is running at: 25625, on core 0
+task 2 is running at: 25635, on core 0
+task 2 is running at: 25646, on core 0
+task 2 is running at: 25657, on core 0
+task 2 is running at: 25667, on core 0
+task 2 is running at: 25678, on core 0
+task 2 is running at: 25689, on core 0
+task 2 is running at: 25699, on core 0
+task 2 is running at: 25710, on core 0
+task 2 is running at: 25721, on core 0
+task 2 is running at: 25731, on core 0
+task 2 is running at: 25742, on core 0
+task 2 is running at: 25752, on core 0
+task 2 is running at: 25763, on core 0
+task 2 is running at: 25774, on core 0
+[0;31mE (258106) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (258106) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (258106) task_wdt: Tasks currently running:[0m
+[0;31mE (258106) task_wdt: CPU 0: Task2[0m
+[0;31mE (258106) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E06:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 25787, on core 0
+task 2 is running at: 25798, on core 0
+task 3 is running at: 25801, on core 0
+task 3 is running at: 26311, on core 0
+task 1 is running at: 26329, on core 0
+task 1 is running at: 26340, on core 0
+task 1 is running at: 26351, on core 0
+task 1 is running at: 26361, on core 0
+task 1 is running at: 26372, on core 0
+task 1 is running at: 26382, on core 0
+task 1 is running at: 26393, on core 0
+task 1 is running at: 26404, on core 0
+task 1 is running at: 26414, on core 0
+task 1 is running at: 26425, on core 0
+task 1 is running at: 26436, on core 0
+task 1 is running at: 26446, on core 0
+task 1 is running at: 26457, on core 0
+task 1 is running at: 26468, on core 0
+task 1 is running at: 26478, on core 0
+task 1 is running at: 26489, on core 0
+task 1 is running at: 26499, on core 0
+task 1 is running at: 26510, on core 0
+task 1 is running at: 26521, on core 0
+task 1 is running at: 26531, on core 0
+task 1 is running at: 26542, on core 0
+task 1 is running at: 26553, on core 0
+task 1 is running at: 26563, on core 0
+task 1 is running at: 26574, on core 0
+task 1 is running at: 26585, on core 0
+task 1 is running at: 26595, on core 0
+task 1 is running at: 26606, on core 0
+task 1 is running at: 26616, on core 0
+task 1 is running at: 26627, on core 0
+task 1 is running at: 26638, on core 0
+task 1 is running at: 26648, on core 0
+task 1 is running at: 26659, on core 0
+task 1 is running at: 26670, on core 0
+task 1 is running at: 26680, on core 0
+task 1 is running at: 26691, on core 0
+task 1 is running at: 26702, on core 0
+task 1 is running at: 26712, on core 0
+task 1 is running at: 26723, on core 0
+task 1 is running at: 26733, on core 0
+task 1 is running at: 26744, on core 0
+task 1 is running at: 26755, on core 0
+task 1 is running at: 26765, on core 0
+task 1 is running at: 26776, on core 0
+task 1 is running at: 26787, on core 0
+task 1 is running at: 26797, on core 0
+task 1 is running at: 26808, on core 0
+[0;31mE (268406) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (268406) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (268406) task_wdt: Tasks currently running:[0m
+[0;31mE (268406) task_wdt: CPU 0: Task1[0m
+[0;31mE (268406) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 3 is running at: 26821, on core 0
+task 2 is running at: 26839, on core 0
+task 2 is running at: 26850, on core 0
+task 2 is running at: 26861, on core 0
+task 2 is running at: 26871, on core 0
+task 2 is running at: 26882, on core 0
+task 2 is running at: 26892, on core 0
+task 2 is running at: 26903, on core 0
+task 2 is running at: 26914, on core 0
+task 2 is running at: 26924, on core 0
+task 2 is running at: 26935, on core 0
+task 2 is running at: 26946, on core 0
+task 2 is running at: 26956, on core 0
+task 2 is running at: 26967, on core 0
+task 2 is running at: 26978, on core 0
+task 2 is running at: 26988, on core 0
+task 2 is running at: 26999, on core 0
+task 2 is running at: 27009, on core 0
+task 2 is running at: 27020, on core 0
+task 2 is running at: 27031, on core 0
+task 2 is running at: 27041, on core 0
+task 2 is running at: 27052, on core 0
+task 2 is running at: 27063, on core 0
+task 2 is running at: 27073, on core 0
+task 2 is running at: 27084, on core 0
+task 2 is running at: 27095, on core 0
+task 2 is running at: 27105, on core 0
+task 2 is running at: 27116, on core 0
+task 2 is running at: 27127, on core 0
+task 2 is running at: 27137, on core 0
+task 2 is running at: 27148, on core 0
+task 2 is running at: 27158, on core 0
+task 2 is running at: 27169, on core 0
+task 2 is running at: 27180, on core 0
+task 2 is running at: 27190, on core 0
+task 2 is running at: 27201, on core 0
+task 2 is running at: 27212, on core 0
+task 2 is running at: 27222, on core 0
+task 2 is running at: 27233, on core 0
+task 2 is running at: 27244, on core 0
+task 2 is running at: 27254, on core 0
+task 2 is running at: 27265, on core 0
+task 2 is running at: 27275, on core 0
+task 2 is running at: 27286, on core 0
+task 2 is running at: 27297, on core 0
+task 2 is running at: 27307, on core 0
+[0;31mE (273406) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (273406) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (273406) task_wdt: Tasks currently running:[0m
+[0;31mE (273406) task_wdt: CPU 0: Task2[0m
+[0;31mE (273406) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E06:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 27321, on core 0
+task 3 is running at: 27331, on core 0
+task 3 is running at: 27841, on core 0
+task 1 is running at: 27852, on core 0
+task 1 is running at: 27863, on core 0
+task 1 is running at: 27873, on core 0
+task 1 is running at: 27884, on core 0
+task 1 is running at: 27895, on core 0
+task 1 is running at: 27905, on core 0
+task 1 is running at: 27916, on core 0
+task 1 is running at: 27927, on core 0
+task 1 is running at: 27937, on core 0
+task 1 is running at: 27948, on core 0
+task 1 is running at: 27959, on core 0
+task 1 is running at: 27969, on core 0
+task 1 is running at: 27980, on core 0
+task 1 is running at: 27991, on core 0
+task 1 is running at: 28001, on core 0
+task 1 is running at: 28012, on core 0
+task 1 is running at: 28022, on core 0
+task 1 is running at: 28033, on core 0
+task 1 is running at: 28044, on core 0
+task 1 is running at: 28054, on core 0
+task 1 is running at: 28065, on core 0
+task 1 is running at: 28076, on core 0
+task 1 is running at: 28086, on core 0
+task 1 is running at: 28097, on core 0
+task 1 is running at: 28108, on core 0
+task 1 is running at: 28118, on core 0
+task 1 is running at: 28129, on core 0
+task 1 is running at: 28139, on core 0
+task 1 is running at: 28150, on core 0
+task 1 is running at: 28161, on core 0
+task 1 is running at: 28171, on core 0
+task 1 is running at: 28182, on core 0
+task 1 is running at: 28193, on core 0
+task 1 is running at: 28203, on core 0
+task 1 is running at: 28214, on core 0
+task 1 is running at: 28225, on core 0
+task 1 is running at: 28235, on core 0
+task 1 is running at: 28246, on core 0
+task 1 is running at: 28256, on core 0
+task 1 is running at: 28267, on core 0
+task 1 is running at: 28278, on core 0
+task 1 is running at: 28288, on core 0
+task 1 is running at: 28299, on core 0
+task 1 is running at: 28310, on core 0
+task 1 is running at: 28320, on core 0
+task 1 is running at: 28331, on core 0
+[0;31mE (283706) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (283706) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (283706) task_wdt: Tasks currently running:[0m
+[0;31mE (283706) task_wdt: CPU 0: Task1[0m
+[0;31mE (283706) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DDB:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 28345, on core 0
+task 3 is running at: 28351, on core 0
+task 2 is running at: 28362, on core 0
+task 2 is running at: 28373, on core 0
+task 2 is running at: 28384, on core 0
+task 2 is running at: 28394, on core 0
+task 2 is running at: 28405, on core 0
+task 2 is running at: 28415, on core 0
+task 2 is running at: 28426, on core 0
+task 2 is running at: 28437, on core 0
+task 2 is running at: 28447, on core 0
+task 2 is running at: 28458, on core 0
+task 2 is running at: 28469, on core 0
+task 2 is running at: 28479, on core 0
+task 2 is running at: 28490, on core 0
+task 2 is running at: 28501, on core 0
+task 2 is running at: 28511, on core 0
+task 2 is running at: 28522, on core 0
+task 2 is running at: 28532, on core 0
+task 2 is running at: 28543, on core 0
+task 2 is running at: 28554, on core 0
+task 2 is running at: 28564, on core 0
+task 2 is running at: 28575, on core 0
+task 2 is running at: 28586, on core 0
+task 2 is running at: 28596, on core 0
+task 2 is running at: 28607, on core 0
+task 2 is running at: 28618, on core 0
+task 2 is running at: 28628, on core 0
+task 2 is running at: 28639, on core 0
+task 2 is running at: 28649, on core 0
+task 2 is running at: 28660, on core 0
+task 2 is running at: 28671, on core 0
+task 2 is running at: 28681, on core 0
+task 2 is running at: 28692, on core 0
+task 2 is running at: 28703, on core 0
+task 2 is running at: 28713, on core 0
+task 2 is running at: 28724, on core 0
+task 2 is running at: 28735, on core 0
+task 2 is running at: 28745, on core 0
+task 2 is running at: 28756, on core 0
+task 2 is running at: 28767, on core 0
+task 2 is running at: 28777, on core 0
+task 2 is running at: 28788, on core 0
+task 2 is running at: 28798, on core 0
+task 2 is running at: 28809, on core 0
+task 2 is running at: 28820, on core 0
+task 2 is running at: 28830, on core 0
+[0;31mE (288706) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (288706) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (288706) task_wdt: Tasks currently running:[0m
+[0;31mE (288706) task_wdt: CPU 0: Task2[0m
+[0;31mE (288706) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E0B:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 28844, on core 0
+task 2 is running at: 28855, on core 0
+task 3 is running at: 28861, on core 0
+task 3 is running at: 29371, on core 0
+task 1 is running at: 29386, on core 0
+task 1 is running at: 29396, on core 0
+task 1 is running at: 29407, on core 0
+task 1 is running at: 29418, on core 0
+task 1 is running at: 29428, on core 0
+task 1 is running at: 29439, on core 0
+task 1 is running at: 29450, on core 0
+task 1 is running at: 29460, on core 0
+task 1 is running at: 29471, on core 0
+task 1 is running at: 29482, on core 0
+task 1 is running at: 29492, on core 0
+task 1 is running at: 29503, on core 0
+task 1 is running at: 29513, on core 0
+task 1 is running at: 29524, on core 0
+task 1 is running at: 29535, on core 0
+task 1 is running at: 29545, on core 0
+task 1 is running at: 29556, on core 0
+task 1 is running at: 29567, on core 0
+task 1 is running at: 29577, on core 0
+task 1 is running at: 29588, on core 0
+task 1 is running at: 29599, on core 0
+task 1 is running at: 29609, on core 0
+task 1 is running at: 29620, on core 0
+task 1 is running at: 29631, on core 0
+task 1 is running at: 29641, on core 0
+task 1 is running at: 29652, on core 0
+task 1 is running at: 29662, on core 0
+task 1 is running at: 29673, on core 0
+task 1 is running at: 29684, on core 0
+task 1 is running at: 29694, on core 0
+task 1 is running at: 29705, on core 0
+task 1 is running at: 29716, on core 0
+task 1 is running at: 29726, on core 0
+task 1 is running at: 29737, on core 0
+task 1 is running at: 29748, on core 0
+task 1 is running at: 29758, on core 0
+task 1 is running at: 29769, on core 0
+task 1 is running at: 29779, on core 0
+task 1 is running at: 29790, on core 0
+task 1 is running at: 29801, on core 0
+task 1 is running at: 29811, on core 0
+task 1 is running at: 29822, on core 0
+task 1 is running at: 29833, on core 0
+task 1 is running at: 29843, on core 0
+task 1 is running at: 29854, on core 0
+task 1 is running at: 29865, on core 0
+[0;31mE (299006) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (299006) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (299006) task_wdt: Tasks currently running:[0m
+[0;31mE (299006) task_wdt: CPU 0: Task1[0m
+[0;31mE (299006) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DDB:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 29878, on core 0
+task 3 is running at: 29881, on core 0
+task 2 is running at: 29896, on core 0
+task 2 is running at: 29907, on core 0
+task 2 is running at: 29917, on core 0
+task 2 is running at: 29928, on core 0
+task 2 is running at: 29938, on core 0
+task 2 is running at: 29949, on core 0
+task 2 is running at: 29960, on core 0
+task 2 is running at: 29970, on core 0
+task 2 is running at: 29981, on core 0
+task 2 is running at: 29992, on core 0
+task 2 is running at: 30002, on core 0
+task 2 is running at: 30013, on core 0
+task 2 is running at: 30024, on core 0
+task 2 is running at: 30034, on core 0
+task 2 is running at: 30045, on core 0
+task 2 is running at: 30055, on core 0
+task 2 is running at: 30066, on core 0
+task 2 is running at: 30077, on core 0
+task 2 is running at: 30087, on core 0
+task 2 is running at: 30098, on core 0
+task 2 is running at: 30109, on core 0
+task 2 is running at: 30119, on core 0
+task 2 is running at: 30130, on core 0
+task 2 is running at: 30141, on core 0
+task 2 is running at: 30151, on core 0
+task 2 is running at: 30162, on core 0
+task 2 is running at: 30172, on core 0
+task 2 is running at: 30183, on core 0
+task 2 is running at: 30194, on core 0
+task 2 is running at: 30204, on core 0
+task 2 is running at: 30215, on core 0
+task 2 is running at: 30226, on core 0
+task 2 is running at: 30236, on core 0
+task 2 is running at: 30247, on core 0
+task 2 is running at: 30258, on core 0
+task 2 is running at: 30268, on core 0
+task 2 is running at: 30279, on core 0
+task 2 is running at: 30289, on core 0
+task 2 is running at: 30300, on core 0
+task 2 is running at: 30311, on core 0
+task 2 is running at: 30321, on core 0
+task 2 is running at: 30332, on core 0
+task 2 is running at: 30343, on core 0
+task 2 is running at: 30353, on core 0
+task 2 is running at: 30364, on core 0
+[0;31mE (304006) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (304006) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (304006) task_wdt: Tasks currently running:[0m
+[0;31mE (304006) task_wdt: CPU 0: Task2[0m
+[0;31mE (304006) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E00:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 30378, on core 0
+task 2 is running at: 30388, on core 0
+task 3 is running at: 30391, on core 0
+task 3 is running at: 30901, on core 0
+task 1 is running at: 30919, on core 0
+task 1 is running at: 30930, on core 0
+task 1 is running at: 30941, on core 0
+task 1 is running at: 30951, on core 0
+task 1 is running at: 30962, on core 0
+task 1 is running at: 30973, on core 0
+task 1 is running at: 30983, on core 0
+task 1 is running at: 30994, on core 0
+task 1 is running at: 31005, on core 0
+task 1 is running at: 31015, on core 0
+task 1 is running at: 31026, on core 0
+task 1 is running at: 31036, on core 0
+task 1 is running at: 31047, on core 0
+task 1 is running at: 31058, on core 0
+task 1 is running at: 31068, on core 0
+task 1 is running at: 31079, on core 0
+task 1 is running at: 31090, on core 0
+task 1 is running at: 31100, on core 0
+task 1 is running at: 31111, on core 0
+task 1 is running at: 31122, on core 0
+task 1 is running at: 31132, on core 0
+task 1 is running at: 31143, on core 0
+task 1 is running at: 31154, on core 0
+task 1 is running at: 31164, on core 0
+task 1 is running at: 31175, on core 0
+task 1 is running at: 31185, on core 0
+task 1 is running at: 31196, on core 0
+task 1 is running at: 31207, on core 0
+task 1 is running at: 31217, on core 0
+task 1 is running at: 31228, on core 0
+task 1 is running at: 31239, on core 0
+task 1 is running at: 31249, on core 0
+task 1 is running at: 31260, on core 0
+task 1 is running at: 31271, on core 0
+task 1 is running at: 31281, on core 0
+task 1 is running at: 31292, on core 0
+task 1 is running at: 31302, on core 0
+task 1 is running at: 31313, on core 0
+task 1 is running at: 31324, on core 0
+task 1 is running at: 31334, on core 0
+task 1 is running at: 31345, on core 0
+task 1 is running at: 31356, on core 0
+task 1 is running at: 31366, on core 0
+task 1 is running at: 31377, on core 0
+task 1 is running at: 31388, on core 0
+task 1 is running at: 31398, on core 0
+[0;31mE (314306) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (314306) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (314306) task_wdt: Tasks currently running:[0m
+[0;31mE (314306) task_wdt: CPU 0: Task1[0m
+[0;31mE (314306) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DDB:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 3 is running at: 31411, on core 0
+task 2 is running at: 31430, on core 0
+task 2 is running at: 31440, on core 0
+task 2 is running at: 31451, on core 0
+task 2 is running at: 31461, on core 0
+task 2 is running at: 31472, on core 0
+task 2 is running at: 31483, on core 0
+task 2 is running at: 31493, on core 0
+task 2 is running at: 31504, on core 0
+task 2 is running at: 31515, on core 0
+task 2 is running at: 31525, on core 0
+task 2 is running at: 31536, on core 0
+task 2 is running at: 31547, on core 0
+task 2 is running at: 31557, on core 0
+task 2 is running at: 31568, on core 0
+task 2 is running at: 31578, on core 0
+task 2 is running at: 31589, on core 0
+task 2 is running at: 31600, on core 0
+task 2 is running at: 31610, on core 0
+task 2 is running at: 31621, on core 0
+task 2 is running at: 31632, on core 0
+task 2 is running at: 31642, on core 0
+task 2 is running at: 31653, on core 0
+task 2 is running at: 31664, on core 0
+task 2 is running at: 31674, on core 0
+task 2 is running at: 31685, on core 0
+task 2 is running at: 31695, on core 0
+task 2 is running at: 31706, on core 0
+task 2 is running at: 31717, on core 0
+task 2 is running at: 31727, on core 0
+task 2 is running at: 31738, on core 0
+task 2 is running at: 31749, on core 0
+task 2 is running at: 31759, on core 0
+task 2 is running at: 31770, on core 0
+task 2 is running at: 31781, on core 0
+task 2 is running at: 31791, on core 0
+task 2 is running at: 31802, on core 0
+task 2 is running at: 31812, on core 0
+task 2 is running at: 31823, on core 0
+task 2 is running at: 31834, on core 0
+task 2 is running at: 31844, on core 0
+task 2 is running at: 31855, on core 0
+task 2 is running at: 31866, on core 0
+task 2 is running at: 31876, on core 0
+task 2 is running at: 31887, on core 0
+task 2 is running at: 31898, on core 0
+[0;31mE (319306) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (319306) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (319306) task_wdt: Tasks currently running:[0m
+[0;31mE (319306) task_wdt: CPU 0: Task2[0m
+[0;31mE (319306) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E06:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 31911, on core 0
+task 3 is running at: 31921, on core 0
+task 3 is running at: 32431, on core 0
+task 1 is running at: 32442, on core 0
+task 1 is running at: 32453, on core 0
+task 1 is running at: 32464, on core 0
+task 1 is running at: 32474, on core 0
+task 1 is running at: 32485, on core 0
+task 1 is running at: 32496, on core 0
+task 1 is running at: 32506, on core 0
+task 1 is running at: 32517, on core 0
+task 1 is running at: 32528, on core 0
+task 1 is running at: 32538, on core 0
+task 1 is running at: 32549, on core 0
+task 1 is running at: 32559, on core 0
+task 1 is running at: 32570, on core 0
+task 1 is running at: 32581, on core 0
+task 1 is running at: 32591, on core 0
+task 1 is running at: 32602, on core 0
+task 1 is running at: 32613, on core 0
+task 1 is running at: 32623, on core 0
+task 1 is running at: 32634, on core 0
+task 1 is running at: 32645, on core 0
+task 1 is running at: 32655, on core 0
+task 1 is running at: 32666, on core 0
+task 1 is running at: 32676, on core 0
+task 1 is running at: 32687, on core 0
+task 1 is running at: 32698, on core 0
+task 1 is running at: 32708, on core 0
+task 1 is running at: 32719, on core 0
+task 1 is running at: 32730, on core 0
+task 1 is running at: 32740, on core 0
+task 1 is running at: 32751, on core 0
+task 1 is running at: 32762, on core 0
+task 1 is running at: 32772, on core 0
+task 1 is running at: 32783, on core 0
+task 1 is running at: 32794, on core 0
+task 1 is running at: 32804, on core 0
+task 1 is running at: 32815, on core 0
+task 1 is running at: 32825, on core 0
+task 1 is running at: 32836, on core 0
+task 1 is running at: 32847, on core 0
+task 1 is running at: 32857, on core 0
+task 1 is running at: 32868, on core 0
+task 1 is running at: 32879, on core 0
+task 1 is running at: 32889, on core 0
+task 1 is running at: 32900, on core 0
+task 1 is running at: 32911, on core 0
+task 1 is running at: 32921, on core 0
+[0;31mE (329606) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (329606) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (329606) task_wdt: Tasks currently running:[0m
+[0;31mE (329606) task_wdt: CPU 0: Task1[0m
+[0;31mE (329606) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 32935, on core 0
+task 3 is running at: 32941, on core 0
+task 2 is running at: 32953, on core 0
+task 2 is running at: 32963, on core 0
+task 2 is running at: 32974, on core 0
+task 2 is running at: 32984, on core 0
+task 2 is running at: 32995, on core 0
+task 2 is running at: 33006, on core 0
+task 2 is running at: 33016, on core 0
+task 2 is running at: 33027, on core 0
+task 2 is running at: 33038, on core 0
+task 2 is running at: 33048, on core 0
+task 2 is running at: 33059, on core 0
+task 2 is running at: 33070, on core 0
+task 2 is running at: 33080, on core 0
+task 2 is running at: 33091, on core 0
+task 2 is running at: 33101, on core 0
+task 2 is running at: 33112, on core 0
+task 2 is running at: 33123, on core 0
+task 2 is running at: 33133, on core 0
+task 2 is running at: 33144, on core 0
+task 2 is running at: 33155, on core 0
+task 2 is running at: 33165, on core 0
+task 2 is running at: 33176, on core 0
+task 2 is running at: 33187, on core 0
+task 2 is running at: 33197, on core 0
+task 2 is running at: 33208, on core 0
+task 2 is running at: 33218, on core 0
+task 2 is running at: 33229, on core 0
+task 2 is running at: 33240, on core 0
+task 2 is running at: 33250, on core 0
+task 2 is running at: 33261, on core 0
+task 2 is running at: 33272, on core 0
+task 2 is running at: 33282, on core 0
+task 2 is running at: 33293, on core 0
+task 2 is running at: 33304, on core 0
+task 2 is running at: 33314, on core 0
+task 2 is running at: 33325, on core 0
+task 2 is running at: 33335, on core 0
+task 2 is running at: 33346, on core 0
+task 2 is running at: 33357, on core 0
+task 2 is running at: 33367, on core 0
+task 2 is running at: 33378, on core 0
+task 2 is running at: 33389, on core 0
+task 2 is running at: 33399, on core 0
+task 2 is running at: 33410, on core 0
+task 2 is running at: 33421, on core 0
+[0;31mE (334606) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (334606) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (334606) task_wdt: Tasks currently running:[0m
+[0;31mE (334606) task_wdt: CPU 0: Task2[0m
+[0;31mE (334606) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E0B:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 33434, on core 0
+task 2 is running at: 33445, on core 0
+task 3 is running at: 33451, on core 0
+task 3 is running at: 33961, on core 0
+task 1 is running at: 33976, on core 0
+task 1 is running at: 33987, on core 0
+task 1 is running at: 33997, on core 0
+task 1 is running at: 34008, on core 0
+task 1 is running at: 34019, on core 0
+task 1 is running at: 34029, on core 0
+task 1 is running at: 34040, on core 0
+task 1 is running at: 34051, on core 0
+task 1 is running at: 34061, on core 0
+task 1 is running at: 34072, on core 0
+task 1 is running at: 34082, on core 0
+task 1 is running at: 34093, on core 0
+task 1 is running at: 34104, on core 0
+task 1 is running at: 34114, on core 0
+task 1 is running at: 34125, on core 0
+task 1 is running at: 34136, on core 0
+task 1 is running at: 34146, on core 0
+task 1 is running at: 34157, on core 0
+task 1 is running at: 34168, on core 0
+task 1 is running at: 34178, on core 0
+task 1 is running at: 34189, on core 0
+task 1 is running at: 34199, on core 0
+task 1 is running at: 34210, on core 0
+task 1 is running at: 34221, on core 0
+task 1 is running at: 34231, on core 0
+task 1 is running at: 34242, on core 0
+task 1 is running at: 34253, on core 0
+task 1 is running at: 34263, on core 0
+task 1 is running at: 34274, on core 0
+task 1 is running at: 34285, on core 0
+task 1 is running at: 34295, on core 0
+task 1 is running at: 34306, on core 0
+task 1 is running at: 34316, on core 0
+task 1 is running at: 34327, on core 0
+task 1 is running at: 34338, on core 0
+task 1 is running at: 34348, on core 0
+task 1 is running at: 34359, on core 0
+task 1 is running at: 34370, on core 0
+task 1 is running at: 34380, on core 0
+task 1 is running at: 34391, on core 0
+task 1 is running at: 34402, on core 0
+task 1 is running at: 34412, on core 0
+task 1 is running at: 34423, on core 0
+task 1 is running at: 34434, on core 0
+task 1 is running at: 34444, on core 0
+task 1 is running at: 34455, on core 0
+[0;31mE (344906) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (344906) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (344906) task_wdt: Tasks currently running:[0m
+[0;31mE (344906) task_wdt: CPU 0: Task1[0m
+[0;31mE (344906) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 34468, on core 0
+task 3 is running at: 34471, on core 0
+task 2 is running at: 34486, on core 0
+task 2 is running at: 34497, on core 0
+task 2 is running at: 34507, on core 0
+task 2 is running at: 34518, on core 0
+task 2 is running at: 34529, on core 0
+task 2 is running at: 34539, on core 0
+task 2 is running at: 34550, on core 0
+task 2 is running at: 34561, on core 0
+task 2 is running at: 34571, on core 0
+task 2 is running at: 34582, on core 0
+task 2 is running at: 34593, on core 0
+task 2 is running at: 34603, on core 0
+task 2 is running at: 34614, on core 0
+task 2 is running at: 34624, on core 0
+task 2 is running at: 34635, on core 0
+task 2 is running at: 34646, on core 0
+task 2 is running at: 34656, on core 0
+task 2 is running at: 34667, on core 0
+task 2 is running at: 34678, on core 0
+task 2 is running at: 34688, on core 0
+task 2 is running at: 34699, on core 0
+task 2 is running at: 34710, on core 0
+task 2 is running at: 34720, on core 0
+task 2 is running at: 34731, on core 0
+task 2 is running at: 34741, on core 0
+task 2 is running at: 34752, on core 0
+task 2 is running at: 34763, on core 0
+task 2 is running at: 34773, on core 0
+task 2 is running at: 34784, on core 0
+task 2 is running at: 34795, on core 0
+task 2 is running at: 34805, on core 0
+task 2 is running at: 34816, on core 0
+task 2 is running at: 34827, on core 0
+task 2 is running at: 34837, on core 0
+task 2 is running at: 34848, on core 0
+task 2 is running at: 34858, on core 0
+task 2 is running at: 34869, on core 0
+task 2 is running at: 34880, on core 0
+task 2 is running at: 34890, on core 0
+task 2 is running at: 34901, on core 0
+task 2 is running at: 34912, on core 0
+task 2 is running at: 34922, on core 0
+task 2 is running at: 34933, on core 0
+task 2 is running at: 34944, on core 0
+task 2 is running at: 34954, on core 0
+[0;31mE (349906) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (349906) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (349906) task_wdt: Tasks currently running:[0m
+[0;31mE (349906) task_wdt: CPU 0: Task2[0m
+[0;31mE (349906) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E0B:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 34968, on core 0
+task 2 is running at: 34978, on core 0
+task 3 is running at: 34981, on core 0
+task 3 is running at: 35491, on core 0
+task 1 is running at: 35510, on core 0
+task 1 is running at: 35520, on core 0
+task 1 is running at: 35531, on core 0
+task 1 is running at: 35542, on core 0
+task 1 is running at: 35552, on core 0
+task 1 is running at: 35563, on core 0
+task 1 is running at: 35574, on core 0
+task 1 is running at: 35584, on core 0
+task 1 is running at: 35595, on core 0
+task 1 is running at: 35605, on core 0
+task 1 is running at: 35616, on core 0
+task 1 is running at: 35627, on core 0
+task 1 is running at: 35637, on core 0
+task 1 is running at: 35648, on core 0
+task 1 is running at: 35659, on core 0
+task 1 is running at: 35669, on core 0
+task 1 is running at: 35680, on core 0
+task 1 is running at: 35691, on core 0
+task 1 is running at: 35701, on core 0
+task 1 is running at: 35712, on core 0
+task 1 is running at: 35722, on core 0
+task 1 is running at: 35733, on core 0
+task 1 is running at: 35744, on core 0
+task 1 is running at: 35754, on core 0
+task 1 is running at: 35765, on core 0
+task 1 is running at: 35776, on core 0
+task 1 is running at: 35786, on core 0
+task 1 is running at: 35797, on core 0
+task 1 is running at: 35808, on core 0
+task 1 is running at: 35818, on core 0
+task 1 is running at: 35829, on core 0
+task 1 is running at: 35839, on core 0
+task 1 is running at: 35850, on core 0
+task 1 is running at: 35861, on core 0
+task 1 is running at: 35871, on core 0
+task 1 is running at: 35882, on core 0
+task 1 is running at: 35893, on core 0
+task 1 is running at: 35903, on core 0
+task 1 is running at: 35914, on core 0
+task 1 is running at: 35925, on core 0
+task 1 is running at: 35935, on core 0
+task 1 is running at: 35946, on core 0
+task 1 is running at: 35957, on core 0
+task 1 is running at: 35967, on core 0
+task 1 is running at: 35978, on core 0
+task 1 is running at: 35988, on core 0
+[0;31mE (360206) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (360206) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (360206) task_wdt: Tasks currently running:[0m
+[0;31mE (360206) task_wdt: CPU 0: Task1[0m
+[0;31mE (360206) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 3 is running at: 36001, on core 0
+task 2 is running at: 36020, on core 0
+task 2 is running at: 36030, on core 0
+task 2 is running at: 36041, on core 0
+task 2 is running at: 36052, on core 0
+task 2 is running at: 36062, on core 0
+task 2 is running at: 36073, on core 0
+task 2 is running at: 36084, on core 0
+task 2 is running at: 36094, on core 0
+task 2 is running at: 36105, on core 0
+task 2 is running at: 36116, on core 0
+task 2 is running at: 36126, on core 0
+task 2 is running at: 36137, on core 0
+task 2 is running at: 36147, on core 0
+task 2 is running at: 36158, on core 0
+task 2 is running at: 36169, on core 0
+task 2 is running at: 36179, on core 0
+task 2 is running at: 36190, on core 0
+task 2 is running at: 36201, on core 0
+task 2 is running at: 36211, on core 0
+task 2 is running at: 36222, on core 0
+task 2 is running at: 36233, on core 0
+task 2 is running at: 36243, on core 0
+task 2 is running at: 36254, on core 0
+task 2 is running at: 36264, on core 0
+task 2 is running at: 36275, on core 0
+task 2 is running at: 36286, on core 0
+task 2 is running at: 36296, on core 0
+task 2 is running at: 36307, on core 0
+task 2 is running at: 36318, on core 0
+task 2 is running at: 36328, on core 0
+task 2 is running at: 36339, on core 0
+task 2 is running at: 36350, on core 0
+task 2 is running at: 36360, on core 0
+task 2 is running at: 36371, on core 0
+task 2 is running at: 36381, on core 0
+task 2 is running at: 36392, on core 0
+task 2 is running at: 36403, on core 0
+task 2 is running at: 36413, on core 0
+task 2 is running at: 36424, on core 0
+task 2 is running at: 36435, on core 0
+task 2 is running at: 36445, on core 0
+task 2 is running at: 36456, on core 0
+task 2 is running at: 36467, on core 0
+task 2 is running at: 36477, on core 0
+task 2 is running at: 36488, on core 0
+[0;31mE (365206) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (365206) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (365206) task_wdt: Tasks currently running:[0m
+[0;31mE (365206) task_wdt: CPU 0: Task2[0m
+[0;31mE (365206) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E0B:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 36501, on core 0
+task 3 is running at: 36511, on core 0
+task 3 is running at: 37021, on core 0
+task 1 is running at: 37033, on core 0
+task 1 is running at: 37043, on core 0
+task 1 is running at: 37054, on core 0
+task 1 is running at: 37065, on core 0
+task 1 is running at: 37075, on core 0
+task 1 is running at: 37086, on core 0
+task 1 is running at: 37097, on core 0
+task 1 is running at: 37107, on core 0
+task 1 is running at: 37118, on core 0
+task 1 is running at: 37128, on core 0
+task 1 is running at: 37139, on core 0
+task 1 is running at: 37150, on core 0
+task 1 is running at: 37160, on core 0
+task 1 is running at: 37171, on core 0
+task 1 is running at: 37182, on core 0
+task 1 is running at: 37192, on core 0
+task 1 is running at: 37203, on core 0
+task 1 is running at: 37214, on core 0
+task 1 is running at: 37224, on core 0
+task 1 is running at: 37235, on core 0
+task 1 is running at: 37245, on core 0
+task 1 is running at: 37256, on core 0
+task 1 is running at: 37267, on core 0
+task 1 is running at: 37277, on core 0
+task 1 is running at: 37288, on core 0
+task 1 is running at: 37299, on core 0
+task 1 is running at: 37309, on core 0
+task 1 is running at: 37320, on core 0
+task 1 is running at: 37331, on core 0
+task 1 is running at: 37341, on core 0
+task 1 is running at: 37352, on core 0
+task 1 is running at: 37362, on core 0
+task 1 is running at: 37373, on core 0
+task 1 is running at: 37384, on core 0
+task 1 is running at: 37394, on core 0
+task 1 is running at: 37405, on core 0
+task 1 is running at: 37416, on core 0
+task 1 is running at: 37426, on core 0
+task 1 is running at: 37437, on core 0
+task 1 is running at: 37448, on core 0
+task 1 is running at: 37458, on core 0
+task 1 is running at: 37469, on core 0
+task 1 is running at: 37479, on core 0
+task 1 is running at: 37490, on core 0
+task 1 is running at: 37501, on core 0
+task 1 is running at: 37511, on core 0
+[0;31mE (375506) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (375506) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (375506) task_wdt: Tasks currently running:[0m
+[0;31mE (375506) task_wdt: CPU 0: Task1[0m
+[0;31mE (375506) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DCD:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 37525, on core 0
+task 3 is running at: 37531, on core 0
+task 2 is running at: 37543, on core 0
+task 2 is running at: 37553, on core 0
+task 2 is running at: 37564, on core 0
+task 2 is running at: 37575, on core 0
+task 2 is running at: 37585, on core 0
+task 2 is running at: 37596, on core 0
+task 2 is running at: 37607, on core 0
+task 2 is running at: 37617, on core 0
+task 2 is running at: 37628, on core 0
+task 2 is running at: 37638, on core 0
+task 2 is running at: 37649, on core 0
+task 2 is running at: 37660, on core 0
+task 2 is running at: 37670, on core 0
+task 2 is running at: 37681, on core 0
+task 2 is running at: 37692, on core 0
+task 2 is running at: 37702, on core 0
+task 2 is running at: 37713, on core 0
+task 2 is running at: 37724, on core 0
+task 2 is running at: 37734, on core 0
+task 2 is running at: 37745, on core 0
+task 2 is running at: 37756, on core 0
+task 2 is running at: 37766, on core 0
+task 2 is running at: 37777, on core 0
+task 2 is running at: 37787, on core 0
+task 2 is running at: 37798, on core 0
+task 2 is running at: 37809, on core 0
+task 2 is running at: 37819, on core 0
+task 2 is running at: 37830, on core 0
+task 2 is running at: 37841, on core 0
+task 2 is running at: 37851, on core 0
+task 2 is running at: 37862, on core 0
+task 2 is running at: 37873, on core 0
+task 2 is running at: 37883, on core 0
+task 2 is running at: 37894, on core 0
+task 2 is running at: 37904, on core 0
+task 2 is running at: 37915, on core 0
+task 2 is running at: 37926, on core 0
+task 2 is running at: 37936, on core 0
+task 2 is running at: 37947, on core 0
+task 2 is running at: 37958, on core 0
+task 2 is running at: 37968, on core 0
+task 2 is running at: 37979, on core 0
+task 2 is running at: 37990, on core 0
+task 2 is running at: 38000, on core 0
+task 2 is running at: 38011, on core 0
+[0;31mE (380506) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (380506) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (380506) task_wdt: Tasks currently running:[0m
+[0;31mE (380506) task_wdt: CPU 0: Task2[0m
+[0;31mE (380506) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DFD:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 38024, on core 0
+task 2 is running at: 38035, on core 0
+task 3 is running at: 38041, on core 0
+task 3 is running at: 38551, on core 0
+task 1 is running at: 38566, on core 0
+task 1 is running at: 38577, on core 0
+task 1 is running at: 38588, on core 0
+task 1 is running at: 38598, on core 0
+task 1 is running at: 38609, on core 0
+task 1 is running at: 38620, on core 0
+task 1 is running at: 38630, on core 0
+task 1 is running at: 38641, on core 0
+task 1 is running at: 38651, on core 0
+task 1 is running at: 38662, on core 0
+task 1 is running at: 38673, on core 0
+task 1 is running at: 38683, on core 0
+task 1 is running at: 38694, on core 0
+task 1 is running at: 38705, on core 0
+task 1 is running at: 38715, on core 0
+task 1 is running at: 38726, on core 0
+task 1 is running at: 38737, on core 0
+task 1 is running at: 38747, on core 0
+task 1 is running at: 38758, on core 0
+task 1 is running at: 38768, on core 0
+task 1 is running at: 38779, on core 0
+task 1 is running at: 38790, on core 0
+task 1 is running at: 38800, on core 0
+task 1 is running at: 38811, on core 0
+task 1 is running at: 38822, on core 0
+task 1 is running at: 38832, on core 0
+task 1 is running at: 38843, on core 0
+task 1 is running at: 38854, on core 0
+task 1 is running at: 38864, on core 0
+task 1 is running at: 38875, on core 0
+task 1 is running at: 38885, on core 0
+task 1 is running at: 38896, on core 0
+task 1 is running at: 38907, on core 0
+task 1 is running at: 38917, on core 0
+task 1 is running at: 38928, on core 0
+task 1 is running at: 38939, on core 0
+task 1 is running at: 38949, on core 0
+task 1 is running at: 38960, on core 0
+task 1 is running at: 38971, on core 0
+task 1 is running at: 38981, on core 0
+task 1 is running at: 38992, on core 0
+task 1 is running at: 39002, on core 0
+task 1 is running at: 39013, on core 0
+task 1 is running at: 39024, on core 0
+task 1 is running at: 39034, on core 0
+task 1 is running at: 39045, on core 0
+[0;31mE (390806) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (390806) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (390806) task_wdt: Tasks currently running:[0m
+[0;31mE (390806) task_wdt: CPU 0: Task1[0m
+[0;31mE (390806) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DCD:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 39059, on core 0
+task 3 is running at: 39061, on core 0
+task 2 is running at: 39076, on core 0
+task 2 is running at: 39087, on core 0
+task 2 is running at: 39098, on core 0
+task 2 is running at: 39108, on core 0
+task 2 is running at: 39119, on core 0
+task 2 is running at: 39130, on core 0
+task 2 is running at: 39140, on core 0
+task 2 is running at: 39151, on core 0
+task 2 is running at: 39161, on core 0
+task 2 is running at: 39172, on core 0
+task 2 is running at: 39183, on core 0
+task 2 is running at: 39193, on core 0
+task 2 is running at: 39204, on core 0
+task 2 is running at: 39215, on core 0
+task 2 is running at: 39225, on core 0
+task 2 is running at: 39236, on core 0
+task 2 is running at: 39247, on core 0
+task 2 is running at: 39257, on core 0
+task 2 is running at: 39268, on core 0
+task 2 is running at: 39278, on core 0
+task 2 is running at: 39289, on core 0
+task 2 is running at: 39300, on core 0
+task 2 is running at: 39310, on core 0
+task 2 is running at: 39321, on core 0
+task 2 is running at: 39332, on core 0
+task 2 is running at: 39342, on core 0
+task 2 is running at: 39353, on core 0
+task 2 is running at: 39364, on core 0
+task 2 is running at: 39374, on core 0
+task 2 is running at: 39385, on core 0
+task 2 is running at: 39396, on core 0
+task 2 is running at: 39406, on core 0
+task 2 is running at: 39417, on core 0
+task 2 is running at: 39427, on core 0
+task 2 is running at: 39438, on core 0
+task 2 is running at: 39449, on core 0
+task 2 is running at: 39459, on core 0
+task 2 is running at: 39470, on core 0
+task 2 is running at: 39481, on core 0
+task 2 is running at: 39491, on core 0
+task 2 is running at: 39502, on core 0
+task 2 is running at: 39513, on core 0
+task 2 is running at: 39523, on core 0
+task 2 is running at: 39534, on core 0
+task 2 is running at: 39544, on core 0
+[0;31mE (395806) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (395806) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (395806) task_wdt: Tasks currently running:[0m
+[0;31mE (395806) task_wdt: CPU 0: Task2[0m
+[0;31mE (395806) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E00:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 39558, on core 0
+task 2 is running at: 39569, on core 0
+task 3 is running at: 39571, on core 0
+task 3 is running at: 40081, on core 0
+task 1 is running at: 40100, on core 0
+task 1 is running at: 40111, on core 0
+task 1 is running at: 40121, on core 0
+task 1 is running at: 40132, on core 0
+task 1 is running at: 40142, on core 0
+task 1 is running at: 40153, on core 0
+task 1 is running at: 40164, on core 0
+task 1 is running at: 40174, on core 0
+task 1 is running at: 40185, on core 0
+task 1 is running at: 40196, on core 0
+task 1 is running at: 40206, on core 0
+task 1 is running at: 40217, on core 0
+task 1 is running at: 40228, on core 0
+task 1 is running at: 40238, on core 0
+task 1 is running at: 40249, on core 0
+task 1 is running at: 40260, on core 0
+task 1 is running at: 40270, on core 0
+task 1 is running at: 40281, on core 0
+task 1 is running at: 40291, on core 0
+task 1 is running at: 40302, on core 0
+task 1 is running at: 40313, on core 0
+task 1 is running at: 40323, on core 0
+task 1 is running at: 40334, on core 0
+task 1 is running at: 40345, on core 0
+task 1 is running at: 40355, on core 0
+task 1 is running at: 40366, on core 0
+task 1 is running at: 40377, on core 0
+task 1 is running at: 40387, on core 0
+task 1 is running at: 40398, on core 0
+task 1 is running at: 40408, on core 0
+task 1 is running at: 40419, on core 0
+task 1 is running at: 40430, on core 0
+task 1 is running at: 40440, on core 0
+task 1 is running at: 40451, on core 0
+task 1 is running at: 40462, on core 0
+task 1 is running at: 40472, on core 0
+task 1 is running at: 40483, on core 0
+task 1 is running at: 40494, on core 0
+task 1 is running at: 40504, on core 0
+task 1 is running at: 40515, on core 0
+task 1 is running at: 40525, on core 0
+task 1 is running at: 40536, on core 0
+task 1 is running at: 40547, on core 0
+task 1 is running at: 40557, on core 0
+task 1 is running at: 40568, on core 0
+task 1 is running at: 40579, on core 0
+[0;31mE (406106) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (406106) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (406106) task_wdt: Tasks currently running:[0m
+[0;31mE (406106) task_wdt: CPU 0: Task1[0m
+[0;31mE (406106) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD0:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 3 is running at: 40591, on core 0
+task 2 is running at: 40610, on core 0
+task 2 is running at: 40621, on core 0
+task 2 is running at: 40631, on core 0
+task 2 is running at: 40642, on core 0
+task 2 is running at: 40653, on core 0
+task 2 is running at: 40663, on core 0
+task 2 is running at: 40674, on core 0
+task 2 is running at: 40684, on core 0
+task 2 is running at: 40695, on core 0
+task 2 is running at: 40706, on core 0
+task 2 is running at: 40716, on core 0
+task 2 is running at: 40727, on core 0
+task 2 is running at: 40738, on core 0
+task 2 is running at: 40748, on core 0
+task 2 is running at: 40759, on core 0
+task 2 is running at: 40770, on core 0
+task 2 is running at: 40780, on core 0
+task 2 is running at: 40791, on core 0
+task 2 is running at: 40801, on core 0
+task 2 is running at: 40812, on core 0
+task 2 is running at: 40823, on core 0
+task 2 is running at: 40833, on core 0
+task 2 is running at: 40844, on core 0
+task 2 is running at: 40855, on core 0
+task 2 is running at: 40865, on core 0
+task 2 is running at: 40876, on core 0
+task 2 is running at: 40887, on core 0
+task 2 is running at: 40897, on core 0
+task 2 is running at: 40908, on core 0
+task 2 is running at: 40919, on core 0
+task 2 is running at: 40929, on core 0
+task 2 is running at: 40940, on core 0
+task 2 is running at: 40950, on core 0
+task 2 is running at: 40961, on core 0
+task 2 is running at: 40972, on core 0
+task 2 is running at: 40982, on core 0
+task 2 is running at: 40993, on core 0
+task 2 is running at: 41004, on core 0
+task 2 is running at: 41014, on core 0
+task 2 is running at: 41025, on core 0
+task 2 is running at: 41036, on core 0
+task 2 is running at: 41046, on core 0
+task 2 is running at: 41057, on core 0
+task 2 is running at: 41067, on core 0
+task 2 is running at: 41078, on core 0
+[0;31mE (411106) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (411106) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (411106) task_wdt: Tasks currently running:[0m
+[0;31mE (411106) task_wdt: CPU 0: Task2[0m
+[0;31mE (411106) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E06:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 41092, on core 0
+task 3 is running at: 41101, on core 0
+task 3 is running at: 41611, on core 0
+task 1 is running at: 41623, on core 0
+task 1 is running at: 41634, on core 0
+task 1 is running at: 41644, on core 0
+task 1 is running at: 41655, on core 0
+task 1 is running at: 41665, on core 0
+task 1 is running at: 41676, on core 0
+task 1 is running at: 41687, on core 0
+task 1 is running at: 41697, on core 0
+task 1 is running at: 41708, on core 0
+task 1 is running at: 41719, on core 0
+task 1 is running at: 41729, on core 0
+task 1 is running at: 41740, on core 0
+task 1 is running at: 41751, on core 0
+task 1 is running at: 41761, on core 0
+task 1 is running at: 41772, on core 0
+task 1 is running at: 41783, on core 0
+task 1 is running at: 41793, on core 0
+task 1 is running at: 41804, on core 0
+task 1 is running at: 41814, on core 0
+task 1 is running at: 41825, on core 0
+task 1 is running at: 41836, on core 0
+task 1 is running at: 41846, on core 0
+task 1 is running at: 41857, on core 0
+task 1 is running at: 41868, on core 0
+task 1 is running at: 41878, on core 0
+task 1 is running at: 41889, on core 0
+task 1 is running at: 41900, on core 0
+task 1 is running at: 41910, on core 0
+task 1 is running at: 41921, on core 0
+task 1 is running at: 41931, on core 0
+task 1 is running at: 41942, on core 0
+task 1 is running at: 41953, on core 0
+task 1 is running at: 41963, on core 0
+task 1 is running at: 41974, on core 0
+task 1 is running at: 41985, on core 0
+task 1 is running at: 41995, on core 0
+task 1 is running at: 42006, on core 0
+task 1 is running at: 42017, on core 0
+task 1 is running at: 42027, on core 0
+task 1 is running at: 42038, on core 0
+task 1 is running at: 42048, on core 0
+task 1 is running at: 42059, on core 0
+task 1 is running at: 42070, on core 0
+task 1 is running at: 42080, on core 0
+task 1 is running at: 42091, on core 0
+task 1 is running at: 42102, on core 0
+[0;31mE (421406) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (421406) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (421406) task_wdt: Tasks currently running:[0m
+[0;31mE (421406) task_wdt: CPU 0: Task1[0m
+[0;31mE (421406) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD0:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 42115, on core 0
+task 3 is running at: 42121, on core 0
+task 2 is running at: 42133, on core 0
+task 2 is running at: 42144, on core 0
+task 2 is running at: 42154, on core 0
+task 2 is running at: 42165, on core 0
+task 2 is running at: 42176, on core 0
+task 2 is running at: 42186, on core 0
+task 2 is running at: 42197, on core 0
+task 2 is running at: 42207, on core 0
+task 2 is running at: 42218, on core 0
+task 2 is running at: 42229, on core 0
+task 2 is running at: 42239, on core 0
+task 2 is running at: 42250, on core 0
+task 2 is running at: 42261, on core 0
+task 2 is running at: 42271, on core 0
+task 2 is running at: 42282, on core 0
+task 2 is running at: 42293, on core 0
+task 2 is running at: 42303, on core 0
+task 2 is running at: 42314, on core 0
+task 2 is running at: 42324, on core 0
+task 2 is running at: 42335, on core 0
+task 2 is running at: 42346, on core 0
+task 2 is running at: 42356, on core 0
+task 2 is running at: 42367, on core 0
+task 2 is running at: 42378, on core 0
+task 2 is running at: 42388, on core 0
+task 2 is running at: 42399, on core 0
+task 2 is running at: 42410, on core 0
+task 2 is running at: 42420, on core 0
+task 2 is running at: 42431, on core 0
+task 2 is running at: 42441, on core 0
+task 2 is running at: 42452, on core 0
+task 2 is running at: 42463, on core 0
+task 2 is running at: 42473, on core 0
+task 2 is running at: 42484, on core 0
+task 2 is running at: 42495, on core 0
+task 2 is running at: 42505, on core 0
+task 2 is running at: 42516, on core 0
+task 2 is running at: 42527, on core 0
+task 2 is running at: 42537, on core 0
+task 2 is running at: 42548, on core 0
+task 2 is running at: 42559, on core 0
+task 2 is running at: 42569, on core 0
+task 2 is running at: 42580, on core 0
+task 2 is running at: 42590, on core 0
+task 2 is running at: 42601, on core 0
+[0;31mE (426406) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (426406) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (426406) task_wdt: Tasks currently running:[0m
+[0;31mE (426406) task_wdt: CPU 0: Task2[0m
+[0;31mE (426406) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DFD:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 42615, on core 0
+task 2 is running at: 42625, on core 0
+task 3 is running at: 42631, on core 0
+task 3 is running at: 43141, on core 0
+task 1 is running at: 43157, on core 0
+task 1 is running at: 43167, on core 0
+task 1 is running at: 43178, on core 0
+task 1 is running at: 43188, on core 0
+task 1 is running at: 43199, on core 0
+task 1 is running at: 43210, on core 0
+task 1 is running at: 43220, on core 0
+task 1 is running at: 43231, on core 0
+task 1 is running at: 43242, on core 0
+task 1 is running at: 43252, on core 0
+task 1 is running at: 43263, on core 0
+task 1 is running at: 43274, on core 0
+task 1 is running at: 43284, on core 0
+task 1 is running at: 43295, on core 0
+task 1 is running at: 43305, on core 0
+task 1 is running at: 43316, on core 0
+task 1 is running at: 43327, on core 0
+task 1 is running at: 43337, on core 0
+task 1 is running at: 43348, on core 0
+task 1 is running at: 43359, on core 0
+task 1 is running at: 43369, on core 0
+task 1 is running at: 43380, on core 0
+task 1 is running at: 43391, on core 0
+task 1 is running at: 43401, on core 0
+task 1 is running at: 43412, on core 0
+task 1 is running at: 43423, on core 0
+task 1 is running at: 43433, on core 0
+task 1 is running at: 43444, on core 0
+task 1 is running at: 43454, on core 0
+task 1 is running at: 43465, on core 0
+task 1 is running at: 43476, on core 0
+task 1 is running at: 43486, on core 0
+task 1 is running at: 43497, on core 0
+task 1 is running at: 43508, on core 0
+task 1 is running at: 43518, on core 0
+task 1 is running at: 43529, on core 0
+task 1 is running at: 43540, on core 0
+task 1 is running at: 43550, on core 0
+task 1 is running at: 43561, on core 0
+task 1 is running at: 43571, on core 0
+task 1 is running at: 43582, on core 0
+task 1 is running at: 43593, on core 0
+task 1 is running at: 43603, on core 0
+task 1 is running at: 43614, on core 0
+task 1 is running at: 43625, on core 0
+task 1 is running at: 43635, on core 0
+[0;31mE (436706) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (436706) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (436706) task_wdt: Tasks currently running:[0m
+[0;31mE (436706) task_wdt: CPU 0: Task1[0m
+[0;31mE (436706) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DDB:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 1 is running at: 43649, on core 0
+task 3 is running at: 43651, on core 0
+task 2 is running at: 43667, on core 0
+task 2 is running at: 43677, on core 0
+task 2 is running at: 43688, on core 0
+task 2 is running at: 43699, on core 0
+task 2 is running at: 43709, on core 0
+task 2 is running at: 43720, on core 0
+task 2 is running at: 43730, on core 0
+task 2 is running at: 43741, on core 0
+task 2 is running at: 43752, on core 0
+task 2 is running at: 43762, on core 0
+task 2 is running at: 43773, on core 0
+task 2 is running at: 43784, on core 0
+task 2 is running at: 43794, on core 0
+task 2 is running at: 43805, on core 0
+task 2 is running at: 43816, on core 0
+task 2 is running at: 43826, on core 0
+task 2 is running at: 43837, on core 0
+task 2 is running at: 43847, on core 0
+task 2 is running at: 43858, on core 0
+task 2 is running at: 43869, on core 0
+task 2 is running at: 43879, on core 0
+task 2 is running at: 43890, on core 0
+task 2 is running at: 43901, on core 0
+task 2 is running at: 43911, on core 0
+task 2 is running at: 43922, on core 0
+task 2 is running at: 43933, on core 0
+task 2 is running at: 43943, on core 0
+task 2 is running at: 43954, on core 0
+task 2 is running at: 43964, on core 0
+task 2 is running at: 43975, on core 0
+task 2 is running at: 43986, on core 0
+task 2 is running at: 43996, on core 0
+task 2 is running at: 44007, on core 0
+task 2 is running at: 44018, on core 0
+task 2 is running at: 44028, on core 0
+task 2 is running at: 44039, on core 0
+task 2 is running at: 44050, on core 0
+task 2 is running at: 44060, on core 0
+task 2 is running at: 44071, on core 0
+task 2 is running at: 44081, on core 0
+task 2 is running at: 44092, on core 0
+task 2 is running at: 44103, on core 0
+task 2 is running at: 44113, on core 0
+task 2 is running at: 44124, on core 0
+task 2 is running at: 44135, on core 0
+[0;31mE (441706) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (441706) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (441706) task_wdt: Tasks currently running:[0m
+[0;31mE (441706) task_wdt: CPU 0: Task2[0m
+[0;31mE (441706) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DFD:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 44148, on core 0
+task 2 is running at: 44159, on core 0
+task 3 is running at: 44161, on core 0
+task 3 is running at: 44671, on core 0
+task 1 is running at: 44690, on core 0
+task 1 is running at: 44701, on core 0
+task 1 is running at: 44711, on core 0
+task 1 is running at: 44722, on core 0
+task 1 is running at: 44733, on core 0
+task 1 is running at: 44743, on core 0
+task 1 is running at: 44754, on core 0
+task 1 is running at: 44765, on core 0
+task 1 is running at: 44775, on core 0
+task 1 is running at: 44786, on core 0
+task 1 is running at: 44797, on core 0
+task 1 is running at: 44807, on core 0
+task 1 is running at: 44818, on core 0
+task 1 is running at: 44828, on core 0
+task 1 is running at: 44839, on core 0
+task 1 is running at: 44850, on core 0
+task 1 is running at: 44860, on core 0
+task 1 is running at: 44871, on core 0
+task 1 is running at: 44882, on core 0
+task 1 is running at: 44892, on core 0
+task 1 is running at: 44903, on core 0
+task 1 is running at: 44914, on core 0
+task 1 is running at: 44924, on core 0
+task 1 is running at: 44935, on core 0
+task 1 is running at: 44945, on core 0
+task 1 is running at: 44956, on core 0
+task 1 is running at: 44967, on core 0
+task 1 is running at: 44977, on core 0
+task 1 is running at: 44988, on core 0
+task 1 is running at: 44999, on core 0
+task 1 is running at: 45009, on core 0
+task 1 is running at: 45020, on core 0
+task 1 is running at: 45031, on core 0
+task 1 is running at: 45041, on core 0
+task 1 is running at: 45052, on core 0
+task 1 is running at: 45063, on core 0
+task 1 is running at: 45073, on core 0
+task 1 is running at: 45084, on core 0
+task 1 is running at: 45094, on core 0
+task 1 is running at: 45105, on core 0
+task 1 is running at: 45116, on core 0
+task 1 is running at: 45126, on core 0
+task 1 is running at: 45137, on core 0
+task 1 is running at: 45148, on core 0
+task 1 is running at: 45158, on core 0
+task 1 is running at: 45169, on core 0
+[0;31mE (452006) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (452006) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (452006) task_wdt: Tasks currently running:[0m
+[0;31mE (452006) task_wdt: CPU 0: Task1[0m
+[0;31mE (452006) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD0:0x3FFB4360 0x40086BD5:0x3FFB4380
+
+task 3 is running at: 45181, on core 0
+task 2 is running at: 45200, on core 0
+task 2 is running at: 45211, on core 0
+task 2 is running at: 45222, on core 0
+task 2 is running at: 45232, on core 0
+task 2 is running at: 45243, on core 0
+task 2 is running at: 45253, on core 0
+task 2 is running at: 45264, on core 0
+task 2 is running at: 45275, on core 0
+task 2 is running at: 45285, on core 0
+task 2 is running at: 45296, on core 0
+task 2 is running at: 45307, on core 0
+task 2 is running at: 45317, on core 0
+task 2 is running at: 45328, on core 0
+task 2 is running at: 45339, on core 0
+task 2 is running at: 45349, on core 0
+task 2 is running at: 45360, on core 0
+task 2 is running at: 45370, on core 0
+task 2 is running at: 45381, on core 0
+task 2 is running at: 45392, on core 0
+task 2 is running at: 45402, on core 0
+task 2 is running at: 45413, on core 0
+task 2 is running at: 45424, on core 0
+task 2 is running at: 45434, on core 0
+task 2 is running at: 45445, on core 0
+task 2 is running at: 45456, on core 0
+task 2 is running at: 45466, on core 0
+task 2 is running at: 45477, on core 0
+task 2 is running at: 45487, on core 0
+task 2 is running at: 45498, on core 0
+task 2 is running at: 45509, on core 0
+task 2 is running at: 45519, on core 0
+task 2 is running at: 45530, on core 0
+task 2 is running at: 45541, on core 0
+task 2 is running at: 45551, on core 0
+task 2 is running at: 45562, on core 0
+task 2 is running at: 45573, on core 0
+task 2 is running at: 45583, on core 0
+task 2 is running at: 45594, on core 0
+task 2 is running at: 45604, on core 0
+task 2 is running at: 45615, on core 0
+task 2 is running at: 45626, on core 0
+task 2 is running at: 45636, on core 0
+task 2 is running at: 45647, on core 0
+task 2 is running at: 45658, on core 0
+task 2 is running at: 45668, on core 0
+[0;31mE (457006) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (457006) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (457006) task_wdt: Tasks currently running:[0m
+[0;31mE (457006) task_wdt: CPU 0: Task2[0m
+[0;31mE (457006) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67AF:0x3FFB0AB0 0x400D6906:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4E06:0x3FFB4CC0 0x40086BD5:0x3FFB4CE0
+
+task 2 is running at: 45682, on core 0
+task 3 is running at: 45691, on core 0
+task 3 is running at: 46201, on core 0
+task 1 is running at: 46213, on core 0

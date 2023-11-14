@@ -1,0 +1,185 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 13 2023 13:28:54[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09208h ( 37384) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019230 vaddr=3ffb0000 size=020f0h (  8432) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001b328 vaddr=40080000 size=04cf0h ( 19696) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13860h ( 79968) map[0m
+[0;32mI (162) esp_image: segment 4: paddr=00033888 vaddr=40084cf0 size=072b8h ( 29368) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (192) cpu_start: Pro cpu up.[0m
+[0;32mI (192) cpu_start: Starting app cpu, entry point is 0x400810e8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) cpu_start: Application information:[0m
+[0;32mI (215) cpu_start: Project name:     lab3[0m
+[0;32mI (219) cpu_start: App version:      1c68d83-dirty[0m
+[0;32mI (225) cpu_start: Compile time:     Nov 13 2023 13:27:48[0m
+[0;32mI (231) cpu_start: ELF file SHA256:  26c567a2f9073889...[0m
+[0;32mI (237) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (242) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (247) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (252) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (257) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (264) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (270) heap_init: At 3FFB2968 len 0002D698 (181 KiB): DRAM[0m
+[0;32mI (276) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (282) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (289) heap_init: At 4008BFA8 len 00014058 (80 KiB): IRAM[0m
+[0;32mI (297) spi_flash: detected chip: generic[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (304) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) app_start: Starting scheduler on CPU0[0m
+[0;32mI (322) app_start: Starting scheduler on CPU1[0m
+[0;32mI (322) main_task: Started on CPU0[0m
+[0;32mI (332) main_task: Calling app_main()[0m
+time slicing :0
+task 4 is running at: 1
+task 2 is running at: 2
+task 1 is running at: 1
+task 3 is running at: 4
+[0;32mI (442) main_task: Returned from app_main()[0m
+task 3 is running at: 21
+task 3 is running at: 33
+task 3 is running at: 44
+task 3 is running at: 55
+task 3 is running at: 66
+task 3 is running at: 78
+task 3 is running at: 89
+task 3 is running at: 100
+task 3 is running at: 111
+task 3 is running at: 123
+task 3 is running at: 134
+task 3 is running at: 145
+task 3 is running at: 156
+task 3 is running at: 168
+task 3 is running at: 179
+task 3 is running at: 190
+task 3 is running at: 201
+task 4 is running at: 212
+task 3 is running at: 216
+task 1 is running at: 228
+task 1 is running at: 240
+task 1 is running at: 251
+task 1 is running at: 262
+task 1 is running at: 273
+task 1 is running at: 285
+task 1 is running at: 296
+task 1 is running at: 307
+task 1 is running at: 318
+task 1 is running at: 330
+task 1 is running at: 341
+task 1 is running at: 352
+task 1 is running at: 363
+task 1 is running at: 375
+task 1 is running at: 386
+task 1 is running at: 397
+task 1 is running at: 409
+task 1 is running at: 420
+task 4 is running at: 423
+task 2 is running at: 436
+task 2 is running at: 448
+task 2 is running at: 459
+task 2 is running at: 470
+task 2 is running at: 481
+task 2 is running at: 493
+task 2 is running at: 504
+task 2 is running at: 515
+task 2 is running at: 526
+task 2 is running at: 538
+task 2 is running at: 549
+task 2 is running at: 560
+task 2 is running at: 571
+task 2 is running at: 583
+task 2 is running at: 594
+task 2 is running at: 605
+task 2 is running at: 617
+task 2 is running at: 628
+task 4 is running at: 634
+task 4 is running at: 845
+task 3 is running at: 857
+task 3 is running at: 868
+task 3 is running at: 880
+task 3 is running at: 891
+task 3 is running at: 902
+task 3 is running at: 913
+task 3 is running at: 925
+task 3 is running at: 936
+task 3 is running at: 947
+task 3 is running at: 958
+task 3 is running at: 970
+task 3 is running at: 981
+task 3 is running at: 992
+task 3 is running at: 1003
+task 3 is running at: 1015
+task 3 is running at: 1026
+task 3 is running at: 1037
+task 3 is running at: 1049
+task 4 is running at: 1056
+task 2 is running at: 1057
+task 1 is running at: 1058
+task 1 is running at: 1075
+task 1 is running at: 1087
+task 1 is running at: 1098
+task 1 is running at: 1109
+task 1 is running at: 1120
+task 1 is running at: 1132
+task 1 is running at: 1143
+task 1 is running at: 1154
+task 1 is running at: 1165
+task 1 is running at: 1177
+task 1 is running at: 1188
+task 1 is running at: 1199
+task 1 is running at: 1211
+task 1 is running at: 1222
+task 1 is running at: 1233
+task 1 is running at: 1244
+task 1 is running at: 1256
+task 4 is running at: 1267
+task 1 is running at: 1267
+task 3 is running at: 1272
+task 2 is running at: 1283
+task 2 is running at: 1295
+task 2 is running at: 1306
+task 2 is running at: 1317
+task 2 is running at: 1328
+task 2 is running at: 1340
+task 2 is running at: 1351
+task 2 is running at: 1362
+task 2 is running at: 1373
+task 2 is running at: 1385
+task 2 is running at: 1396
+task 2 is running at: 1407
+task 2 is running at: 1419
+task 2 is running at: 1430
+task 2 is running at: 1441
+task 2 is running at: 1452
+task 2 is running at: 1464
+task 2 is running at: 1475
+task 4 is running at: 1478

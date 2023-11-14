@@ -1,0 +1,214 @@
+�x�x�x���xxx�x+���at: 1�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7080
+load:0x40078000,len:15476
+load:0x40080400,len:4
+load:0x40080404,len:3668
+entry 0x4008061c
+[0;32mI (29) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Nov 13 2023 16:08:33[0m
+[0;33mW (29) boot: Unicore bootloader[0m
+[0;32mI (34) boot: chip revision: v3.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (47) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=089a4h ( 35236) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=000189cc vaddr=3ffb0000 size=01664h (  5732) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001a038 vaddr=40080000 size=05fe0h ( 24544) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13078h ( 77944) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=000330a0 vaddr=40085fe0 size=04c84h ( 19588) load[0m
+[0;32mI (174) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (174) boot: Disabling RNG early entropy source...[0m
+[0;32mI (186) cpu_start: Unicore app[0m
+[0;32mI (186) cpu_start: Pro cpu up.[0m
+[0;32mI (186) cpu_start: Single core mode[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m
+[0;32mI (198) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (198) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     lab3[0m
+[0;32mI (208) cpu_start: App version:      1c68d83-dirty[0m
+[0;32mI (213) cpu_start: Compile time:     Nov 13 2023 16:08:03[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  bf97563014b5e76c...[0m
+[0;32mI (225) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (230) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (235) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (240) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (245) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (252) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (258) heap_init: At 3FFB1DF8 len 0002E208 (184 KiB): DRAM[0m
+[0;32mI (264) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (277) heap_init: At 4008AC64 len 0001539C (84 KiB): IRAM[0m
+[0;32mI (283) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM[0m
+[0;32mI (291) spi_flash: detected chip: generic[0m
+[0;32mI (294) spi_flash: flash io: dio[0m
+[0;33mW (298) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (311) app_start: Starting scheduler on CPU0[0m
+[0;32mI (316) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+time slicing :0
+task 1 is running at: 1, on core 0
+[0;32mI (436) main_task: Returned from app_main()[0m
+task 4 is running at: 12, on core 0
+task 2 is running at: 23, on core 0
+task 2 is running at: 33, on core 0
+task 2 is running at: 44, on core 0
+task 2 is running at: 55, on core 0
+task 2 is running at: 65, on core 0
+task 2 is running at: 76, on core 0
+task 2 is running at: 87, on core 0
+task 2 is running at: 97, on core 0
+task 2 is running at: 108, on core 0
+task 2 is running at: 118, on core 0
+task 2 is running at: 129, on core 0
+task 2 is running at: 140, on core 0
+task 2 is running at: 150, on core 0
+task 2 is running at: 161, on core 0
+task 2 is running at: 172, on core 0
+task 2 is running at: 182, on core 0
+task 2 is running at: 193, on core 0
+task 2 is running at: 204, on core 0
+task 2 is running at: 214, on core 0
+task 2 is running at: 225, on core 0
+task 2 is running at: 235, on core 0
+task 2 is running at: 246, on core 0
+task 2 is running at: 257, on core 0
+task 2 is running at: 267, on core 0
+task 2 is running at: 278, on core 0
+task 2 is running at: 289, on core 0
+task 2 is running at: 299, on core 0
+task 2 is running at: 310, on core 0
+task 2 is running at: 321, on core 0
+task 2 is running at: 331, on core 0
+task 2 is running at: 342, on core 0
+task 2 is running at: 352, on core 0
+task 2 is running at: 363, on core 0
+task 2 is running at: 374, on core 0
+task 2 is running at: 384, on core 0
+task 2 is running at: 395, on core 0
+task 2 is running at: 406, on core 0
+task 2 is running at: 416, on core 0
+task 2 is running at: 427, on core 0
+task 2 is running at: 438, on core 0
+task 2 is running at: 448, on core 0
+task 2 is running at: 459, on core 0
+task 2 is running at: 469, on core 0
+task 2 is running at: 480, on core 0
+task 2 is running at: 491, on core 0
+[0;31mE (5316) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (5316) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (5316) task_wdt: Tasks currently running:[0m
+[0;31mE (5316) task_wdt: CPU 0: Task2[0m
+[0;31mE (5316) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67B7:0x3FFB0AB0 0x400D690E:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4CC0 0x40086B45:0x3FFB4CE0
+
+task 2 is running at: 504, on core 0
+task 2 is running at: 515, on core 0
+task 2 is running at: 526, on core 0
+task 2 is running at: 536, on core 0
+task 2 is running at: 547, on core 0
+task 2 is running at: 558, on core 0
+task 2 is running at: 568, on core 0
+task 2 is running at: 579, on core 0
+task 2 is running at: 589, on core 0
+task 2 is running at: 600, on core 0
+task 2 is running at: 611, on core 0
+task 2 is running at: 621, on core 0
+task 2 is running at: 632, on core 0
+task 2 is running at: 643, on core 0
+task 2 is running at: 653, on core 0
+task 2 is running at: 664, on core 0
+task 2 is running at: 675, on core 0
+task 2 is running at: 685, on core 0
+task 2 is running at: 696, on core 0
+task 2 is running at: 706, on core 0
+task 2 is running at: 717, on core 0
+task 2 is running at: 728, on core 0
+task 2 is running at: 738, on core 0
+task 2 is running at: 749, on core 0
+task 2 is running at: 760, on core 0
+task 2 is running at: 770, on core 0
+task 2 is running at: 781, on core 0
+task 2 is running at: 792, on core 0
+task 2 is running at: 802, on core 0
+task 2 is running at: 813, on core 0
+task 2 is running at: 823, on core 0
+task 2 is running at: 834, on core 0
+task 2 is running at: 845, on core 0
+task 2 is running at: 855, on core 0
+task 2 is running at: 866, on core 0
+task 2 is running at: 877, on core 0
+task 2 is running at: 887, on core 0
+task 2 is running at: 898, on core 0
+task 2 is running at: 909, on core 0
+task 2 is running at: 919, on core 0
+task 2 is running at: 930, on core 0
+task 2 is running at: 940, on core 0
+task 2 is running at: 951, on core 0
+task 2 is running at: 962, on core 0
+task 2 is running at: 972, on core 0
+task 2 is running at: 983, on core 0
+task 2 is running at: 994, on core 0
+[0;31mE (10316) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (10316) task_wdt:  - IDLE (CPU 0)[0m
+[0;31mE (10316) task_wdt: Tasks currently running:[0m
+[0;31mE (10316) task_wdt: CPU 0: Task2[0m
+[0;31mE (10316) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D67B7:0x3FFB0AB0 0x400D690E:0x3FFB0AD0 0x40082325:0x3FFB0AF0 0x400D4DD6:0x3FFB4CC0 0x40086B45:0x3FFB4CE0
+
+task 2 is running at: 1007, on core 0
+task 2 is running at: 1018, on core 0
+task 2 is running at: 1029, on core 0
+task 2 is running at: 1039, on core 0
+task 2 is running at: 1050, on core 0
+task 2 is running at: 1060, on core 0
+task 2 is running at: 1071, on core 0
+task 2 is running at: 1082, on core 0
+task 2 is running at: 1092, on core 0
+task 2 is running at: 1103, on core 0
+task 2 is running at: 1114, on core 0
+task 2 is running at: 1124, on core 0
+task 2 is running at: 1135, on core 0
+task 2 is running at: 1146, on core 0
+task 2 is running at: 1156, on core 0
+task 2 is running at: 1167, on core 0
+task 2 is running at: 1177, on core 0
+task 2 is running at: 1188, on core 0
+task 2 is running at: 1199, on core 0
+task 2 is running at: 1209, on core 0
+task 2 is running at: 1220, on core 0
+task 2 is running at: 1231, on core 0
+task 2 is running at: 1241, on core 0
+task 2 is running at: 1252, on core 0
+task 2 is running at: 1263, on core 0
+task 2 is running at: 1273, on core 0
+task 2 is running at: 1284, on core 0
+task 2 is running at: 1294, on core 0
+task 2 is running at: 1305, on core 0
+task 2 is running at: 1316, on core 0
+task 2 is running at: 1326, on core 0
+task 2 is running at: 1337, on core 0
+task 2 is running at: 1348, on core 0
+task 2 is running at: 1358, on core 0
+task 2 is running at: 1369, on core 0
+task 2 is running at: 1380, on core 0
+task 2 is running at: 1390, on core 0
+task 2 is running at: 1401, on core 0
+task 2 is running at: 1411, on core 0
+task 2 is running at: 1422, on core 0
+task 2 is running at: 1433, on core 0
