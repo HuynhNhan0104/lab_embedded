@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "lab4",
-    "project_version":    "1c68d83-dirty",
+    "project_version":    "cd6a899-dirty",
     "project_path":       "C:/Users/NHAN/OneDrive/Desktop/lab_embedded/lab4",
     "idf_path":           "D:/ESP_IDF/Espressif/frameworks/esp-idf-v5.1.1",
     "build_dir":          "C:/Users/NHAN/OneDrive/Desktop/lab_embedded/lab4/build",

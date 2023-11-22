@@ -1,59 +1,452 @@
-[1/10] Performing build step for 'bootloader'
-[1/1] cmd.exe /C "cd /D C:\Users\NHAN\OneDrive\Desktop\lab_embedded\lab4\build\bootloader\esp-idf\esptool_py && D:\ESP_IDF\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/ESP_IDF/Espressif/frameworks/esp-idf-v5.1.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/NHAN/OneDrive/Desktop/lab_embedded/lab4/build/bootloader/bootloader.bin"
-Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
-[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/lab4.c.obj
-C:/Users/NHAN/OneDrive/Desktop/lab_embedded/lab4/main/lab4.c:14:1: warning: useless storage class specifier in empty declaration
-   14 | };
-      | ^
-[3/8] Linking C static library esp-idf\main\libmain.a
-[4/8] Generating ld/sections.ld
-[5/8] Linking CXX executable lab4.elf
-[6/8] Generating binary image from built executable
-esptool.py v4.7.dev1
-Creating esp32 image...
-Merged 2 ELF sections
-Successfully created esp32 image.
-Generated C:/Users/NHAN/OneDrive/Desktop/lab_embedded/lab4/build/lab4.bin
-[7/8] cmd.exe /C "cd /D C:\Users\NHAN\OneDrive\Desktop\lab_embedded\lab4\build\esp-idf\esptool_py && D:\ESP_IDF\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/ESP_IDF/Espressif/frameworks/esp-idf-v5.1.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/NHAN/OneDrive/Desktop/lab_embedded/lab4/build/partition_table/partition-table.bin C:/Users/NHAN/OneDrive/Desktop/lab_embedded/lab4/build/lab4.bin"
-lab4.bin binary size 0x3aca0 bytes. Smallest app partition is 0x100000 bytes. 0xc5360 bytes (77%) free.
-[7/8] cmd.exe /C "cd /D D:\ESP_IDF\Espressif\frameworks\esp-idf-v5.1.1\components\esptool_py && D:\ESP_IDF\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=D:/ESP_IDF/Espressif/frameworks/esp-idf-v5.1.1 -D SERIAL_TOOL=D:/ESP_IDF/Espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe;;D:/ESP_IDF/Espressif/frameworks/esp-idf-v5.1.1/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Users/NHAN/OneDrive/Desktop/lab_embedded/lab4/build -P D:/ESP_IDF/Espressif/frameworks/esp-idf-v5.1.1/components/esptool_py/run_serial_tool.cmake"
-esptool.py --chip esp32 -p COM6 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 lab4.bin 0x8000 partition_table/partition-table.bin
-esptool.py v4.7.dev1
-Serial port COM6
-Connecting....
-Chip is ESP32-D0WD-V3 (revision v3.0)
-Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
-Crystal is 40MHz
-MAC: b0:a7:32:da:f9:a0
-Uploading stub...
-Running stub...
-Stub running...
-Changing baud rate to 460800
-Changed.
-Configuring flash size...
-Flash will be erased from 0x00001000 to 0x00007fff...
-Flash will be erased from 0x00010000 to 0x0004afff...
-Flash will be erased from 0x00008000 to 0x00008fff...
-Compressed 26640 bytes to 16692...
-Writing at 0x00001000... (50 %)
-Writing at 0x0000768a... (100 %)
-Wrote 26640 bytes (16692 compressed) at 0x00001000 in 0.5 seconds (effective 404.7 kbit/s)...
-Hash of data verified.
-Compressed 240800 bytes to 118063...
-Writing at 0x00010000... (12 %)
-Writing at 0x00020ea0... (25 %)
-Writing at 0x00026509... (37 %)
-Writing at 0x0002c73a... (50 %)
-Writing at 0x0003476b... (62 %)
-Writing at 0x0003ca76... (75 %)
-Writing at 0x00043c37... (87 %)
-Writing at 0x00049794... (100 %)
-Wrote 240800 bytes (118063 compressed) at 0x00010000 in 2.8 seconds (effective 689.7 kbit/s)...
-Hash of data verified.
-Compressed 3072 bytes to 103...
-Writing at 0x00008000... (100 %)
-Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 1130.5 kbit/s)...
-Hash of data verified.
+ets Jul 29 2019 12:21:46
 
-Leaving...
-Hard resetting via RTS pin...
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 14 2023 15:01:36[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=098c0h ( 39104) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=000198e8 vaddr=3ffb0000 size=06730h ( 26416) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=1d178h (119160) map[0m
+[0;32mI (173) esp_image: segment 3: paddr=0003d1a0 vaddr=3ffb6730 size=01d60h (  7520) load[0m
+[0;32mI (176) esp_image: segment 4: paddr=0003ef08 vaddr=40080000 size=0c1f4h ( 49652) load[0m
+[0;32mI (207) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (207) boot: Disabling RNG early entropy source...[0m
+[0;32mI (219) cpu_start: Multicore app[0m
+[0;32mI (219) cpu_start: Pro cpu up.[0m
+[0;32mI (219) cpu_start: Starting app cpu, entry point is 0x400810f4[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (237) cpu_start: Pro cpu start user code[0m
+[0;32mI (237) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (237) cpu_start: Application information:[0m
+[0;32mI (242) cpu_start: Project name:     lab4[0m
+[0;32mI (246) cpu_start: App version:      cd6a899-dirty[0m
+[0;32mI (252) cpu_start: Compile time:     Nov 20 2023 20:50:57[0m
+[0;32mI (258) cpu_start: ELF file SHA256:  48c3c6bee9574036...[0m
+[0;32mI (264) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (269) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (274) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (279) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (284) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (291) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (297) heap_init: At 3FFB8D00 len 00027300 (156 KiB): DRAM[0m
+[0;32mI (303) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (309) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (316) heap_init: At 4008C1F4 len 00013E0C (79 KiB): IRAM[0m
+[0;32mI (324) spi_flash: detected chip: generic[0m
+[0;32mI (327) spi_flash: flash io: dio[0m
+[0;33mW (331) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (344) app_start: Starting scheduler on CPU0[0m
+[0;32mI (349) app_start: Starting scheduler on CPU1[0m
+[0;32mI (349) main_task: Started on CPU0[0m
+[0;32mI (359) main_task: Calling app_main()[0m
+create a queue 
+in house 1: the lamp 0 is turning on 
+in house 1: the lamp 1 is turning off 
+in house 1: the lamp 2 is turning on 
+in house 1: the fan 2 is setting to 30 
+in house 1: the fan 1 is setting to 70 
+in house 1: the fan 0 is setting to 60 
+in house 2: the lamp 2 is turning on 
+in house 2: the fan 1 is setting to 50 
+in house 2: the fan 2 is setting to 0 
+in house 2: the fan 0 is setting to 100 
+in house 2: the lamp 1 is turning on 
+in house 2: the lamp 0 is turning on 
+in house 0: the lamp 1 is turning off 
+in house 0: the lamp 2 is turning on 
+in house 0: the fan 2 is setting to 50 
+in house 0: the lamp 0 is turning off 
+in house 0: the fan 1 is setting to 80 
+in house 0: the fan 0 is setting to 100 
+[0;31mE (100359) FreeRTOS: FreeRTOS Task "reception" should not return, Aborting now![0m
+
+abort() was called at PC 0x40087e43 on core 0
+
+
+Backtrace: 0x40081726:0x3ffbd5d0 0x40085781:0x3ffbd5f0 0x4008ad3a:0x3ffbd610 0x40087e43:0x3ffbd680
+
+
+
+
+ELF file SHA256: 48c3c6bee9574036
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 14 2023 15:01:36[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=098c0h ( 39104) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=000198e8 vaddr=3ffb0000 size=06730h ( 26416) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=1d178h (119160) map[0m
+[0;32mI (173) esp_image: segment 3: paddr=0003d1a0 vaddr=3ffb6730 size=01d60h (  7520) load[0m
+[0;32mI (176) esp_image: segment 4: paddr=0003ef08 vaddr=40080000 size=0c1f4h ( 49652) load[0m
+[0;32mI (207) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (207) boot: Disabling RNG early entropy source...[0m
+[0;32mI (219) cpu_start: Multicore app[0m
+[0;32mI (219) cpu_start: Pro cpu up.[0m
+[0;32mI (219) cpu_start: Starting app cpu, entry point is 0x400810f4[0m
+[0;32mI (206) cpu_start: App cpu up.[0m
+[0;32mI (237) cpu_start: Pro cpu start user code[0m
+[0;32mI (237) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (237) cpu_start: Application information:[0m
+[0;32mI (242) cpu_start: Project name:     lab4[0m
+[0;32mI (247) cpu_start: App version:      cd6a899-dirty[0m
+[0;32mI (252) cpu_start: Compile time:     Nov 20 2023 20:50:57[0m
+[0;32mI (258) cpu_start: ELF file SHA256:  48c3c6bee9574036...[0m
+[0;32mI (264) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (269) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (274) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (279) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (284) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (291) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (297) heap_init: At 3FFB8D00 len 00027300 (156 KiB): DRAM[0m
+[0;32mI (303) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (310) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (316) heap_init: At 4008C1F4 len 00013E0C (79 KiB): IRAM[0m
+[0;32mI (324) spi_flash: detected chip: generic[0m
+[0;32mI (327) spi_flash: flash io: dio[0m
+[0;33mW (331) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (344) app_start: Starting scheduler on CPU0[0m
+[0;32mI (349) app_start: Starting scheduler on CPU1[0m
+[0;32mI (349) main_task: Started on CPU0[0m
+[0;32mI (359) main_task: Calling app_main()[0m
+create a queue 
+in house 1: the lamp 0 is turning on 
+in house 1: the lamp 1 is turning off 
+in house 1: the lamp 2 is turning on 
+in house 1: the fan 2 is setting to 30 
+in house 1: the fan 1 is setting to 70 
+in house 1: the fan 0 is setting to 60 
+in house 2: the lamp 2 is turning on 
+in house 2: the fan 1 is setting to 50 
+in house 2: the fan 2 is setting to 0 
+in house 2: the fan 0 is setting to 100 
+in house 2: the lamp 1 is turning on 
+in house 2: the lamp 0 is turning on 
+in house 0: the lamp 1 is turning off 
+in house 0: the lamp 2 is turning on 
+in house 0: the fan 2 is setting to 50 
+in house 0: the lamp 0 is turning off 
+in house 0: the fan 1 is setting to 80 
+in house 0: the fan 0 is setting to 100 
+[0;31mE (100359) FreeRTOS: FreeRTOS Task "reception" should not return, Aborting now![0m
+
+abort() was called at PC 0x40087e43 on core 0
+
+
+Backtrace: 0x40081726:0x3ffbd5d0 0x40085781:0x3ffbd5f0 0x4008ad3a:0x3ffbd610 0x40087e43:0x3ffbd680
+
+
+
+
+ELF file SHA256: 48c3c6bee9574036
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 14 2023 15:01:36[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=098c0h ( 39104) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=000198e8 vaddr=3ffb0000 size=06730h ( 26416) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=1d178h (119160) map[0m
+[0;32mI (173) esp_image: segment 3: paddr=0003d1a0 vaddr=3ffb6730 size=01d60h (  7520) load[0m
+[0;32mI (176) esp_image: segment 4: paddr=0003ef08 vaddr=40080000 size=0c1f4h ( 49652) load[0m
+[0;32mI (207) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (207) boot: Disabling RNG early entropy source...[0m
+[0;32mI (219) cpu_start: Multicore app[0m
+[0;32mI (219) cpu_start: Pro cpu up.[0m
+[0;32mI (219) cpu_start: Starting app cpu, entry point is 0x400810f4[0m
+[0;32mI (206) cpu_start: App cpu up.[0m
+[0;32mI (237) cpu_start: Pro cpu start user code[0m
+[0;32mI (237) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (237) cpu_start: Application information:[0m
+[0;32mI (242) cpu_start: Project name:     lab4[0m
+[0;32mI (247) cpu_start: App version:      cd6a899-dirty[0m
+[0;32mI (252) cpu_start: Compile time:     Nov 20 2023 20:50:57[0m
+[0;32mI (258) cpu_start: ELF file SHA256:  48c3c6bee9574036...[0m
+[0;32mI (264) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (269) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (274) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (279) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (284) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (291) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (297) heap_init: At 3FFB8D00 len 00027300 (156 KiB): DRAM[0m
+[0;32mI (303) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (310) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (316) heap_init: At 4008C1F4 len 00013E0C (79 KiB): IRAM[0m
+[0;32mI (324) spi_flash: detected chip: generic[0m
+[0;32mI (327) spi_flash: flash io: dio[0m
+[0;33mW (331) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (344) app_start: Starting scheduler on CPU0[0m
+[0;32mI (349) app_start: Starting scheduler on CPU1[0m
+[0;32mI (349) main_task: Started on CPU0[0m
+[0;32mI (359) main_task: Calling app_main()[0m
+create a queue 
+in house 1: the lamp 0 is turning on 
+in house 1: the lamp 1 is turning off 
+in house 1: the lamp 2 is turning on 
+in house 1: the fan 2 is setting to 30 
+in house 1: the fan 1 is setting to 70 
+in house 1: the fan 0 is setting to 60 
+in house 2: the lamp 2 is turning on 
+in house 2: the fan 1 is setting to 50 
+in house 2: the fan 2 is setting to 0 
+in house 2: the fan 0 is setting to 100 
+in house 2: the lamp 1 is turning on 
+in house 2: the lamp 0 is turning on 
+in house 0: the lamp 1 is turning off 
+in house 0: the lamp 2 is turning on 
+in house 0: the fan 2 is setting to 50 
+in house 0: the lamp 0 is turning off 
+in house 0: the fan 1 is setting to 80 
+in house 0: the fan 0 is setting to 100 
+[0;31mE (100359) FreeRTOS: FreeRTOS Task "reception" should not return, Aborting now![0m
+
+abort() was called at PC 0x40087e43 on core 0
+
+
+Backtrace: 0x40081726:0x3ffbd5d0 0x40085781:0x3ffbd5f0 0x4008ad3a:0x3ffbd610 0x40087e43:0x3ffbd680
+
+
+
+
+ELF file SHA256: 48c3c6bee9574036
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 14 2023 15:01:36[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=098c0h ( 39104) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=000198e8 vaddr=3ffb0000 size=06730h ( 26416) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=1d178h (119160) map[0m
+[0;32mI (173) esp_image: segment 3: paddr=0003d1a0 vaddr=3ffb6730 size=01d60h (  7520) load[0m
+[0;32mI (176) esp_image: segment 4: paddr=0003ef08 vaddr=40080000 size=0c1f4h ( 49652) load[0m
+[0;32mI (207) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (207) boot: Disabling RNG early entropy source...[0m
+[0;32mI (219) cpu_start: Multicore app[0m
+[0;32mI (219) cpu_start: Pro cpu up.[0m
+[0;32mI (219) cpu_start: Starting app cpu, entry point is 0x400810f4[0m
+[0;32mI (206) cpu_start: App cpu up.[0m
+[0;32mI (237) cpu_start: Pro cpu start user code[0m
+[0;32mI (237) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (237) cpu_start: Application information:[0m
+[0;32mI (242) cpu_start: Project name:     lab4[0m
+[0;32mI (247) cpu_start: App version:      cd6a899-dirty[0m
+[0;32mI (252) cpu_start: Compile time:     Nov 20 2023 20:50:57[0m
+[0;32mI (258) cpu_start: ELF file SHA256:  48c3c6bee9574036...[0m
+[0;32mI (264) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (269) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (274) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (279) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (284) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (291) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (297) heap_init: At 3FFB8D00 len 00027300 (156 KiB): DRAM[0m
+[0;32mI (303) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (310) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (316) heap_init: At 4008C1F4 len 00013E0C (79 KiB): IRAM[0m
+[0;32mI (324) spi_flash: detected chip: generic[0m
+[0;32mI (327) spi_flash: flash io: dio[0m
+[0;33mW (331) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (344) app_start: Starting scheduler on CPU0[0m
+[0;32mI (349) app_start: Starting scheduler on CPU1[0m
+[0;32mI (349) main_task: Started on CPU0[0m
+[0;32mI (359) main_task: Calling app_main()[0m
+create a queue 
+in house 1: the lamp 0 is turning on 
+in house 1: the lamp 1 is turning off 
+in house 1: the lamp 2 is turning on 
+in house 1: the fan 2 is setting to 30 
+in house 1: the fan 1 is setting to 70 
+in house 1: the fan 0 is setting to 60 
+in house 2: the lamp 2 is turning on 
+in house 2: the fan 1 is setting to 50 
+in house 2: the fan 2 is setting to 0 
+in house 2: the fan 0 is setting to 100 
+in house 2: the lamp 1 is turning on 
+in house 2: the lamp 0 is turning on 
+in house 0: the lamp 1 is turning off 
+in house 0: the lamp 2 is turning on 
+in house 0: the fan 2 is setting to 50 
+in house 0: the lamp 0 is turning off 
+in house 0: the fan 1 is setting to 80 
+in house 0: the fan 0 is setting to 100 
+[0;31mE (100359) FreeRTOS: FreeRTOS Task "reception" should not return, Aborting now![0m
+
+abort() was called at PC 0x40087e43 on core 0
+
+
+Backtrace: 0x40081726:0x3ffbd5d0 0x40085781:0x3ffbd5f0 0x4008ad3a:0x3ffbd610 0x40087e43:0x3ffbd680
+
+
+
+
+ELF file SHA256: 48c3c6bee9574036
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 14 2023 15:01:36[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=098c0h ( 39104) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=000198e8 vaddr=3ffb0000 size=06730h ( 26416) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=1d178h (119160) map[0m
+[0;32mI (173) esp_image: segment 3: paddr=0003d1a0 vaddr=3ffb6730 size=01d60h (  7520) load[0m
+[0;32mI (176) esp_image: segment 4: paddr=0003ef08 vaddr=40080000 size=0c1f4h ( 49652) load[0m
+[0;32mI (207) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (207) boot: Disabling RNG early entropy source...[0m
+[0;32mI (219) cpu_start: Multicore app[0m
+[0;32mI (219) cpu_start: Pro cpu up.[0m
+[0;32mI (219) cpu_start: Starting app cpu, entry point is 0x400810f4[0m
+[0;32mI (206) cpu_start: App cpu up.[0m
+[0;32mI (237) cpu_start: Pro cpu start user code[0m
+[0;32mI (237) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (237) cpu_start: Application information:[0m
+[0;32mI (242) cpu_start: Project name:     lab4[0m
+[0;32mI (247) cpu_start: App version:      cd6a899-dirty[0m
+[0;32mI (252) cpu_start: Compile time:     Nov 20 2023 20:50:57[0m
+[0;32mI (258) cpu_start: ELF file SHA256:  48c3c6bee9574036...[0m
+[0;32mI (264) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (269) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (274) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (279) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (284) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (291) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (297) heap_init: At 3FFB8D00 len 00027300 (156 KiB): DRAM[0m
+[0;32mI (303) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (310) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (316) heap_init: At 4008C1F4 len 00013E0C (79 KiB): IRAM[0m
+[0;32mI (324) spi_flash: detected chip: generic[0m
+[0;32mI (327) spi_flash: flash io: dio[0m
+[0;33mW (331) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (344) app_start: Starting scheduler on CPU0[0m
+[0;32mI (349) app_start: Starting scheduler on CPU1[0m
+[0;32mI (349) main_task: Started on CPU0[0m
+[0;32mI (359) main_task: Calling app_main()[0m
+create a queue 
+in house 1: the lamp 0 is turning on 
+in house 1: the lamp 1 is turning off 
+in house 1: the lamp 2 is turning on 
+in house 1: the fan 2 is setting to 30 
+in house 1: the fan 1 is setting to 70 
+in house 1: the fan 0 is setting to 60 
+in house 2: the lamp 2 is turning on 
+in house 2: the fan 1 is setting to 50 
+in house 2: the fan 2 is setting to 0 
+in house 2: the fan 0 is setting to 100 
+in house 2: the lamp 1 is turning on 
+in house 2: the lamp 0 is turning on 
+in house 0: the lamp 1 is turning off 
+in house 0: the lamp 2 is turning on 
+in house 0: the fan 2 is setting to 50 
+in house 0: the lamp 0 is turning off 
+in house 0: the fan 1 is setting to 80 
+in house 0: the fan 0 is setting to 100 
